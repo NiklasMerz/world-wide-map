@@ -44,7 +44,7 @@ Datasources and information to grab:
 
 ## Status
 
-The first milestone works: a data pipeline and a clickable map, deployed to GitHub Pages every night.
+The first milestone works: a data pipeline and a clickable map, deployed to GitHub Pages twice a week and on every push to `main`.
 
 ```
 fetch  ─▶ graph ─▶ cluster ─▶ layout ─▶ geo ─▶ Vite + MapLibre

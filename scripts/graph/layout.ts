@@ -1,6 +1,6 @@
 /**
  * ForceAtlas2 layout. Intra-cluster edges are boosted so continents stay compact.
- * Seeded from data/layout-seed.json so nightly builds keep the geography stable.
+ * Seeded from data/layout-seed.json so scheduled builds keep the geography stable.
  */
 import { join } from 'node:path';
 import UndirectedGraph from 'graphology';

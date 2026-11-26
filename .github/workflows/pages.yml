@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '17 4 * * *' # nightly, after webref's crawl
+    - cron: '17 4 * * 1,4' # Monday and Thursday, after webref's nightly crawl; keeps the layout-seed cache from expiring (7 days)
   workflow_dispatch:
 
 permissions:

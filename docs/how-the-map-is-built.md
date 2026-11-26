@@ -54,7 +54,7 @@ Because the seed is fixed, the same graph always gives the same clusters.
 - **First build (no seed file):** each continent gets its own slice of angle on a ring around the centre, at a radius of 300, 420 or 540, with some jitter. ForceAtlas2 then runs for 1200 iterations.
 - **Later builds:** nodes start where `data/layout-seed.json` last put them. A node that isn't in the seed yet starts near the centre of its continent's existing nodes. ForceAtlas2 runs for 300 iterations.
 
-Every run writes the final positions back to `data/layout-seed.json`. That is how the geography stays stable from one nightly build to the next. CI keeps its own copy between runs, and the committed file is the fallback.
+Every run writes the final positions back to `data/layout-seed.json`. That is how the geography stays stable from one scheduled build to the next. CI keeps its own copy between runs, and the committed file is the fallback.
 
 ## 4. Land
 

@@ -9,7 +9,7 @@ Most of the map is generated from crawled data. To change it, the usual first st
 | [web-platform-dx/web-features](https://github.com/web-platform-dx/web-features) | Features (cities) and the spec each one belongs to |
 | [W3C API](https://api.w3.org/) | Open W3C groups, their descriptions and participants |
 
-A fix upstream reaches the map with the next nightly build. For things only this map cares about, use the overrides below.
+A fix upstream reaches the map with the next scheduled build (Mondays and Thursdays). For things only this map cares about, use the overrides below.
 
 ## Overrides
 
@@ -87,7 +87,7 @@ npm test
 npm run dev            # look at the result
 ```
 
-`data/layout-seed.json` stores the last node positions so the geography stays stable between builds. Rebuilding updates it. Commit the change only if you mean to move the committed baseline; CI keeps its own copy between nightly runs.
+`data/layout-seed.json` stores the last node positions so the geography stays stable between builds. Rebuilding updates it. Commit the change only if you mean to move the committed baseline; CI keeps its own copy between runs.
 
 ## Running locally
 
