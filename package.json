@@ -1,0 +1,39 @@
+{
+  "name": "worldwidemap",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "tsx scripts/fetch/index.ts",
+    "graph": "tsx scripts/graph/build.ts",
+    "cluster": "tsx scripts/graph/cluster.ts",
+    "layout": "tsx scripts/graph/layout.ts",
+    "geo": "tsx scripts/geo/terrain.ts",
+    "data": "npm run fetch && npm run data:build",
+    "data:offline": "npm run fetch -- --offline && npm run data:build",
+    "data:build": "npm run graph && npm run cluster && npm run layout && npm run geo",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "tsx --test scripts/test/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/d3-contour": "^3.0.6",
+    "@types/d3-delaunay": "^6.0.4",
+    "@types/node": "^26.6.11",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.4.0"
+  },
+  "dependencies": {
+    "d3-contour": "^4.0.3",
+    "d3-delaunay": "^6.0.6",
+    "graphology": "^0.26.0",
+    "graphology-communities-louvain": "^2.0.2",
+    "graphology-layout-forceatlas2": "^0.10.1",
+    "maplibre-gl": "^6.19.0",
+    "simplex-noise": "^4.0.3",
+    "web-features": "^3.48.0",
+    "yaml": "^2.9.1"
+  }
+}

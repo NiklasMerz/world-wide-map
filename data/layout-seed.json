@@ -1,0 +1,3130 @@
+{
+  "aac-registry": [
+    -655.98,
+    -86.7
+  ],
+  "accelerometer": [
+    -561.65,
+    -162.72
+  ],
+  "accname": [
+    -515.85,
+    274.23
+  ],
+  "act-rules-format": [
+    96.46,
+    413.39
+  ],
+  "afgs1-spec": [
+    -546.92,
+    391.67
+  ],
+  "ambient-light": [
+    -530.85,
+    -293.18
+  ],
+  "anchors": [
+    -478.06,
+    154.4
+  ],
+  "ANGLE_instanced_arrays": [
+    -414.62,
+    489.01
+  ],
+  "animation-triggers": [
+    250.61,
+    -262.25
+  ],
+  "anonymous-iframe": [
+    38.31,
+    -317.95
+  ],
+  "aom": [
+    -140.91,
+    26.37
+  ],
+  "appmanifest": [
+    -216.29,
+    -88.43
+  ],
+  "at-driver": [
+    60.87,
+    -93.23
+  ],
+  "attribution": [
+    -79.52,
+    -499.17
+  ],
+  "audio-context-playout-stats": [
+    -265.88,
+    -11.07
+  ],
+  "audio-output": [
+    -503.27,
+    -315.67
+  ],
+  "audio-session": [
+    -357.96,
+    -322.64
+  ],
+  "audiobooks": [
+    -87.53,
+    317.73
+  ],
+  "autofill-event": [
+    -73.75,
+    -9.48
+  ],
+  "autoplay-detection": [
+    -257.37,
+    71.55
+  ],
+  "av1-avif": [
+    -448.25,
+    411.41
+  ],
+  "av1-hdr10plus": [
+    -512.81,
+    406.96
+  ],
+  "av1-isobmff": [
+    -479.65,
+    408.34
+  ],
+  "av1-mpeg2-ts": [
+    -488.25,
+    452.93
+  ],
+  "av1-rtp-spec": [
+    -473.55,
+    452.82
+  ],
+  "av1-spec": [
+    -494.08,
+    427.87
+  ],
+  "background-fetch": [
+    -340.46,
+    -285.55
+  ],
+  "background-sync": [
+    -343.95,
+    -407.9
+  ],
+  "badging": [
+    -334.35,
+    -141.41
+  ],
+  "baggage": [
+    -598.61,
+    -124.64
+  ],
+  "battery-status": [
+    -500.28,
+    -284.86
+  ],
+  "beacon": [
+    108.66,
+    -411.01
+  ],
+  "bluetooth": [
+    -371.4,
+    -244.38
+  ],
+  "bluetooth-scanning": [
+    -474.18,
+    -209.6
+  ],
+  "body-tracking": [
+    -450.64,
+    219.3
+  ],
+  "capability-delegation": [
+    -297.95,
+    -63.85
+  ],
+  "capture-handle-identity": [
+    -339.72,
+    242.93
+  ],
+  "captured-mouse-events": [
+    -395.65,
+    254.4
+  ],
+  "cbor-ld": [
+    235.54,
+    556.26
+  ],
+  "change-password-url": [
+    89.32,
+    -569.69
+  ],
+  "cid": [
+    139.02,
+    565.99
+  ],
+  "clear-site-data": [
+    -22.95,
+    -534.15
+  ],
+  "client-hints-infrastructure": [
+    -269.73,
+    -158.36
+  ],
+  "clipboard-apis": [
+    39.12,
+    -133.51
+  ],
+  "compat": [
+    597.41,
+    31.15
+  ],
+  "compositing": [
+    593.95,
+    150.54
+  ],
+  "compression": [
+    -422.72,
+    340.27
+  ],
+  "compute-pressure": [
+    -424.21,
+    -377.61
+  ],
+  "connection-allowlists": [
+    102.92,
+    -322.51
+  ],
+  "console": [
+    -333.45,
+    -171.6
+  ],
+  "contact-picker": [
+    -111.95,
+    -206.3
+  ],
+  "container-timing": [
+    -160.12,
+    281.56
+  ],
+  "content-index": [
+    -85.57,
+    -373.27
+  ],
+  "cookiestore": [
+    43.22,
+    -253.9
+  ],
+  "core-aam": [
+    -555.56,
+    285.04
+  ],
+  "cpu-performance": [
+    -294.29,
+    -182.44
+  ],
+  "crash-reporting": [
+    -20.84,
+    -126.86
+  ],
+  "credential-management": [
+    -157.73,
+    -502.75
+  ],
+  "cross-origin-storage": [
+    -45.53,
+    -375.92
+  ],
+  "CSP": [
+    173.98,
+    -424.72
+  ],
+  "csp-embedded-enforcement": [
+    151.05,
+    -371.21
+  ],
+  "csp-next": [
+    183.99,
+    -359.97
+  ],
+  "css": [
+    493.62,
+    -40.18
+  ],
+  "CSS": [
+    278.22,
+    91.09
+  ],
+  "css-aam": [
+    -559.88,
+    329.23
+  ],
+  "css-align": [
+    247.33,
+    315.34
+  ],
+  "css-anchor-position": [
+    195.65,
+    -4
+  ],
+  "css-animation-worklet": [
+    326.59,
+    -314.79
+  ],
+  "css-animations": [
+    433.98,
+    -252
+  ],
+  "css-backgrounds": [
+    471.94,
+    114.17
+  ],
+  "css-borders": [
+    485.99,
+    220.27
+  ],
+  "css-box": [
+    273.12,
+    259.53
+  ],
+  "css-break": [
+    304.22,
+    343.94
+  ],
+  "css-cascade": [
+    423.48,
+    -117.8
+  ],
+  "css-color": [
+    576.03,
+    -39.33
+  ],
+  "css-color-adjust": [
+    553.23,
+    -87.75
+  ],
+  "css-color-hdr": [
+    482.98,
+    -106.91
+  ],
+  "css-conditional": [
+    344.3,
+    -274.57
+  ],
+  "css-conditional-values": [
+    369.13,
+    -348.56
+  ],
+  "css-contain": [
+    250.72,
+    16.84
+  ],
+  "css-content": [
+    148.47,
+    -25.65
+  ],
+  "css-counter-styles": [
+    196.2,
+    -85.16
+  ],
+  "css-display": [
+    323.29,
+    177.52
+  ],
+  "css-easing": [
+    549.42,
+    -212.29
+  ],
+  "css-env": [
+    477.05,
+    -286.7
+  ],
+  "css-exclusions": [
+    102.54,
+    203.25
+  ],
+  "css-extensions": [
+    360.86,
+    -391.37
+  ],
+  "css-flexbox": [
+    338.6,
+    293.53
+  ],
+  "css-font-loading": [
+    344.95,
+    -328.54
+  ],
+  "css-fonts": [
+    394.06,
+    -65.8
+  ],
+  "css-forms": [
+    235.73,
+    -89.54
+  ],
+  "css-gaps": [
+    456.38,
+    278.03
+  ],
+  "css-gcpm": [
+    139.48,
+    97.12
+  ],
+  "css-grid": [
+    413.89,
+    322.07
+  ],
+  "css-highlight-api": [
+    204.8,
+    -199.1
+  ],
+  "css-image-animation": [
+    404.05,
+    66.98
+  ],
+  "css-images": [
+    507.22,
+    51.83
+  ],
+  "css-inline": [
+    375.35,
+    377.99
+  ],
+  "css-layout-api": [
+    214.67,
+    355.25
+  ],
+  "css-line-grid": [
+    139.57,
+    289.95
+  ],
+  "css-link-params": [
+    500.36,
+    -322.77
+  ],
+  "css-lists": [
+    207.85,
+    -48.69
+  ],
+  "css-logical": [
+    366.82,
+    203.14
+  ],
+  "css-masking": [
+    561.69,
+    195.01
+  ],
+  "css-mixins": [
+    416.86,
+    -393.93
+  ],
+  "css-multicol": [
+    305.46,
+    398.66
+  ],
+  "css-namespaces": [
+    320.17,
+    -367.07
+  ],
+  "css-nav": [
+    118.45,
+    124.6
+  ],
+  "css-navigation": [
+    292.34,
+    -341.41
+  ],
+  "css-nesting": [
+    388.25,
+    -365.75
+  ],
+  "css-overflow": [
+    239.11,
+    197.91
+  ],
+  "css-overscroll": [
+    100.33,
+    95.88
+  ],
+  "css-page": [
+    252.26,
+    149.9
+  ],
+  "css-page-floats": [
+    242.17,
+    399.26
+  ],
+  "css-paint-api": [
+    480.46,
+    -236.69
+  ],
+  "css-parser-api": [
+    -140.45,
+    -377.27
+  ],
+  "css-position": [
+    169.25,
+    167.17
+  ],
+  "css-properties-values-api": [
+    523,
+    -268.32
+  ],
+  "css-pseudo": [
+    310.59,
+    -1.82
+  ],
+  "css-regions": [
+    117.57,
+    230.97
+  ],
+  "css-rhythm": [
+    175.54,
+    332.14
+  ],
+  "css-round-display": [
+    372.65,
+    -27.59
+  ],
+  "css-ruby": [
+    499.08,
+    280.22
+  ],
+  "css-scroll-anchoring": [
+    130.37,
+    201.55
+  ],
+  "css-scroll-snap": [
+    102.51,
+    154.97
+  ],
+  "css-scrollbars": [
+    474.22,
+    -154.34
+  ],
+  "css-shadow": [
+    282.2,
+    -291.97
+  ],
+  "css-shapes": [
+    419.09,
+    44.82
+  ],
+  "css-size-adjust": [
+    402.37,
+    102.35
+  ],
+  "css-sizing": [
+    383.77,
+    262.38
+  ],
+  "css-spatial": [
+    380.46,
+    40.09
+  ],
+  "css-speech": [
+    163.02,
+    12.03
+  ],
+  "css-style-attr": [
+    555.8,
+    -187.91
+  ],
+  "css-syntax": [
+    406.87,
+    -307.15
+  ],
+  "css-tables": [
+    479.62,
+    346.87
+  ],
+  "css-text": [
+    434.34,
+    223.12
+  ],
+  "css-text-decor": [
+    553.05,
+    26.25
+  ],
+  "css-transforms": [
+    544.61,
+    101.38
+  ],
+  "css-transitions": [
+    542.73,
+    -138.81
+  ],
+  "css-typed-om": [
+    397.67,
+    152.69
+  ],
+  "css-ui": [
+    469.62,
+    9.97
+  ],
+  "css-values": [
+    315.32,
+    -122.94
+  ],
+  "css-variables": [
+    453.44,
+    -338.29
+  ],
+  "css-view-transitions": [
+    421.11,
+    -13.56
+  ],
+  "css-viewport": [
+    135.37,
+    -59.07
+  ],
+  "css-will-change": [
+    499.21,
+    -127.51
+  ],
+  "css-writing-modes": [
+    182.22,
+    261.38
+  ],
+  "cssom": [
+    335.62,
+    -206.7
+  ],
+  "cssom-view": [
+    117.95,
+    43.2
+  ],
+  "dapt": [
+    295.98,
+    522.39
+  ],
+  "datacue": [
+    -97.82,
+    -197.24
+  ],
+  "dbsc": [
+    -61.16,
+    -523.75
+  ],
+  "deprecation-reporting": [
+    64.15,
+    -119.52
+  ],
+  "design-principles": [
+    -95.42,
+    -47.43
+  ],
+  "device-attributes": [
+    -426.92,
+    -194.07
+  ],
+  "device-memory": [
+    -275.44,
+    -94.75
+  ],
+  "device-posture": [
+    -347.59,
+    -107.03
+  ],
+  "did": [
+    113.08,
+    456.27
+  ],
+  "did-resolution": [
+    131.55,
+    466.04
+  ],
+  "digital-credentials": [
+    -165.15,
+    -468.72
+  ],
+  "digital-goods": [
+    -318.27,
+    -456.47
+  ],
+  "direct-sockets": [
+    -221.61,
+    -360.38
+  ],
+  "document-isolation-policy": [
+    56.85,
+    -348.29
+  ],
+  "document-picture-in-picture": [
+    -250.16,
+    -28.95
+  ],
+  "document-policy": [
+    36.35,
+    -177.52
+  ],
+  "dom": [
+    -176.38,
+    -169.43
+  ],
+  "DOM-Parsing": [
+    -264.52,
+    -450.08
+  ],
+  "DOM-Style": [
+    -634.58,
+    -140.65
+  ],
+  "dpub-aam": [
+    -531.9,
+    254.29
+  ],
+  "dpub-aria": [
+    -486.37,
+    274.33
+  ],
+  "dx-prof": [
+    5.03,
+    429.48
+  ],
+  "dx-prof-conneg": [
+    68.19,
+    400.92
+  ],
+  "ecma-402": [
+    -382.18,
+    -438.34
+  ],
+  "ecma-426": [
+    -33.54,
+    -389.21
+  ],
+  "ecmascript": [
+    -299.2,
+    -394.48
+  ],
+  "edit-context": [
+    -244.15,
+    83.36
+  ],
+  "element-capture": [
+    -270.54,
+    270.22
+  ],
+  "element-timing": [
+    -84.82,
+    193.1
+  ],
+  "email-verification": [
+    24.75,
+    -631.41
+  ],
+  "eme-hdcp-version-registry": [
+    -648.17,
+    110.87
+  ],
+  "eme-initdata-cenc": [
+    -639.18,
+    34.35
+  ],
+  "eme-initdata-keyids": [
+    -605.71,
+    34.6
+  ],
+  "eme-initdata-registry": [
+    -631.5,
+    57.23
+  ],
+  "eme-initdata-webm": [
+    -647.39,
+    94.66
+  ],
+  "eme-stream-mp4": [
+    -656.51,
+    60.89
+  ],
+  "eme-stream-registry": [
+    -637.83,
+    80.9
+  ],
+  "eme-stream-webm": [
+    -618,
+    77.23
+  ],
+  "encoding": [
+    31.31,
+    -283.99
+  ],
+  "encrypted-media": [
+    -587.45,
+    15.42
+  ],
+  "entries-api": [
+    -52.15,
+    -149.92
+  ],
+  "epub": [
+    -252.51,
+    363.15
+  ],
+  "epub-a11y": [
+    -320.63,
+    383.04
+  ],
+  "epub-rs": [
+    -174.35,
+    327.52
+  ],
+  "ESSL": [
+    -660.79,
+    -106.38
+  ],
+  "ethical-web-principles": [
+    -68.64,
+    54.42
+  ],
+  "event-timing": [
+    -173.28,
+    199.12
+  ],
+  "execCommand": [
+    -30.28,
+    -250.17
+  ],
+  "explicit-javascript-compile-hints-file-based": [
+    -363.5,
+    -390.85
+  ],
+  "EXT_blend_minmax": [
+    -317.34,
+    554.6
+  ],
+  "EXT_clip_control": [
+    -309.54,
+    477.52
+  ],
+  "EXT_color_buffer_float": [
+    -301.49,
+    525.23
+  ],
+  "EXT_color_buffer_half_float": [
+    -325.46,
+    453.77
+  ],
+  "EXT_conservative_depth": [
+    -394.04,
+    482.26
+  ],
+  "EXT_depth_clamp": [
+    -407.07,
+    483.9
+  ],
+  "EXT_disjoint_timer_query": [
+    -386.6,
+    461.14
+  ],
+  "EXT_disjoint_timer_query_webgl2": [
+    -316.37,
+    472.01
+  ],
+  "EXT_float_blend": [
+    -354.64,
+    561.43
+  ],
+  "EXT_frag_depth": [
+    -413.4,
+    498.27
+  ],
+  "EXT_polygon_offset_clamp": [
+    -328.68,
+    550.26
+  ],
+  "EXT_render_snorm": [
+    -322.9,
+    564.88
+  ],
+  "EXT_shader_texture_lod": [
+    -292.05,
+    532.62
+  ],
+  "EXT_sRGB": [
+    -314.7,
+    460.91
+  ],
+  "EXT_texture_compression_bptc": [
+    -381.09,
+    471.49
+  ],
+  "EXT_texture_compression_rgtc": [
+    -333.73,
+    462.54
+  ],
+  "EXT_texture_filter_anisotropic": [
+    -378.62,
+    544.51
+  ],
+  "EXT_texture_mirror_clamp_to_edge": [
+    -410.54,
+    508.03
+  ],
+  "EXT_texture_norm16": [
+    -407.26,
+    474.44
+  ],
+  "eyedropper-api": [
+    -267.92,
+    72.23
+  ],
+  "fedcm": [
+    2.55,
+    -591.92
+  ],
+  "fenced-frame": [
+    150.28,
+    -335.24
+  ],
+  "fetch": [
+    84.24,
+    -481.01
+  ],
+  "fetch-metadata": [
+    99.96,
+    -606.23
+  ],
+  "fido-client-to-authenticator-protocol": [
+    -204.39,
+    -594.65
+  ],
+  "file-system-access": [
+    -36.54,
+    -13.94
+  ],
+  "FileAPI": [
+    15.2,
+    -223.94
+  ],
+  "fill-stroke": [
+    632.48,
+    44.63
+  ],
+  "filter-effects": [
+    610.43,
+    104.06
+  ],
+  "fingerprinting-guidance": [
+    -351.13,
+    -67.15
+  ],
+  "first-party-sets": [
+    -101.65,
+    -468.66
+  ],
+  "font-metrics-api": [
+    -231.35,
+    92.56
+  ],
+  "fs": [
+    -23.37,
+    -73.18
+  ],
+  "fullscreen": [
+    -305.22,
+    -30.77
+  ],
+  "gamepad": [
+    -370.65,
+    -87.9
+  ],
+  "generic-sensor": [
+    -533.55,
+    -227.31
+  ],
+  "geolocation": [
+    -476.68,
+    -161.85
+  ],
+  "geolocation-element": [
+    197.57,
+    128.86
+  ],
+  "geometry": [
+    -214.58,
+    148.01
+  ],
+  "get-installed-related-apps": [
+    -198.12,
+    -60.12
+  ],
+  "GIF": [
+    -289.44,
+    421.28
+  ],
+  "glTF": [
+    -657.32,
+    -136.25
+  ],
+  "gpc": [
+    -316.44,
+    51.71
+  ],
+  "graphics-aam": [
+    -479.85,
+    366.67
+  ],
+  "graphics-aria": [
+    -499.02,
+    360.76
+  ],
+  "group:Accessibility Guidelines Working Group": [
+    119.19,
+    427.9
+  ],
+  "group:Accessible Platform Architectures Working Group": [
+    -663.12,
+    -84.35
+  ],
+  "group:Accessible Rich Internet Applications Working Group": [
+    -531.22,
+    343.44
+  ],
+  "group:Advisory Board": [
+    306.36,
+    504.8
+  ],
+  "group:Applications and Real-Time Area": [
+    -404.9,
+    398.29
+  ],
+  "group:Applications Area": [
+    360.76,
+    505.02
+  ],
+  "group:ART Area General Applications Working Group Working Group": [
+    -161.65,
+    364.74
+  ],
+  "group:Audio Community Group": [
+    -207.32,
+    38.96
+  ],
+  "group:Audio Working Group": [
+    -492.5,
+    -410.89
+  ],
+  "group:BiDirectional or Server-Initiated HTTP Working Group": [
+    139.74,
+    -202.3
+  ],
+  "group:Browser Testing and Tools Working Group": [
+    68.36,
+    -136.72
+  ],
+  "group:Building Blocks for HTTP APIs Working Group": [
+    -642.19,
+    -162.96
+  ],
+  "group:Cascading Style Sheets (CSS) Working Group": [
+    413.54,
+    -184.26
+  ],
+  "group:Codec Working Group": [
+    -533.49,
+    402.4
+  ],
+  "group:Compatibility Workstream": [
+    669.36,
+    1.05
+  ],
+  "group:CompuServe Incorporated": [
+    -316.51,
+    424.54
+  ],
+  "group:Concise Binary Object Representation Maintenance and Extensions Working Group": [
+    15.62,
+    48.01
+  ],
+  "group:Console Workstream": [
+    -439.73,
+    -84.06
+  ],
+  "group:Data Shapes Working Group": [
+    -210.52,
+    419
+  ],
+  "group:Dataset Exchange Working Group": [
+    54.46,
+    417.54
+  ],
+  "group:Decentralized Identifier Working Group": [
+    129.53,
+    445.97
+  ],
+  "group:Devices and Sensors Working Group": [
+    -587.34,
+    -237.53
+  ],
+  "group:Distributed Tracing Working Group": [
+    -630.01,
+    -109.82
+  ],
+  "group:DOM Working Group": [
+    -633.43,
+    -147.87
+  ],
+  "group:DOM Workstream": [
+    -185.69,
+    -17.71
+  ],
+  "group:Encoding Workstream": [
+    140.66,
+    -284.91
+  ],
+  "group:Federated Identity Working Group": [
+    -19.74,
+    -644.85
+  ],
+  "group:Fetch Workstream": [
+    152.68,
+    -301.15
+  ],
+  "group:FIDO2 Technical Working Group": [
+    -213.29,
+    -630.63
+  ],
+  "group:Fullscreen API Workstream": [
+    -349.48,
+    7.91
+  ],
+  "group:General Area": [
+    -267.55,
+    418.27
+  ],
+  "group:glTF Working Group": [
+    -650.38,
+    -138.84
+  ],
+  "group:GPU for the Web Working Group": [
+    -441.37,
+    263.95
+  ],
+  "group:HTML Workstream": [
+    -30.41,
+    -297.92
+  ],
+  "group:HTTP State Management Mechanism Working Group": [
+    -116.59,
+    -623.67
+  ],
+  "group:HTTP Working Group": [
+    -86.95,
+    -640.22
+  ],
+  "group:Hypertext Transfer Protocol Authentication Working Group": [
+    278.42,
+    591.68
+  ],
+  "group:Immersive Web Community Group": [
+    -438.14,
+    240.62
+  ],
+  "group:Immersive Web Working Group": [
+    -513.1,
+    133.48
+  ],
+  "group:Individual Submissions": [
+    290.82,
+    579.7
+  ],
+  "group:Infra Workstream": [
+    -356.21,
+    -302.31
+  ],
+  "group:Internationalization Working Group": [
+    -120.05,
+    371.36
+  ],
+  "group:ISO/IEC JTC 1/SC 29": [
+    -441.21,
+    456.69
+  ],
+  "group:JSON-LD Working Group": [
+    -76.59,
+    395
+  ],
+  "group:Kerberos Working Group": [
+    364.7,
+    -519.74
+  ],
+  "group:Math Working Group": [
+    611.22,
+    -142.87
+  ],
+  "group:Media Working Group": [
+    -613.38,
+    121.69
+  ],
+  "group:MIME Sniffing Workstream": [
+    124.1,
+    -203.29
+  ],
+  "group:Mobile Web Test Suites Working Group": [
+    351.93,
+    -529.6
+  ],
+  "group:Notifications API Workstream": [
+    -321.07,
+    -434.41
+  ],
+  "group:OpenGL ES Working Group": [
+    -660.26,
+    -114.49
+  ],
+  "group:Patents and Standards Interest Group": [
+    342.65,
+    519.03
+  ],
+  "group:Peripheral APIs Workstream": [
+    -486.53,
+    -109.23
+  ],
+  "group:Pointer Events Working Group": [
+    -423.92,
+    1.14
+  ],
+  "group:Portable Network Graphics (PNG) Working Group": [
+    -243,
+    408.36
+  ],
+  "group:Privacy Community Group": [
+    67.75,
+    -313.09
+  ],
+  "group:Privacy Working Group": [
+    -336.61,
+    37.26
+  ],
+  "group:Private Advertising Technology Working Group": [
+    -120.48,
+    -595.73
+  ],
+  "group:Publishing Maintenance Working Group": [
+    -267.37,
+    390.88
+  ],
+  "group:QUIC Working Group": [
+    310,
+    -541.44
+  ],
+  "group:Quirks Mode Workstream": [
+    371.19,
+    480.6
+  ],
+  "group:RDF & SPARQL Working Group": [
+    -146.12,
+    631.57
+  ],
+  "group:RDF Dataset Canonicalization and Hash Working Group": [
+    53.06,
+    660.26
+  ],
+  "group:RDF Working Group": [
+    14.16,
+    652.31
+  ],
+  "group:Screen Capture Community Group": [
+    -377.78,
+    322.27
+  ],
+  "group:Second Screen Working Group": [
+    -554.81,
+    -53.8
+  ],
+  "group:Spatial Data on the Web Interest Group": [
+    93.38,
+    455.39
+  ],
+  "group:Spatio-temporal Data on the Web Working Group": [
+    48.81,
+    502.05
+  ],
+  "group:Storage and Transport Formats Working Group": [
+    -462.26,
+    438.53
+  ],
+  "group:Storage Workstream": [
+    -14.71,
+    27.17
+  ],
+  "group:Streams Workstream": [
+    -435.5,
+    334.78
+  ],
+  "group:SVG Accessibility Task Force": [
+    -592.15,
+    317.04
+  ],
+  "group:SVG Working Group": [
+    614.76,
+    246.12
+  ],
+  "group:TC39": [
+    -632.49,
+    -36.39
+  ],
+  "group:Technical Architecture Group": [
+    -101.27,
+    35.89
+  ],
+  "group:Test Utils Workstream": [
+    -361.52,
+    48.72
+  ],
+  "group:Timed Text Working Group": [
+    320.94,
+    562.16
+  ],
+  "group:Tracking Protection Working Group": [
+    -240.13,
+    -608.84
+  ],
+  "group:URL Workstream": [
+    -127.67,
+    -564.15
+  ],
+  "group:Verifiable Credentials Working Group": [
+    191.11,
+    603.11
+  ],
+  "group:W3C Process Community Group ": [
+    297.73,
+    505.29
+  ],
+  "group:Web Application Security Working Group": [
+    135.34,
+    -581.27
+  ],
+  "group:Web Applications Working Group": [
+    -229.94,
+    -41.12
+  ],
+  "group:Web Authentication Working Group": [
+    -185.14,
+    -610.97
+  ],
+  "group:Web Editing Working Group": [
+    49.23,
+    -47.05
+  ],
+  "group:Web Events Working Group": [
+    -494.36,
+    -10.39
+  ],
+  "group:Web Fonts Working Group": [
+    -381.62,
+    402.28
+  ],
+  "group:Web IDL Workstream": [
+    -326.74,
+    174.29
+  ],
+  "group:Web Machine Learning Community Group": [
+    -438.89,
+    -470.72
+  ],
+  "group:Web Machine Learning Working Group": [
+    -376.47,
+    220.29
+  ],
+  "group:Web NFC Community Group": [
+    70.33,
+    -245.14
+  ],
+  "group:Web of Things Working Group": [
+    53.91,
+    318.7
+  ],
+  "group:Web Payments Working Group": [
+    -299.48,
+    -582.02
+  ],
+  "group:Web Performance Working Group": [
+    -25.94,
+    154.09
+  ],
+  "group:Web Platform Incubator Community Group": [
+    -146.01,
+    -81.89
+  ],
+  "group:Web Platform Working Group": [
+    -328.79,
+    -532.76
+  ],
+  "group:Web Real-Time Communications Working Group": [
+    -318.64,
+    333.11
+  ],
+  "group:Web Security Working Group": [
+    -579.08,
+    -85.51
+  ],
+  "group:WebAssembly Working Group": [
+    -356.71,
+    -536.95
+  ],
+  "group:WebExtensions Community Group": [
+    -305.76,
+    -548.84
+  ],
+  "group:WebGL Working Group": [
+    -346.21,
+    508.64
+  ],
+  "group:WebTransport Working Group": [
+    162.41,
+    -283.44
+  ],
+  "group:XMLHttpRequest Workstream": [
+    -17.06,
+    -352.79
+  ],
+  "gyroscope": [
+    -554.11,
+    -195.15
+  ],
+  "handwriting-recognition": [
+    -311.76,
+    -348.08
+  ],
+  "hid": [
+    -424.48,
+    -121.78
+  ],
+  "hr-time": [
+    -153.83,
+    155.56
+  ],
+  "html": [
+    -131.35,
+    -297.83
+  ],
+  "html-aam": [
+    -511.89,
+    313.47
+  ],
+  "html-aria": [
+    -476.91,
+    323.49
+  ],
+  "html-media-capture": [
+    -315.66,
+    190.86
+  ],
+  "html-ruby-extensions": [
+    -115.64,
+    340.76
+  ],
+  "i18n-glossary": [
+    -5.76,
+    518.35
+  ],
+  "idempotency-key-header": [
+    -647.06,
+    -156.46
+  ],
+  "idle-detection": [
+    -444.91,
+    -198.18
+  ],
+  "iframe-media-pausing": [
+    -389.81,
+    -331.1
+  ],
+  "IFT": [
+    -380.14,
+    372.29
+  ],
+  "image-capture": [
+    -256.67,
+    216.11
+  ],
+  "image-resource": [
+    -124.23,
+    -390.92
+  ],
+  "imsc-hrm": [
+    282.84,
+    560.29
+  ],
+  "IndexedDB": [
+    -62.63,
+    -122.16
+  ],
+  "infra": [
+    -260.19,
+    -263.41
+  ],
+  "ink-enhancement": [
+    -367.83,
+    30.32
+  ],
+  "input-device-capabilities": [
+    -483.08,
+    51.73
+  ],
+  "input-events": [
+    32.16,
+    -86.35
+  ],
+  "install-element": [
+    10.7,
+    -342.08
+  ],
+  "intersection-observer": [
+    102.37,
+    1.71
+  ],
+  "intervention-reporting": [
+    261.37,
+    -415.08
+  ],
+  "is-input-pending": [
+    -447.91,
+    -4.01
+  ],
+  "iso10918-5": [
+    -449.12,
+    469.16
+  ],
+  "iso14496-22": [
+    -419.02,
+    412.93
+  ],
+  "iso18181-2": [
+    -452.67,
+    477.8
+  ],
+  "isolated-contexts": [
+    -16.56,
+    -366.45
+  ],
+  "js-self-profiling": [
+    -252.01,
+    -413.11
+  ],
+  "json-ld": [
+    -36.02,
+    369.32
+  ],
+  "json-ld-api": [
+    -47.12,
+    420.39
+  ],
+  "json-ld-framing": [
+    -97.71,
+    380.16
+  ],
+  "keyboard-lock": [
+    -508.24,
+    -2.19
+  ],
+  "keyboard-map": [
+    -518.23,
+    23.05
+  ],
+  "KHR_parallel_shader_compile": [
+    -399.56,
+    469.43
+  ],
+  "largest-contentful-paint": [
+    -34.91,
+    187.25
+  ],
+  "layered-cookies": [
+    3.13,
+    -529.23
+  ],
+  "layout-instability": [
+    -107.54,
+    138.71
+  ],
+  "local-font-access": [
+    -380.55,
+    -286.8
+  ],
+  "local-network-access": [
+    -63.61,
+    -468.43
+  ],
+  "login-status": [
+    -32.37,
+    -605.27
+  ],
+  "long-animation-frames": [
+    -157.13,
+    224.81
+  ],
+  "longtasks": [
+    -191.64,
+    236.05
+  ],
+  "magnetometer": [
+    -561.61,
+    -263.06
+  ],
+  "managed-configuration": [
+    -258.91,
+    -194.45
+  ],
+  "manifest-app-info": [
+    -220.8,
+    19.97
+  ],
+  "manifest-incubations": [
+    6.84,
+    -62.52
+  ],
+  "mathml": [
+    589.66,
+    -122.36
+  ],
+  "mathml-aam": [
+    -567.08,
+    307.45
+  ],
+  "mathml-core": [
+    358.68,
+    -2.61
+  ],
+  "media-capabilities": [
+    -544.99,
+    -6.65
+  ],
+  "media-feeds": [
+    84.98,
+    -357.49
+  ],
+  "media-playback-quality": [
+    -244.67,
+    146.61
+  ],
+  "media-source": [
+    -567.07,
+    56.14
+  ],
+  "mediacapture-automation": [
+    -348.14,
+    227.56
+  ],
+  "mediacapture-extensions": [
+    -281.16,
+    202.78
+  ],
+  "mediacapture-fromelement": [
+    -278.59,
+    294.87
+  ],
+  "mediacapture-handle-actions": [
+    -367.71,
+    306.53
+  ],
+  "mediacapture-region": [
+    -346.92,
+    313.27
+  ],
+  "mediacapture-streams": [
+    -315.81,
+    273.2
+  ],
+  "mediacapture-surface-control": [
+    -374.51,
+    104.23
+  ],
+  "mediacapture-transform": [
+    -282.67,
+    246.87
+  ],
+  "mediacapture-viewport": [
+    -405.48,
+    290.01
+  ],
+  "mediaqueries": [
+    257.56,
+    -31.16
+  ],
+  "mediasession": [
+    -64.22,
+    -392.3
+  ],
+  "mediastream-recording": [
+    -256.25,
+    -70.98
+  ],
+  "mimesniff": [
+    74.85,
+    -193.53
+  ],
+  "mixed-content": [
+    163.98,
+    -544.95
+  ],
+  "model-element": [
+    156.27,
+    62.19
+  ],
+  "motion": [
+    450.6,
+    64.42
+  ],
+  "mse-byte-stream-format-isobmff": [
+    -584.72,
+    61.03
+  ],
+  "mse-byte-stream-format-mp2t": [
+    -588.11,
+    66.3
+  ],
+  "mse-byte-stream-format-mpeg-audio": [
+    -559.2,
+    76.73
+  ],
+  "mse-byte-stream-format-registry": [
+    -573.82,
+    81.88
+  ],
+  "mse-byte-stream-format-webm": [
+    -549.22,
+    82.55
+  ],
+  "mst-content-hint": [
+    -287.9,
+    321.92
+  ],
+  "nav-tracking-mitigations": [
+    -16.84,
+    -321.81
+  ],
+  "navigation-timing": [
+    -65.93,
+    155.35
+  ],
+  "netinfo": [
+    -167.1,
+    -26.93
+  ],
+  "network-error-logging": [
+    222.42,
+    -525.42
+  ],
+  "network-reporting": [
+    234.69,
+    -488.93
+  ],
+  "no-vary-search": [
+    -166.04,
+    -383.18
+  ],
+  "notifications": [
+    -246.42,
+    -346.81
+  ],
+  "NV_shader_noperspective_interpolation": [
+    -339.22,
+    555.92
+  ],
+  "observable": [
+    -284.91,
+    -345
+  ],
+  "OES_draw_buffers_indexed": [
+    -396.59,
+    491.76
+  ],
+  "OES_element_index_uint": [
+    -301.35,
+    486.62
+  ],
+  "OES_fbo_render_mipmap": [
+    -304.92,
+    535.5
+  ],
+  "OES_sample_variables": [
+    -397.83,
+    507.22
+  ],
+  "OES_shader_multisample_interpolation": [
+    -299.07,
+    512.23
+  ],
+  "OES_standard_derivatives": [
+    -291.2,
+    503.71
+  ],
+  "OES_texture_float": [
+    -358.34,
+    462.9
+  ],
+  "OES_texture_float_linear": [
+    -292.18,
+    520.48
+  ],
+  "OES_texture_half_float": [
+    -299.59,
+    498.96
+  ],
+  "OES_texture_half_float_linear": [
+    -325.04,
+    465.45
+  ],
+  "OES_vertex_array_object": [
+    -388.75,
+    476.43
+  ],
+  "openscreen-application": [
+    -544.18,
+    -34.76
+  ],
+  "openscreen-network": [
+    -572.56,
+    -47.66
+  ],
+  "orientation-event": [
+    -519.88,
+    -162.97
+  ],
+  "orientation-sensor": [
+    -583.95,
+    -196.6
+  ],
+  "OVR_multiview2": [
+    -292.91,
+    490.62
+  ],
+  "owl-time": [
+    67.18,
+    448.07
+  ],
+  "page-lifecycle": [
+    -232.57,
+    -160.5
+  ],
+  "paint-timing": [
+    -45.09,
+    222.56
+  ],
+  "passkey-endpoints": [
+    68.02,
+    -595.38
+  ],
+  "payment-method-id": [
+    -263.94,
+    -575.54
+  ],
+  "payment-method-manifest": [
+    -248.98,
+    -523.76
+  ],
+  "payment-request": [
+    -294.39,
+    -502.17
+  ],
+  "paymentlink": [
+    -237.72,
+    -430.89
+  ],
+  "pdf-aam": [
+    -585.49,
+    294.9
+  ],
+  "performance-measure-memory": [
+    -101.52,
+    -87.9
+  ],
+  "performance-timeline": [
+    -131.21,
+    263.95
+  ],
+  "periodic-background-sync": [
+    -395.68,
+    -178.58
+  ],
+  "permissions": [
+    -434.23,
+    -256.9
+  ],
+  "permissions-policy": [
+    -447.18,
+    -330.01
+  ],
+  "permissions-registry": [
+    -449.98,
+    -387.37
+  ],
+  "permissions-request": [
+    -421.46,
+    -87.07
+  ],
+  "permissions-revoke": [
+    -300.58,
+    66.65
+  ],
+  "picture-in-picture": [
+    -320.04,
+    -112.69
+  ],
+  "png": [
+    -193.92,
+    367.7
+  ],
+  "pointer-animations": [
+    241.78,
+    -156.53
+  ],
+  "pointerevents": [
+    -399.93,
+    28.88
+  ],
+  "pointerlock": [
+    -437.09,
+    20.57
+  ],
+  "portals": [
+    129.75,
+    -407.99
+  ],
+  "prefer-current-tab": [
+    -398.14,
+    310.3
+  ],
+  "prefetch": [
+    37.11,
+    -377.29
+  ],
+  "prerendering-revamped": [
+    -363.23,
+    -203.88
+  ],
+  "presentation-api": [
+    -78.41,
+    -433.84
+  ],
+  "privacy-principles": [
+    -95.28,
+    8.2
+  ],
+  "private-click-measurement": [
+    -84.2,
+    -351.03
+  ],
+  "promises-guide": [
+    -290.58,
+    -458.89
+  ],
+  "prompt-api": [
+    -365.6,
+    -411.11
+  ],
+  "proofreader-api": [
+    -407.03,
+    -422.08
+  ],
+  "proximity": [
+    -522.31,
+    -331.85
+  ],
+  "pub-manifest": [
+    -55.47,
+    310.06
+  ],
+  "push-api": [
+    -183.32,
+    -341.2
+  ],
+  "qb4st": [
+    12.9,
+    496.92
+  ],
+  "quirks": [
+    354.18,
+    419.05
+  ],
+  "raw-camera-access": [
+    -376.85,
+    167.64
+  ],
+  "rdf-canon": [
+    68.57,
+    636.24
+  ],
+  "rdf-concepts": [
+    -88.29,
+    504.65
+  ],
+  "rdf-n-quads": [
+    -3.05,
+    612.05
+  ],
+  "rdf-n-triples": [
+    -17.65,
+    573.37
+  ],
+  "rdf-schema": [
+    -27.99,
+    472.01
+  ],
+  "rdf-semantics": [
+    -119.55,
+    603.86
+  ],
+  "rdf-trig": [
+    -43.33,
+    595.24
+  ],
+  "rdf-turtle": [
+    -58.75,
+    543.83
+  ],
+  "rdf-xml": [
+    -73.15,
+    591.22
+  ],
+  "real-world-meshing": [
+    -379.7,
+    186.36
+  ],
+  "referrer-policy": [
+    167.5,
+    -476.98
+  ],
+  "remote-playback": [
+    -528.77,
+    -57.72
+  ],
+  "reporting": [
+    228.11,
+    -437.22
+  ],
+  "requestidlecallback": [
+    -175.06,
+    106.6
+  ],
+  "resize-observer": [
+    177.94,
+    51.68
+  ],
+  "resource-timing": [
+    -68.94,
+    116.23
+  ],
+  "responsive-image-client-hints": [
+    -294.37,
+    -151.12
+  ],
+  "rfc2397": [
+    243.92,
+    514.49
+  ],
+  "rfc3229": [
+    373.92,
+    516.77
+  ],
+  "rfc4120": [
+    371.52,
+    -515.42
+  ],
+  "rfc5861": [
+    243.2,
+    -521.31
+  ],
+  "rfc6265": [
+    -84.83,
+    -541.75
+  ],
+  "rfc6265bis": [
+    -85.41,
+    -590.07
+  ],
+  "rfc6266": [
+    -133.05,
+    -429.65
+  ],
+  "rfc6386": [
+    -248.27,
+    387.94
+  ],
+  "rfc6454": [
+    -191.08,
+    -567.72
+  ],
+  "rfc6455": [
+    115.17,
+    -178.15
+  ],
+  "rfc6797": [
+    265.68,
+    -493.23
+  ],
+  "rfc7034": [
+    -596.16,
+    -81.45
+  ],
+  "rfc7230": [
+    -156.34,
+    -556.99
+  ],
+  "rfc7231": [
+    -25.73,
+    308.94
+  ],
+  "rfc7232": [
+    -158.05,
+    -606.51
+  ],
+  "rfc7233": [
+    -102.48,
+    -667.24
+  ],
+  "rfc7234": [
+    129.79,
+    -616.79
+  ],
+  "rfc7235": [
+    -167.31,
+    -596.18
+  ],
+  "rfc7239": [
+    -170.87,
+    364.11
+  ],
+  "rfc7240": [
+    335.89,
+    503.65
+  ],
+  "rfc7469": [
+    -582.68,
+    -65.64
+  ],
+  "rfc7578": [
+    -145.87,
+    366.68
+  ],
+  "rfc7616": [
+    264.9,
+    580.54
+  ],
+  "rfc7617": [
+    261.93,
+    542.48
+  ],
+  "rfc7725": [
+    -77.29,
+    -667.62
+  ],
+  "rfc7838": [
+    -60.51,
+    -670.92
+  ],
+  "rfc7903": [
+    298.99,
+    593.51
+  ],
+  "rfc7932": [
+    -409.72,
+    375.32
+  ],
+  "rfc8246": [
+    -130.82,
+    -620.4
+  ],
+  "rfc8288": [
+    17.52,
+    377.08
+  ],
+  "rfc8297": [
+    -125.79,
+    -421.91
+  ],
+  "rfc8470": [
+    -36,
+    -662.82
+  ],
+  "rfc8610": [
+    3.05,
+    -21.48
+  ],
+  "rfc8878": [
+    -427.61,
+    392.13
+  ],
+  "rfc8942": [
+    -301.78,
+    -91.95
+  ],
+  "rfc9110": [
+    140.56,
+    -519.81
+  ],
+  "rfc9111": [
+    77.32,
+    -335.35
+  ],
+  "rfc9112": [
+    31.99,
+    259.53
+  ],
+  "rfc9113": [
+    -115.54,
+    -654.14
+  ],
+  "rfc9114": [
+    264.66,
+    -536.81
+  ],
+  "rfc9163": [
+    162.7,
+    -596.61
+  ],
+  "rfc9218": [
+    153.63,
+    -606.32
+  ],
+  "rfc9421": [
+    35.13,
+    -609.19
+  ],
+  "rfc9530": [
+    -88.95,
+    -671.06
+  ],
+  "rfc9649": [
+    -307.41,
+    410.34
+  ],
+  "rfc9659": [
+    -51.47,
+    -674.36
+  ],
+  "rfc9842": [
+    -104.38,
+    -601.34
+  ],
+  "saa-non-cookie-storage": [
+    10.05,
+    -125.35
+  ],
+  "savedata": [
+    -144.27,
+    -30.95
+  ],
+  "scheduling-apis": [
+    -303.06,
+    -334.6
+  ],
+  "screen-capture": [
+    -368.06,
+    268.6
+  ],
+  "screen-orientation": [
+    -340.5,
+    -37.94
+  ],
+  "screen-wake-lock": [
+    -487.52,
+    -258.9
+  ],
+  "scroll-animations": [
+    202.34,
+    -147.63
+  ],
+  "scroll-to-text-fragment": [
+    85.18,
+    -228.22
+  ],
+  "secure-contexts": [
+    46.31,
+    -551.24
+  ],
+  "secure-payment-confirmation": [
+    -218.71,
+    -529.67
+  ],
+  "selection-api": [
+    -132.59,
+    -218.96
+  ],
+  "selectors": [
+    260.68,
+    -207.82
+  ],
+  "selectors-nonelement": [
+    328.91,
+    -390.62
+  ],
+  "serial": [
+    -432.21,
+    -159.21
+  ],
+  "server-timing": [
+    -104.26,
+    100.38
+  ],
+  "service-workers": [
+    -65,
+    -224.15
+  ],
+  "shacl-core": [
+    -204.53,
+    447.22
+  ],
+  "shacl-cs": [
+    -246.22,
+    429.16
+  ],
+  "shacl-inference-rules": [
+    -231.33,
+    466.13
+  ],
+  "shacl-node-expr": [
+    -207.16,
+    475.15
+  ],
+  "shacl-profiling": [
+    -143.86,
+    413.59
+  ],
+  "shacl-sparql": [
+    -174.17,
+    456.1
+  ],
+  "shacl-ui": [
+    -179.51,
+    415.93
+  ],
+  "shape-detection-api": [
+    -252.21,
+    190.84
+  ],
+  "signature-based-sri": [
+    193.68,
+    -524.52
+  ],
+  "sms-one-time-codes": [
+    -170.8,
+    -47.97
+  ],
+  "soft-navigations": [
+    -104.24,
+    218.29
+  ],
+  "sparql-concepts": [
+    -82.51,
+    622.77
+  ],
+  "sparql-entailment": [
+    -151.59,
+    576.74
+  ],
+  "sparql-federated-query": [
+    -181.61,
+    607.89
+  ],
+  "sparql-graph-store-protocol": [
+    -138.44,
+    498.02
+  ],
+  "sparql-protocol": [
+    -173.81,
+    528.13
+  ],
+  "sparql-query": [
+    -199.54,
+    561.04
+  ],
+  "sparql-results-csv-tsv": [
+    -108.77,
+    647.93
+  ],
+  "sparql-results-json": [
+    -74.7,
+    654.36
+  ],
+  "sparql-results-xml": [
+    -47.36,
+    640.03
+  ],
+  "sparql-rl": [
+    -152.07,
+    442.55
+  ],
+  "sparql-service-description": [
+    -133.02,
+    535.95
+  ],
+  "sparql-update": [
+    -106.72,
+    562.44
+  ],
+  "speech-api": [
+    -208.13,
+    -33.11
+  ],
+  "sri": [
+    203.5,
+    -487.38
+  ],
+  "storage": [
+    -66.3,
+    -84.01
+  ],
+  "storage-access": [
+    -126.44,
+    -524.09
+  ],
+  "storage-access-headers": [
+    -48.94,
+    -570.2
+  ],
+  "storage-buckets": [
+    -92.22,
+    -123.25
+  ],
+  "streams": [
+    -212.41,
+    -395.22
+  ],
+  "SVG": [
+    519.45,
+    150.95
+  ],
+  "svg-aam": [
+    -464.35,
+    348.67
+  ],
+  "svg-animations": [
+    630.65,
+    206.61
+  ],
+  "svg-integration": [
+    628.73,
+    183.26
+  ],
+  "svg-paths": [
+    589.53,
+    260.08
+  ],
+  "svg-strokes": [
+    608.81,
+    297.02
+  ],
+  "tc39-async-explicit-resource-management": [
+    -656.29,
+    -57.7
+  ],
+  "tc39-await-dictionary": [
+    -660.34,
+    -45.89
+  ],
+  "tc39-bigint-math": [
+    -649.11,
+    -4.44
+  ],
+  "tc39-canonical-tz": [
+    -665.98,
+    -33.34
+  ],
+  "tc39-decorators": [
+    -649.07,
+    -63.62
+  ],
+  "tc39-defer-import-eval": [
+    -638.97,
+    -68.56
+  ],
+  "tc39-dynamic-code-brand-checks": [
+    -608.2,
+    -68.69
+  ],
+  "tc39-error-stack-accessor": [
+    -600.92,
+    -57.35
+  ],
+  "tc39-import-text": [
+    -595.46,
+    -32.72
+  ],
+  "tc39-intl-duration-format": [
+    -656.21,
+    -6.31
+  ],
+  "tc39-intl-era-monthcode": [
+    -662.51,
+    -13.51
+  ],
+  "tc39-intl-keep-trailing-zeros": [
+    -661.45,
+    -24.66
+  ],
+  "tc39-intl-locale-info": [
+    -620.35,
+    -63.46
+  ],
+  "tc39-iterator-chunking": [
+    -613.55,
+    -12.58
+  ],
+  "tc39-iterator-includes": [
+    -626.22,
+    -4.18
+  ],
+  "tc39-nonextensible-applies-to-private": [
+    -630.63,
+    -64.61
+  ],
+  "tc39-regexp-buffer-boundaries": [
+    -638.11,
+    -3.05
+  ],
+  "tc39-shadowrealm": [
+    -606.05,
+    -22.35
+  ],
+  "tc39-source-phase-imports": [
+    -401.82,
+    -515.6
+  ],
+  "tc39-temporal": [
+    -596.64,
+    -42.62
+  ],
+  "tc39-thenable-curtailment": [
+    -653.99,
+    -14.89
+  ],
+  "test-methodology": [
+    346.24,
+    -534.29
+  ],
+  "testutils": [
+    -340.86,
+    54.88
+  ],
+  "text-detection-api": [
+    -235.23,
+    187.73
+  ],
+  "timing-entrytypes-registry": [
+    -91.78,
+    258.94
+  ],
+  "touch-events": [
+    -480.45,
+    13.75
+  ],
+  "trace-context": [
+    -594.41,
+    -107.14
+  ],
+  "trace-context-amqp": [
+    -631.06,
+    -125.07
+  ],
+  "trace-context-binary": [
+    -641.77,
+    -98.69
+  ],
+  "trace-context-mqtt": [
+    -630.26,
+    -93.31
+  ],
+  "trace-context-protocols-registry": [
+    -608.79,
+    -96.39
+  ],
+  "tracestate-ids-registry": [
+    -643.41,
+    -117.37
+  ],
+  "tracking-dnt": [
+    -219.31,
+    -568.18
+  ],
+  "translation-api": [
+    -391.39,
+    -463.27
+  ],
+  "trust-token-api": [
+    -38.32,
+    -488.22
+  ],
+  "trusted-types": [
+    83.44,
+    -382.78
+  ],
+  "ttml": [
+    342,
+    554.04
+  ],
+  "ttml-imsc": [
+    320.12,
+    536.8
+  ],
+  "ua-client-hints": [
+    -270.11,
+    -118.81
+  ],
+  "uievents": [
+    -443.11,
+    54.82
+  ],
+  "uievents-code": [
+    -533.77,
+    24.44
+  ],
+  "uievents-key": [
+    -514.53,
+    48.05
+  ],
+  "unencoded-digest": [
+    -69.07,
+    -674.7
+  ],
+  "upgrade-insecure-requests": [
+    189.24,
+    -567.61
+  ],
+  "url": [
+    8.33,
+    -427.57
+  ],
+  "urlpattern": [
+    -126.51,
+    -453.42
+  ],
+  "usb": [
+    -397.84,
+    -140.95
+  ],
+  "user-preference-media-features-headers": [
+    -386.75,
+    -305.99
+  ],
+  "user-timing": [
+    -120.8,
+    197.93
+  ],
+  "vc-barcodes": [
+    178.42,
+    571.74
+  ],
+  "vc-bitstring-status-list": [
+    106.06,
+    504.91
+  ],
+  "vc-confidence-method": [
+    221.26,
+    587.75
+  ],
+  "vc-data-integrity": [
+    92.29,
+    560.71
+  ],
+  "vc-data-model": [
+    145.84,
+    513.16
+  ],
+  "vc-di-bbs": [
+    101.42,
+    610.82
+  ],
+  "vc-di-ecdsa": [
+    141.8,
+    608.13
+  ],
+  "vc-di-eddsa": [
+    71.54,
+    590.66
+  ],
+  "vc-di-quantum-resistant": [
+    124.17,
+    630.15
+  ],
+  "vc-forgery-defense": [
+    174.28,
+    539.54
+  ],
+  "vc-jose-cose": [
+    210.37,
+    510.42
+  ],
+  "vc-json-schema": [
+    187.85,
+    520.1
+  ],
+  "vc-recognized-entities": [
+    200.67,
+    478.57
+  ],
+  "vc-render-method": [
+    211.55,
+    557.76
+  ],
+  "vcalm": [
+    177.21,
+    479.63
+  ],
+  "vibration": [
+    -303.05,
+    -130.37
+  ],
+  "video-rvfc": [
+    -496.15,
+    -32.64
+  ],
+  "virtual-keyboard": [
+    -202.55,
+    97.89
+  ],
+  "vocab-dcat": [
+    30.45,
+    430.31
+  ],
+  "vocab-owl-time-agg": [
+    93.01,
+    466.99
+  ],
+  "vocab-owl-time-rel": [
+    81.51,
+    424.58
+  ],
+  "vocab-ssn": [
+    36.5,
+    461.72
+  ],
+  "vocab-ssn-ext": [
+    72.81,
+    476.2
+  ],
+  "w3c-patent-policy": [
+    323.21,
+    509.53
+  ],
+  "w3c-process": [
+    278.7,
+    497.97
+  ],
+  "wai-aria": [
+    -471.7,
+    296.18
+  ],
+  "wasm-core": [
+    -168.59,
+    -408.04
+  ],
+  "wasm-js-api": [
+    -351.62,
+    -496.41
+  ],
+  "wasm-web-api": [
+    -330.84,
+    -512.71
+  ],
+  "wcag": [
+    130.39,
+    410.33
+  ],
+  "web-animations": [
+    508.8,
+    -187.4
+  ],
+  "web-app-launch": [
+    -47.15,
+    -35
+  ],
+  "web-based-payment-handler": [
+    -279.41,
+    -532.86
+  ],
+  "web-locks": [
+    -117.78,
+    -9.24
+  ],
+  "web-nfc": [
+    -18.17,
+    -277.95
+  ],
+  "web-otp": [
+    -113.88,
+    -160.73
+  ],
+  "web-share": [
+    -90.17,
+    -394.85
+  ],
+  "web-share-target": [
+    -58,
+    -413.85
+  ],
+  "web-smart-card": [
+    -333.49,
+    -321.27
+  ],
+  "webaudio": [
+    -385.97,
+    -357.61
+  ],
+  "webauthn": [
+    -177.7,
+    -524.05
+  ],
+  "webcodecs": [
+    -569.57,
+    171.33
+  ],
+  "webcodecs-aac-codec-registration": [
+    -635.58,
+    155.46
+  ],
+  "webcodecs-alaw-codec-registration": [
+    -618.9,
+    162.7
+  ],
+  "webcodecs-av1-codec-registration": [
+    -567.08,
+    210.31
+  ],
+  "webcodecs-avc-codec-registration": [
+    -576.03,
+    135.39
+  ],
+  "webcodecs-codec-registry": [
+    -613.17,
+    207.65
+  ],
+  "webcodecs-flac-codec-registration": [
+    -593.81,
+    192.03
+  ],
+  "webcodecs-hevc-codec-registration": [
+    -558.41,
+    132.11
+  ],
+  "webcodecs-mp3-codec-registration": [
+    -634.84,
+    172.59
+  ],
+  "webcodecs-opus-codec-registration": [
+    -600.92,
+    167.08
+  ],
+  "webcodecs-pcm-codec-registration": [
+    -593.6,
+    151.04
+  ],
+  "webcodecs-ulaw-codec-registration": [
+    -627.04,
+    186.69
+  ],
+  "webcodecs-video-frame-metadata-registry": [
+    -567.32,
+    117.59
+  ],
+  "webcodecs-vorbis-codec-registration": [
+    -612.05,
+    181.26
+  ],
+  "webcodecs-vp8-codec-registration": [
+    -592.18,
+    221.07
+  ],
+  "webcodecs-vp9-codec-registration": [
+    -581.11,
+    210.21
+  ],
+  "webcrypto": [
+    -239.33,
+    -119.84
+  ],
+  "webcrypto-modern-algos": [
+    -238.06,
+    -9.96
+  ],
+  "webcrypto-secure-curves": [
+    -218.47,
+    -0.09
+  ],
+  "webdriver": [
+    -196.22,
+    -450.95
+  ],
+  "webdriver-bidi": [
+    -17.09,
+    -178.29
+  ],
+  "webextensions": [
+    -249.38,
+    -475.2
+  ],
+  "webextensions-browser-global": [
+    -229.67,
+    -482.38
+  ],
+  "WEBGL_blend_equation_advanced_coherent": [
+    -397.19,
+    463.68
+  ],
+  "WEBGL_blend_func_extended": [
+    -348.26,
+    553.41
+  ],
+  "WEBGL_clip_cull_distance": [
+    -343.39,
+    459.3
+  ],
+  "WEBGL_color_buffer_float": [
+    -360.25,
+    553.67
+  ],
+  "WEBGL_compressed_texture_astc": [
+    -402.62,
+    498.78
+  ],
+  "WEBGL_compressed_texture_etc": [
+    -299.02,
+    553.38
+  ],
+  "WEBGL_compressed_texture_etc1": [
+    -367.81,
+    462.63
+  ],
+  "WEBGL_compressed_texture_pvrtc": [
+    -389.24,
+    529.53
+  ],
+  "WEBGL_compressed_texture_s3tc": [
+    -393.98,
+    519.48
+  ],
+  "WEBGL_compressed_texture_s3tc_srgb": [
+    -333.08,
+    566.06
+  ],
+  "WEBGL_debug_renderer_info": [
+    -307.46,
+    547.96
+  ],
+  "WEBGL_debug_shaders": [
+    -316.1,
+    544.07
+  ],
+  "WEBGL_depth_texture": [
+    -296.69,
+    542.61
+  ],
+  "WEBGL_draw_buffers": [
+    -340.66,
+    566.02
+  ],
+  "WEBGL_draw_instanced_base_vertex_base_instance": [
+    -404.7,
+    517.1
+  ],
+  "WEBGL_lose_context": [
+    -308.96,
+    561.09
+  ],
+  "WEBGL_multi_draw": [
+    -386.73,
+    538.4
+  ],
+  "WEBGL_multi_draw_instanced_base_vertex_base_instance": [
+    -344.96,
+    452.16
+  ],
+  "WEBGL_polygon_mode": [
+    -375.32,
+    457.67
+  ],
+  "WEBGL_provoking_vertex": [
+    -369.99,
+    550.08
+  ],
+  "WEBGL_render_shared_exponent": [
+    -397.97,
+    528.6
+  ],
+  "WEBGL_shader_pixel_local_storage": [
+    -360.14,
+    460.29
+  ],
+  "WEBGL_stencil_texturing": [
+    -302.4,
+    471.31
+  ],
+  "webgl1": [
+    -360.41,
+    199.85
+  ],
+  "webgl2": [
+    -340.89,
+    87.61
+  ],
+  "webgpu": [
+    -409.15,
+    219.37
+  ],
+  "webidl": [
+    -301.23,
+    127.79
+  ],
+  "webmcp": [
+    -342.93,
+    -361.64
+  ],
+  "webmidi": [
+    -479.1,
+    -371.15
+  ],
+  "webnn": [
+    -351.49,
+    178.7
+  ],
+  "webpackage": [
+    112.42,
+    -360.69
+  ],
+  "webrtc": [
+    -237.15,
+    306.54
+  ],
+  "webrtc-encoded-transform": [
+    -238.58,
+    245.7
+  ],
+  "webrtc-extensions": [
+    -215.1,
+    269.76
+  ],
+  "webrtc-ice": [
+    -266.87,
+    303.31
+  ],
+  "webrtc-identity": [
+    -240.62,
+    274.4
+  ],
+  "webrtc-priority": [
+    -206.68,
+    354.27
+  ],
+  "webrtc-stats": [
+    -210.88,
+    332.04
+  ],
+  "webrtc-svc": [
+    -287.31,
+    346.26
+  ],
+  "websockets": [
+    120.42,
+    -273.53
+  ],
+  "webtransport": [
+    91.55,
+    -268.74
+  ],
+  "webvtt": [
+    354.09,
+    107.55
+  ],
+  "webxr": [
+    -425.66,
+    143.61
+  ],
+  "webxr-ar-module": [
+    -501.75,
+    184.8
+  ],
+  "webxr-depth-sensing": [
+    -469.98,
+    198.35
+  ],
+  "webxr-dom-overlays": [
+    -390.45,
+    89.69
+  ],
+  "webxr-gamepads-module": [
+    -468,
+    110.69
+  ],
+  "webxr-hand-input": [
+    -491.14,
+    106.67
+  ],
+  "webxr-hit-test": [
+    -429.73,
+    107.1
+  ],
+  "webxr-lighting-estimation": [
+    -418.18,
+    95.59
+  ],
+  "webxr-plane-detection": [
+    -375.37,
+    141.27
+  ],
+  "webxr-webgpu-binding": [
+    -409.89,
+    186.88
+  ],
+  "webxrlayers": [
+    -443.71,
+    187.7
+  ],
+  "WGSL": [
+    -429.74,
+    254
+  ],
+  "window-controls-overlay": [
+    -167.05,
+    -3.63
+  ],
+  "window-management": [
+    -325.35,
+    -76.32
+  ],
+  "WOFF": [
+    -352.74,
+    389.34
+  ],
+  "wot-architecture": [
+    15.67,
+    343.7
+  ],
+  "wot-binding-registry": [
+    83.67,
+    370.29
+  ],
+  "wot-discovery": [
+    3.49,
+    313.17
+  ],
+  "wot-profile": [
+    34.73,
+    284.83
+  ],
+  "wot-thing-description": [
+    57.73,
+    341.68
+  ],
+  "writing-assistance-apis": [
+    -343.87,
+    -452.08
+  ],
+  "xhr": [
+    -32.52,
+    -340.96
+  ],
+  "xml-entity-names": [
+    625.63,
+    -159.74
+  ],
+  "yaml-ld": [
+    -89.44,
+    354.81
+  ]
+}

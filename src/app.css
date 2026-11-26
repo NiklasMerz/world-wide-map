@@ -1,0 +1,43 @@
+:root {
+  --ink: #4a3b2a;
+  --paper: #f6eed8;
+  --paper-edge: #d9c9a0;
+  --accent: #8c5a3c;
+  color-scheme: light;
+  font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: #a9c4c9; color: var(--ink); }
+#map { position: fixed; inset: 0; }
+a { color: var(--accent); }
+
+.titlebar {
+  position: fixed; top: 16px; left: 16px; right: 16px; max-width: 420px;
+  display: flex; flex-direction: column; gap: 8px;
+  padding: 12px 16px; background: var(--paper); border: 1px solid var(--paper-edge);
+  box-shadow: 0 2px 10px #4a3b2a33; border-radius: 4px;
+}
+.titlebar h1 { margin: 0; font-size: 1.2rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: normal; }
+#q { width: 100%; font: inherit; padding: 6px 8px; border: 1px solid var(--paper-edge); background: #fffaf0; border-radius: 3px; color: var(--ink); }
+
+#panel {
+  position: fixed; top: 16px; right: 16px; bottom: 16px; width: min(380px, calc(100vw - 32px));
+  overflow: auto; padding: 20px 22px; background: var(--paper);
+  border: 1px solid var(--paper-edge); box-shadow: 0 2px 14px #4a3b2a44; border-radius: 4px;
+}
+#panel[hidden] { display: none; }
+#close { position: absolute; top: 8px; right: 10px; border: 0; background: none; font-size: 1.6rem; cursor: pointer; color: var(--ink); }
+#panel h2 { margin: 0.1em 0 0.2em; font-size: 1.5rem; }
+#panel h3 { margin: 1.2em 0 0.4em; font-size: 0.8rem; letter-spacing: 0.15em; text-transform: uppercase; border-bottom: 1px solid var(--paper-edge); padding-bottom: 2px; }
+#panel ul { margin: 0; padding-left: 1.1em; line-height: 1.5; }
+#panel .cols { columns: 2; column-gap: 1.2em; }
+#panel .features { list-style: none; padding: 0; }
+.kind { margin: 0; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; opacity: 0.7; }
+.meta { font-size: 0.85rem; opacity: 0.8; }
+.edit { margin-top: 2em; font-size: 0.85rem; }
+.bl { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+.bl-high { background: #3f7d4e; } .bl-low { background: #5b8fb0; } .bl-none { background: #b9874d; }
+
+@media (max-width: 640px) {
+  #panel { top: auto; height: 55vh; }
+}

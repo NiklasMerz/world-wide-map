@@ -42,8 +42,29 @@ Datasources and information to grab:
 * Statically rendered from compiled json/yaml sources
 * User editable consistent data
 
+## Status
+
+The first milestone works: a data pipeline and a clickable map, deployed to GitHub Pages every night.
+
+```
+fetch  ─▶ graph ─▶ cluster ─▶ layout ─▶ geo ─▶ Vite + MapLibre
+webref    specs,   Louvain:   Force-     Voronoi land/sea,
+web-feat. refs,    continents Atlas2     borders, activity hills,
+GitHub    groups   countries  (seeded)   roads → GeoJSON
+```
+
+* `scripts/fetch` pulls sources into `data/cache/`
+* `scripts/graph` builds the graph (one node per spec series and per group), clusters it and lays it out
+* `scripts/geo` turns positions into geography and writes `public/map/*.geojson`
+* `src/` is the map front end (Vite, vanilla TS, MapLibre GL)
+* `data/overrides/*.yaml` holds the human curation, see [CONTRIBUTING.md](CONTRIBUTING.md)
+
+`scripts/prototype/gvmap.sh` renders the same graph with Graphviz GMap for comparison.
+
 ## Inspiration
 
 * webcompat.dev - A website that show web compat tools and resources in clusters with their connections between each other
 * The rooms in the World Forum The Hague - The rooms and wings are named after continents and countries
 * Strangereal - The fictional world of Ace Combat with it's own fictional continents and countries
+* Graphviz GMap / gvmap - graphs drawn as maps
+* Azgaar's Fantasy Map Generator

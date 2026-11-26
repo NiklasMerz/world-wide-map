@@ -1,0 +1,6 @@
+node_modules/
+dist/
+data/cache/
+data/build/
+data/prototype/
+public/map/

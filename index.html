@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>World Wide Map</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Ccircle cx=%2216%22 cy=%2216%22 r=%2214%22 fill=%22%23a9c4c9%22/%3E%3Cpath d=%22M8 13c3-4 8-3 10 0s5 5 6 1-1 9-6 9-7-2-9-4-3-3-1-6z%22 fill=%22%23efe3c2%22 stroke=%22%234a3b2a%22/%3E%3C/svg%3E" />
+    <meta name="description" content="A fictional atlas of how the web is built: specs, groups and features as continents, countries and cities." />
+  </head>
+  <body>
+    <div id="map" role="application" aria-label="Map of web standards"></div>
+    <header class="titlebar">
+      <h1>World Wide Map</h1>
+      <form id="search" role="search">
+        <input id="q" list="places" type="search" placeholder="Find a spec, group or feature…" autocomplete="off" aria-label="Search" />
+        <datalist id="places"></datalist>
+      </form>
+    </header>
+    <aside id="panel" hidden aria-live="polite">
+      <button id="close" aria-label="Close">×</button>
+      <div id="panel-body"></div>
+    </aside>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

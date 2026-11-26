@@ -1,0 +1,10 @@
+# Extra connections the crawled data doesn't show.
+# source/target are spec series shortnames (see browser-specs) or "group:<Group name>".
+# weight: 1 (weak) … 5 (strong)
+- source: miniapp-manifest
+  target: appmanifest
+  weight: 3
+  note: MiniApp manifest builds on the Web App Manifest
+- source: miniapp-packaging
+  target: appmanifest
+  weight: 1
