@@ -44,7 +44,7 @@ const toLngLat = ([x, y]: Pt): Pt => [+(((x - W / 2) / W) * SPAN).toFixed(5), +(
 
 // --- land test: near a node, with a noisy radius for natural coasts ---------------
 const nodeIndex = Delaunay.from(nodes, (n) => n.x!, (n) => n.y!);
-const radius = (n: GraphNode) => 11 + n.activity * 1.8;
+const radius = (n: GraphNode) => 11 + (n.size ?? 0) * 1.8;
 function nearest(x: number, y: number): { node: GraphNode; land: boolean } {
   const node = nodes[nodeIndex.find(x, y)];
   const d = Math.hypot(node.x! - x, node.y! - y);
@@ -148,7 +148,7 @@ for (const n of nodes) {
   placeFeatures.push({
     type: 'Feature',
     id: placeFeatures.length,
-    properties: { id: n.id, label: n.label, kind: n.type === 'group' ? 'group' : capitals.has(n.id) ? 'capital' : 'city', activity: +n.activity.toFixed(2), rank: capitals.has(n.id) ? 0 : n.type === 'group' ? 2 : 1 },
+    properties: { id: n.id, label: n.label, kind: n.type === 'group' ? 'group' : capitals.has(n.id) ? 'capital' : 'city', size: +(n.size ?? 0).toFixed(2), rank: capitals.has(n.id) ? 0 : n.type === 'group' ? 2 : 1 },
     geometry: { type: 'Point', coordinates: toLngLat([n.x!, n.y!]) },
   });
 }
@@ -170,8 +170,9 @@ for (const f of data.features) {
 
 // --- labels at cluster centroids -----------------------------------------------------
 function centroid(members: GraphNode[]): Pt {
-  const w = members.reduce((s, m) => s + 1 + m.activity, 0);
-  return [members.reduce((s, m) => s + m.x! * (1 + m.activity), 0) / w, members.reduce((s, m) => s + m.y! * (1 + m.activity), 0) / w];
+  const wt = (m: GraphNode) => 1 + (m.size ?? 0);
+  const w = members.reduce((s, m) => s + wt(m), 0);
+  return [members.reduce((s, m) => s + m.x! * wt(m), 0) / w, members.reduce((s, m) => s + m.y! * wt(m), 0) / w];
 }
 const labelFeatures = [
   ...data.continents!.map((c) => {
@@ -189,11 +190,12 @@ for (const e of data.edges) {
 }
 const index = {
   generated: new Date().toISOString(),
+  activity: data.activity,
   continents: data.continents,
   countries: data.countries,
   nodes: Object.fromEntries(nodes.map((n) => [n.id, {
     label: n.label, type: n.type, url: n.url, repo: n.repo, org: n.org, groups: n.groups, status: n.status, standing: n.standing,
-    groupType: n.groupType, description: n.description, participants: n.participants, curated: n.curated,
+    groupType: n.groupType, description: n.description, participants: n.participants, curated: n.curated, github: n.github,
     continent: n.continent, country: n.country, features: n.features, at: toLngLat([n.x!, n.y!]),
     neighbors: (neighbors.get(n.id) ?? []).sort((a, b) => b.w - a.w).slice(0, 10).map((x) => x.id),
     members: n.type === 'group' ? nodes.filter((m) => m.groups?.includes(n.label)).map((m) => m.id) : undefined,

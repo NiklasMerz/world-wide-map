@@ -5,7 +5,8 @@
 import { join } from 'node:path';
 import { createRequire } from 'node:module';
 import { CACHE, exists, pool, readJson, writeJson } from '../lib/util.ts';
-import { fetchGithubActivity } from './github.ts';
+import { fetchGithubActivity, type ActivityTarget } from './github.ts';
+import { loadOverrides } from '../lib/overrides.ts';
 import { fetchW3CGroups } from './w3c.ts';
 
 const offline = process.argv.includes('--offline');
@@ -58,14 +59,27 @@ console.log(`web-features: ${Object.keys(wf.features).length} entries`);
 const w3c = await cached('w3c-groups.json', fetchW3CGroups);
 console.log(`w3c: ${w3c.length} open groups`);
 
-// 5. GitHub activity (optional, needs GITHUB_TOKEN)
-const repos = [...new Set(index.results.map((s: any) => s.nightly?.repository).filter(Boolean))] as string[];
+// 5. GitHub activity per spec (optional, needs GITHUB_TOKEN)
+// One target per spec series, using the current level's repo, source path and label.
+const ov = await loadOverrides();
+const bySeries = new Map<string, ActivityTarget>();
+for (const s of index.results) {
+  if (!s.nightly?.repository) continue;
+  const key: string = s.series?.shortname ?? s.shortname;
+  const isCurrent = (s.series?.currentSpecification ?? s.shortname) === s.shortname;
+  if (bySeries.has(key) && !isCurrent) continue;
+  bySeries.set(key, { key, repo: s.nightly.repository, sourcePath: s.nightly.sourcePath, label: s.shortname });
+}
+const targets = [...bySeries.values()];
+for (const c of ov.specs) if (c.repo) targets.push({ key: c.id, repo: c.repo, label: c.id });
+
 if (offline) {
   console.log('github: offline, keeping cached activity');
 } else if (process.env.GITHUB_TOKEN) {
-  const activity = await fetchGithubActivity(repos, process.env.GITHUB_TOKEN);
+  const activity = await fetchGithubActivity(targets, process.env.GITHUB_TOKEN);
   await writeJson(join(CACHE, 'github.json'), activity);
-  console.log(`github: activity for ${Object.keys(activity).length} repos`);
+  const scopes = Object.values(activity.specs).reduce<Record<string, number>>((m, a) => ((m[`commits:${a.commitScope}`] = (m[`commits:${a.commitScope}`] ?? 0) + 1), (m[`issues:${a.issueScope}`] = (m[`issues:${a.issueScope}`] ?? 0) + 1), m), {});
+  console.log(`github: activity for ${Object.keys(activity.specs).length} specs since ${activity.since.slice(0, 10)}`, scopes);
 } else {
   console.log('github: GITHUB_TOKEN not set, skipping (elevation falls back to reference counts)');
 }

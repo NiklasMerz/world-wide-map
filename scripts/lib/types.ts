@@ -18,8 +18,12 @@ export interface GraphNode {
   participants?: number;
   /** true for specs added through data/overrides/specs.yaml */
   curated?: boolean;
-  /** activity score used for elevation */
+  /** activity score that raises hills: log(1 + commits + issues), or the reference fallback. 0 for groups */
   activity: number;
+  /** dot size and land radius: activity for specs, participant count for groups */
+  size?: number;
+  /** raw GitHub counts for the activity window (specs only) */
+  github?: import('../fetch/github.ts').SpecActivity;
   // filled by later steps
   continent?: number;
   country?: number;
@@ -43,7 +47,16 @@ export interface Feature {
   spec: string;
 }
 
+export interface ActivityMeta {
+  /** github = commits + issues per spec; references = fallback when no token was available */
+  source: 'github' | 'references';
+  since?: string;
+  fetchedAt?: string;
+  windowDays?: number;
+}
+
 export interface Graph {
+  activity?: ActivityMeta;
   nodes: GraphNode[];
   edges: GraphEdge[];
   features: Feature[];

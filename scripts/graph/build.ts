@@ -4,11 +4,15 @@ import { BUILD, CACHE, exists, normUrl, readJson, writeJson } from '../lib/util.
 import { loadOverrides } from '../lib/overrides.ts';
 import type { Feature, Graph, GraphEdge, GraphNode } from '../lib/types.ts';
 import type { W3CGroup } from '../fetch/w3c.ts';
+import type { GithubActivity } from '../fetch/github.ts';
 
 const index = await readJson(join(CACHE, 'webref-index.json'));
 const refs: Record<string, any> = await readJson(join(CACHE, 'refs.json'));
 const wf = await readJson(join(CACHE, 'web-features.json'));
-const github: Record<string, any> = exists(join(CACHE, 'github.json')) ? await readJson(join(CACHE, 'github.json')) : {};
+const githubFile = join(CACHE, 'github.json');
+const github: GithubActivity | undefined = exists(githubFile) ? await readJson(githubFile) : undefined;
+// an old cache from before per-spec counts has no .specs; ignore it
+const githubSpecs = github?.specs;
 const w3c: W3CGroup[] = exists(join(CACHE, 'w3c-groups.json')) ? await readJson(join(CACHE, 'w3c-groups.json')) : [];
 const ov = await loadOverrides();
 const excluded = new Set(ov.exclude);
@@ -165,21 +169,32 @@ for (const e of edges.values()) {
   degree.set(e.target, (degree.get(e.target) ?? 0) + e.weight);
   degree.set(e.source, (degree.get(e.source) ?? 0) + e.weight * 0.3);
 }
-const hasGithub = Object.keys(github).length > 0;
+// Hills come only from spec activity. Groups get their dot size from participants instead,
+// so the two scales never mix on the map.
+const hasGithub = !!githubSpecs && Object.keys(githubSpecs).length > 0;
 for (const n of nodes.values()) {
   if (n.type === 'group') {
-    n.activity = 0.6 * Math.log1p(n.participants ?? 0);
+    n.activity = 0;
+    n.size = 0.6 * Math.log1p(n.participants ?? 0);
     continue;
   }
-  const gh = n.repo ? github[n.repo.toLowerCase().replace(/\/$/, '')] : undefined;
+  const gh = githubSpecs?.[n.id];
+  if (gh) n.github = gh;
   n.activity = hasGithub
-    ? Math.log1p((gh?.commits90d ?? 0) + (gh?.issues90d ?? 0))
+    ? Math.log1p((gh?.commits ?? 0) + (gh?.issues ?? 0))
     : Math.log1p(degree.get(n.id) ?? 0) + Math.log1p(n.features?.length ?? 0);
-  // curated specs have no crawled references, so give them a floor to keep them visible
-  if (n.curated) n.activity = Math.max(n.activity, 1.5);
+  // curated specs often have little data; keep their dots visible without faking hills
+  n.size = n.curated ? Math.max(n.activity, 1.5) : n.activity;
 }
 
-const graph: Graph = { nodes: [...nodes.values()], edges: [...edges.values()], features };
+const graph: Graph = {
+  activity: hasGithub
+    ? { source: 'github', since: github!.since, fetchedAt: github!.fetchedAt, windowDays: github!.windowDays }
+    : { source: 'references' },
+  nodes: [...nodes.values()],
+  edges: [...edges.values()],
+  features,
+};
 await writeJson(join(BUILD, 'graph.json'), graph);
 const specCount = graph.nodes.filter((n) => n.type === 'spec').length;
 console.log(

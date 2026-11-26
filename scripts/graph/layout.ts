@@ -37,7 +37,7 @@ for (const n of data.nodes) {
       p = [Math.cos(a) * rad + jitter(), Math.sin(a) * rad + jitter()];
     }
   }
-  g.addNode(n.id, { x: p[0], y: p[1], size: 1 + n.activity });
+  g.addNode(n.id, { x: p[0], y: p[1], size: 1 + (n.size ?? 0) });
 }
 
 for (const e of data.edges) {

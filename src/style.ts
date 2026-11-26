@@ -93,7 +93,7 @@ export function mapStyle(base: string): StyleSpecification {
         filter: ['!=', ['get', 'kind'], 'feature'],
         minzoom: 3,
         paint: {
-          'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, ['match', ['get', 'kind'], 'capital', 3.5, 1.2], 8, ['+', 2.5, ['get', 'activity']]],
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, ['match', ['get', 'kind'], 'capital', 3.5, 1.2], 8, ['+', 2.5, ['get', 'size']]],
           'circle-color': ['match', ['get', 'kind'], 'group', '#7d4b6e', 'capital', C.ink, '#f7f0dc'],
           'circle-stroke-color': C.ink,
           'circle-stroke-width': ['case', ['boolean', ['feature-state', 'selected'], false], 3, 1],
