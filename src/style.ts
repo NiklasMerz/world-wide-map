@@ -1,14 +1,18 @@
 import type { StyleSpecification } from 'maplibre-gl';
 
-/** Atlas palette: parchment land, muted sea, sepia ink. */
+/** Atlas palette: hypsometric tints (green lowlands → brown peaks), blue sea, sepia ink. */
 export const C = {
-  sea: '#a9c4c9',
-  seaDeep: '#93b2b9',
-  land: ['#efe3c2', '#e8dcb5', '#f1e6c8', '#e4d7ae', '#ede0bb', '#e9e0c0'],
+  sea: '#8fbdd3',
+  seaDeep: '#76a9c2',
+  shelf: '#b5d6e4',
+  // lowland greens, one per country tint, close enough to read as the same elevation
+  land: ['#a9cc8c', '#a3c886', '#adcf91', '#9fc482', '#a6ca89', '#b0d194'],
   ink: '#4a3b2a',
   inkSoft: '#7a6650', // lines only; too light for text
   inkText: '#5c4a36', // secondary text, ≥ 7:1 against the label halo
-  hills: ['#ddcb9b', '#cfb985', '#c0a571', '#ae9160', '#9a7d51', '#866a44'],
+  // elevation bands, lowest first: yellow-green, yellow, tan, ochre, brown, dark brown
+  hills: ['#cfdb8c', '#efdd85', '#e9b86c', '#d29052', '#ab673c', '#7c4b2d'],
+  contour: '#6e4e32',
   route: '#8c5a3c',
 };
 
@@ -32,7 +36,7 @@ export function mapStyle(base: string): StyleSpecification {
     layers: [
       { id: 'sea', type: 'background', paint: { 'background-color': C.sea } },
       // soft shelf around the coast
-      { id: 'shelf', type: 'line', source: 'continents', paint: { 'line-color': '#bcd3d6', 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 6, 8, 30], 'line-blur': 6 } },
+      { id: 'shelf', type: 'line', source: 'continents', paint: { 'line-color': C.shelf, 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 6, 8, 30], 'line-blur': 6 } },
       {
         id: 'country-fill',
         type: 'fill',
@@ -45,10 +49,10 @@ export function mapStyle(base: string): StyleSpecification {
         source: 'contours',
         paint: {
           'fill-color': ['match', ['get', 'level'], 0, C.hills[0], 1, C.hills[1], 2, C.hills[2], 3, C.hills[3], 4, C.hills[4], C.hills[5]],
-          'fill-opacity': 0.55,
+          'fill-opacity': 0.9,
         },
       },
-      { id: 'contour-lines', type: 'line', source: 'contours', minzoom: 4, paint: { 'line-color': C.inkSoft, 'line-width': 0.4, 'line-opacity': 0.5 } },
+      { id: 'contour-lines', type: 'line', source: 'contours', minzoom: 3, paint: { 'line-color': C.contour, 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.4, 8, 1], 'line-opacity': 0.6 } },
       { id: 'country-highlight', type: 'line', source: 'countries', filter: ['==', ['get', 'id'], -1], paint: { 'line-color': C.route, 'line-width': 3 } },
       { id: 'borders', type: 'line', source: 'countries', paint: { 'line-color': C.inkSoft, 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.6, 8, 1.6], 'line-dasharray': [3, 2] } },
       { id: 'coast', type: 'line', source: 'continents', paint: { 'line-color': C.ink, 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.8, 8, 2] } },
@@ -70,14 +74,15 @@ export function mapStyle(base: string): StyleSpecification {
         id: 'features',
         type: 'circle',
         source: 'places',
-        minzoom: 7,
+        minzoom: 6.5,
         filter: ['==', ['get', 'kind'], 'feature'],
         paint: {
-          'circle-radius': ['interpolate', ['linear'], ['zoom'], 7, 2, 10, 5],
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 6.5, 4.5, 8, 6, 10, 9],
           // shape as well as colour: widely = solid, newly = solid with dark ring, limited = hollow
-          'circle-color': ['match', ['get', 'baseline'], 'high', '#3f7d4e', 'low', '#4f86ad', '#f3ead2'],
-          'circle-stroke-color': ['match', ['get', 'baseline'], 'high', '#f3ead2', 'low', '#1f3b52', '#9a6a33'],
-          'circle-stroke-width': ['match', ['get', 'baseline'], 'none', 1.8, 1],
+          // darker green than the lowlands, and a thick outline so dots stand out on every elevation band
+          'circle-color': ['match', ['get', 'baseline'], 'high', '#2c6a3c', 'low', '#3f78a3', '#f3ead2'],
+          'circle-stroke-color': ['match', ['get', 'baseline'], 'high', '#fffaf0', 'low', '#14283a', '#8a5a26'],
+          'circle-stroke-width': ['interpolate', ['linear'], ['zoom'], 6.5, ['match', ['get', 'baseline'], 'none', 1.8, 1.3], 10, ['match', ['get', 'baseline'], 'none', 2.6, 2]],
         },
       },
       // cities (specs), guild halls (groups)
@@ -100,7 +105,7 @@ export function mapStyle(base: string): StyleSpecification {
         source: 'places',
         minzoom: 7.5,
         filter: ['==', ['get', 'kind'], 'feature'],
-        layout: { 'text-field': ['get', 'label'], 'text-font': FONT, 'text-size': ['interpolate', ['linear'], ['zoom'], 7.5, 10, 10, 12], 'text-offset': [0, 0.8], 'text-anchor': 'top', 'text-optional': true },
+        layout: { 'text-field': ['get', 'label'], 'text-font': FONT, 'text-size': ['interpolate', ['linear'], ['zoom'], 7.5, 10, 10, 12], 'text-offset': [0, 1], 'text-anchor': 'top', 'text-optional': true },
         paint: { 'text-color': C.inkText, 'text-halo-color': '#f3ead2', 'text-halo-width': 1.6 },
       },
       {

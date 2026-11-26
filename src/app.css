@@ -8,7 +8,7 @@
   font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
 }
 * { box-sizing: border-box; }
-html, body { margin: 0; height: 100%; background: #a9c4c9; color: var(--ink); }
+html, body { margin: 0; height: 100%; background: #8fbdd3; color: var(--ink); }
 #map { position: fixed; inset: 0; z-index: 0; }
 /* header and panel come before/after the map in the DOM for tab order; keep them above it */
 .titlebar, #panel { z-index: 1; }
@@ -40,7 +40,7 @@ a { color: var(--accent); }
 .meta { font-size: 0.85rem; color: var(--ink-soft); }
 .edit { margin-top: 2em; font-size: 0.85rem; }
 .bl { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
-.bl-high { background: #3f7d4e; }
+.bl-high { background: #2c6a3c; }
 
 @media (max-width: 640px) {
   #panel { top: auto; height: 55vh; }
@@ -70,8 +70,8 @@ details.country summary { cursor: pointer; padding: 4px 0; line-height: 1.35; }
 details.country .count { font-size: 0.8rem; color: var(--ink-soft); }
 details.country h4 { margin: 0.6em 0 0.2em; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; }
 #close:focus-visible { outline-offset: -2px; }
-.bl-none { background: transparent; border: 2px solid #9a6a33; width: 9px; height: 9px; }
-.bl-low { box-shadow: inset 0 0 0 1.5px #1f3b52; background: #4f86ad; }
+.bl-none { background: transparent; border: 2px solid #8a5a26; width: 9px; height: 9px; }
+.bl-low { box-shadow: inset 0 0 0 1.5px #14283a; background: #3f78a3; }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }

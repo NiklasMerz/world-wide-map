@@ -100,7 +100,11 @@ for (let gy = 0; gy < gh; gy++) {
   }
 }
 const maxElev = Math.max(...elev);
-const thresholds = [0.12, 0.22, 0.35, 0.5, 0.68, 0.85].map((t) => t * maxElev);
+// Bands by share of land, not by fraction of the highest peak: one tall peak would otherwise
+// leave most of the land in the lowest bands. 40% of the land stays lowland green.
+const landElev = Array.from(elev).filter((h) => h >= 0).sort((p, q) => p - q);
+const quantile = (q: number) => landElev[Math.min(landElev.length - 1, Math.floor(q * landElev.length))];
+const thresholds = [0.4, 0.6, 0.75, 0.86, 0.93, 0.975].map(quantile);
 const contourFeatures = contours().size([gw, gh]).thresholds(thresholds)(Array.from(elev)).map((c, i) => ({
   type: 'Feature',
   properties: { level: i, value: +(c.value / maxElev).toFixed(2) },

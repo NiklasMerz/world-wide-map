@@ -63,7 +63,7 @@ Every run writes the final positions back to `data/layout-seed.json`. That is ho
 1. **Seas:** each continent is pushed 70% further from the centre of the map (`EXPLODE`), which opens up seas between continents.
 2. **Coasts:** a point counts as land if it lies within a radius of its nearest node. The radius grows with the node's activity and is wobbled with simplex noise for natural coastlines.
 3. **Shapes:** the space is cut into Voronoi cells over a jittered grid. Land cells are merged into polygons by continent and country (`scripts/geo/polygons.ts`).
-4. **Details:** activity becomes hills (contour lines). Specs become cities, groups become guild halls and features become villages.
+4. **Details:** activity becomes hills. Elevation is split into six bands by share of the land: the lowest 40% stays green lowland, and the highest 2.5% is dark brown peak, like the tints on an old school atlas. Specs become cities, groups become guild halls and features become villages.
 
 ### Flight and ferry routes
 
