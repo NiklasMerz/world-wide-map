@@ -6,6 +6,7 @@ import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
 import { mapStyle } from './style.ts';
 import { loadIndex } from './data.ts';
 import { Panel } from './panel.ts';
+import { REPO } from './config.ts';
 
 setWorkerUrl(workerUrl);
 
@@ -37,6 +38,8 @@ function select(featureId: string | undefined) {
   if (featureId !== undefined) map.setFeatureState({ source: 'places', id: featureId }, { selected: true });
   for (const layer of ['selected-dot', 'selected-label']) map.setFilter(layer, ['==', ['get', 'id'], featureId ?? '']);
 }
+
+(document.getElementById('repo-link') as HTMLAnchorElement).href = REPO;
 
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const panel = new Panel(index, (id) => go(id));

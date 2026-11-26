@@ -79,3 +79,6 @@ button.go {
   font: inherit; color: var(--accent); background: none; border: 0; padding: 0;
   text-decoration: underline; cursor: pointer; text-align: left;
 }
+
+.credits { margin: 0; font-size: 0.8rem; color: var(--ink-soft); }
+.credits a { color: var(--accent); }

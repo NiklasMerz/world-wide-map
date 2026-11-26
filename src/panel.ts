@@ -1,7 +1,6 @@
 import type { MapIndex } from './data.ts';
 
-/** Set at build time (CI passes the GitHub repo URL); the edit link is hidden without it. */
-const REPO: string | undefined = import.meta.env.VITE_REPO_URL;
+import { REPO } from './config.ts';
 const esc = (s: unknown) => String(s ?? '').replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 const link = (href: string | undefined, text: string) => (href ? `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(text)}</a>` : '');
 const groupTypeLabel = { wg: 'Working group', ig: 'Interest group', cg: 'Community group', other: 'Group' } as const;
@@ -79,7 +78,7 @@ export class Panel {
         .map(([fid, f]) => `<li><span class="bl bl-${f.baseline || 'none'}" role="img" aria-label="${baselineLabel[String(f.baseline) as keyof typeof baselineLabel]}" title="${baselineLabel[String(f.baseline) as keyof typeof baselineLabel]}"></span>${link(`https://web-platform-dx.github.io/web-features-explorer/features/${fid}/`, f.name)}</li>`)
         .join('')}</ul>` : ''}
       ${n.neighbors.length ? `<h3>${n.type === 'group' ? 'Connected (shared participants, specs)' : 'Connected specs'}</h3><ul class="cols">${n.neighbors.map((m) => `<li>${this.nodeLink(m)}</li>`).join('')}</ul>` : ''}
-      ${REPO ? `<p class="edit">${link(`${REPO}/blob/main/CONTRIBUTING.md#overrides`, 'Suggest a change')}</p>` : ''}`);
+      <p class="edit">${link(`${REPO}/blob/main/CONTRIBUTING.md#overrides`, 'Suggest a change')}</p>`);
   }
 
   showCountry(id: number) {
