@@ -6,6 +6,7 @@ import { join } from 'node:path';
 import { createRequire } from 'node:module';
 import { CACHE, exists, pool, readJson, writeJson } from '../lib/util.ts';
 import { fetchGithubActivity } from './github.ts';
+import { fetchW3CGroups } from './w3c.ts';
 
 const offline = process.argv.includes('--offline');
 const WEBREF = 'https://raw.githubusercontent.com/w3c/webref/main/ed/';
@@ -53,7 +54,11 @@ const wf = require('web-features/data.json');
 await writeJson(join(CACHE, 'web-features.json'), { features: wf.features, groups: wf.groups });
 console.log(`web-features: ${Object.keys(wf.features).length} entries`);
 
-// 4. GitHub activity (optional, needs GITHUB_TOKEN)
+// 4. W3C groups and their (hashed) participants
+const w3c = await cached('w3c-groups.json', fetchW3CGroups);
+console.log(`w3c: ${w3c.length} open groups`);
+
+// 5. GitHub activity (optional, needs GITHUB_TOKEN)
 const repos = [...new Set(index.results.map((s: any) => s.nightly?.repository).filter(Boolean))] as string[];
 if (offline) {
   console.log('github: offline, keeping cached activity');

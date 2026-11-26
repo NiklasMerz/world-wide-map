@@ -65,6 +65,4 @@ GitHub    groups   countries  (seeded)   roads → GeoJSON
 
 * webcompat.dev - A website that show web compat tools and resources in clusters with their connections between each other
 * The rooms in the World Forum The Hague - The rooms and wings are named after continents and countries
-* Strangereal - The fictional world of Ace Combat with it's own fictional continents and countries
 * Graphviz GMap / gvmap - graphs drawn as maps
-* Azgaar's Fantasy Map Generator

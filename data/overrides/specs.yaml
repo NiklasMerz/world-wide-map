@@ -1,0 +1,45 @@
+# Specs and documents that browser-specs doesn't track (it only covers specs aimed at browsers).
+# id: unique shortname, used in links.yaml
+# groups: full group names, matching the W3C API (or any name, which then becomes its own group)
+- id: miniapp-manifest
+  title: MiniApp Manifest
+  url: https://w3c.github.io/miniapp-manifest/
+  repo: https://github.com/w3c/miniapp-manifest
+  org: W3C
+  groups: [MiniApps Ecosystem Community Group]
+- id: miniapp-packaging
+  title: MiniApp Packaging
+  url: https://w3c.github.io/miniapp-packaging/
+  repo: https://github.com/w3c/miniapp-packaging
+  org: W3C
+  groups: [MiniApps Ecosystem Community Group]
+- id: miniapp-lifecycle
+  title: MiniApp Lifecycle
+  url: https://w3c.github.io/miniapp-lifecycle/
+  repo: https://github.com/w3c/miniapp-lifecycle
+  org: W3C
+  groups: [MiniApps Ecosystem Community Group]
+- id: miniapp-addressing
+  title: MiniApp Addressing
+  url: https://w3c.github.io/miniapp-addressing/
+  repo: https://github.com/w3c/miniapp-addressing
+  org: W3C
+  groups: [MiniApps Ecosystem Community Group]
+- id: miniapp-white-paper
+  title: MiniApps Standardization White Paper
+  url: https://w3c.github.io/miniapp-white-paper/
+  repo: https://github.com/w3c/miniapp-white-paper
+  org: W3C
+  groups: [MiniApps Ecosystem Community Group]
+- id: webview-usage-and-challenges
+  title: WebView Usage and Challenges
+  url: https://webview-cg.github.io/usage-and-challenges/
+  repo: https://github.com/WebView-CG/usage-and-challenges
+  org: W3C
+  groups: [WebView Community Group]
+- id: isolated-web-apps
+  title: Isolated Web Apps (explainer)
+  url: https://github.com/WICG/isolated-web-apps
+  repo: https://github.com/WICG/isolated-web-apps
+  org: W3C
+  groups: [Web Platform Incubator Community Group]

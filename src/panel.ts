@@ -4,6 +4,7 @@ import type { MapIndex } from './data.ts';
 const REPO: string | undefined = import.meta.env.VITE_REPO_URL;
 const esc = (s: unknown) => String(s ?? '').replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 const link = (href: string | undefined, text: string) => (href ? `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(text)}</a>` : '');
+const groupTypeLabel = { wg: 'Working group', ig: 'Interest group', cg: 'Community group', other: 'Group' } as const;
 const baselineLabel = { high: 'Baseline: widely available', low: 'Baseline: newly available', false: 'Limited availability' } as const;
 
 export class Panel {
@@ -35,19 +36,21 @@ export class Panel {
     if (!n) return;
     const features = (n.features ?? []).map((f) => [f, this.index.features[f]] as const);
     this.body.innerHTML = `
-      <p class="kind">${n.type === 'group' ? 'Guild hall · group' : 'City · specification'}</p>
+      <p class="kind">${n.type === 'group' ? groupTypeLabel[n.groupType ?? 'other'] : n.curated ? 'Specification · curated' : 'Specification'}</p>
       <h2>${esc(n.label)}</h2>
       <ul class="links">
-        ${n.url ? `<li>${link(n.url, 'Read the spec')}</li>` : ''}
+        ${n.url ? `<li>${link(n.url, n.type === 'group' ? 'Group homepage' : 'Read the spec')}</li>` : ''}
         ${n.repo ? `<li>${link(n.repo, 'Repository')} · ${link(n.repo + '/issues', 'issues')}</li>` : ''}
       </ul>
-      ${n.org || n.status ? `<p class="meta">${esc(n.org)}${n.status ? ` · ${esc(n.status)}` : ''}${n.standing && n.standing !== 'good' ? ` · ${esc(n.standing)}` : ''}</p>` : ''}
+      ${n.type === 'spec' && (n.org || n.status) ? `<p class="meta">${esc(n.org)}${n.status ? ` · ${esc(n.status)}` : ''}${n.standing && n.standing !== 'good' ? ` · ${esc(n.standing)}` : ''}</p>` : ''}
+      ${n.participants ? `<p class="meta">${n.participants} participants</p>` : ''}
+      ${n.description ? `<p class="desc">${esc(n.description.length > 400 ? n.description.slice(0, 400) + '…' : n.description)}</p>` : ''}
       ${n.groups?.length ? `<h3>Groups</h3><ul>${n.groups.map((g) => `<li>${this.nodeLink('group:' + g)}</li>`).join('')}</ul>` : ''}
       ${n.members?.length ? `<h3>Specs (${n.members.length})</h3><ul class="cols">${n.members.map((m) => `<li>${this.nodeLink(m)}</li>`).join('')}</ul>` : ''}
       ${features.length ? `<h3>Features (${features.length})</h3><ul class="features">${features
         .map(([fid, f]) => `<li><span class="bl bl-${f.baseline || 'none'}" title="${baselineLabel[String(f.baseline) as keyof typeof baselineLabel]}"></span>${link(`https://web-platform-dx.github.io/web-features-explorer/features/${fid}/`, f.name)}</li>`)
         .join('')}</ul>` : ''}
-      ${n.neighbors.length ? `<h3>Roads lead to</h3><ul class="cols">${n.neighbors.map((m) => `<li>${this.nodeLink(m)}</li>`).join('')}</ul>` : ''}
+      ${n.neighbors.length ? `<h3>${n.type === 'group' ? 'Connected (shared participants, specs)' : 'Connected specs'}</h3><ul class="cols">${n.neighbors.map((m) => `<li>${this.nodeLink(m)}</li>`).join('')}</ul>` : ''}
       ${REPO ? `<p class="edit">${link(`${REPO}/tree/main/data/overrides`, 'Suggest a change')}</p>` : ''}`;
     this.el.hidden = false;
   }

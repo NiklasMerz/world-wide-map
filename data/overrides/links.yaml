@@ -1,6 +1,6 @@
 # Extra connections the crawled data doesn't show.
-# source/target are spec series shortnames (see browser-specs) or "group:<Group name>".
-# weight: 1 (weak) … 5 (strong)
+# source/target: spec series shortnames (browser-specs), ids from specs.yaml, or "group:<Group name>".
+# weight: 1 (weak) … 5 (strong). Unknown ids fail the build.
 - source: miniapp-manifest
   target: appmanifest
   weight: 3
@@ -8,3 +8,10 @@
 - source: miniapp-packaging
   target: appmanifest
   weight: 1
+- source: isolated-web-apps
+  target: webpackage
+  weight: 3
+  note: Isolated Web Apps ship as signed Web Bundles
+- source: isolated-web-apps
+  target: appmanifest
+  weight: 2

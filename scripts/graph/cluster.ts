@@ -42,7 +42,7 @@ function anchorOf(members: GraphNode[]): GraphNode {
 
 function subtitleOf(members: GraphNode[]): string {
   const count = new Map<string, number>();
-  for (const m of members) for (const g of m.groups ?? []) count.set(g, (count.get(g) ?? 0) + 1);
+  for (const m of members) for (const g of m.type === 'group' ? [m.label] : (m.groups ?? [])) count.set(g, (count.get(g) ?? 0) + 1);
   const top = [...count.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 2);
   return top.map(([g]) => g).join(' · ');
 }

@@ -13,6 +13,10 @@ export interface NodeInfo {
   at: [number, number];
   neighbors: string[];
   members?: string[];
+  groupType?: 'wg' | 'ig' | 'cg' | 'other';
+  description?: string;
+  participants?: number;
+  curated?: boolean;
 }
 export interface FeatureInfo {
   name: string;

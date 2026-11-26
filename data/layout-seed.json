@@ -1,3130 +1,3962 @@
 {
   "aac-registry": [
-    -655.98,
-    -86.7
+    -534.03,
+    364.45
   ],
   "accelerometer": [
-    -561.65,
-    -162.72
+    -573.91,
+    -146.18
   ],
   "accname": [
-    -515.85,
-    274.23
+    -491.61,
+    181.66
   ],
   "act-rules-format": [
-    96.46,
-    413.39
+    -133.27,
+    375.84
   ],
   "afgs1-spec": [
-    -546.92,
-    391.67
+    -605.18,
+    317.23
   ],
   "ambient-light": [
-    -530.85,
-    -293.18
+    -547.34,
+    -282.19
   ],
   "anchors": [
-    -478.06,
-    154.4
+    -427.62,
+    267.1
   ],
   "ANGLE_instanced_arrays": [
-    -414.62,
-    489.01
+    -466.71,
+    457.47
   ],
   "animation-triggers": [
-    250.61,
-    -262.25
+    264.92,
+    -257.93
   ],
   "anonymous-iframe": [
-    38.31,
-    -317.95
+    -35.86,
+    -433.41
   ],
   "aom": [
-    -140.91,
-    26.37
+    85.53,
+    -65.08
   ],
   "appmanifest": [
-    -216.29,
-    -88.43
+    -120.84,
+    -304.44
   ],
   "at-driver": [
-    60.87,
-    -93.23
+    28.87,
+    -13.62
   ],
   "attribution": [
-    -79.52,
-    -499.17
+    -181.75,
+    -531.08
   ],
   "audio-context-playout-stats": [
-    -265.88,
-    -11.07
+    -349.04,
+    -0.82
   ],
   "audio-output": [
-    -503.27,
-    -315.67
+    -461.74,
+    -74.83
   ],
   "audio-session": [
-    -357.96,
-    -322.64
+    -420.95,
+    -77.34
   ],
   "audiobooks": [
-    -87.53,
-    317.73
+    -46.74,
+    -454.91
   ],
   "autofill-event": [
-    -73.75,
+    -29.62,
     -9.48
   ],
   "autoplay-detection": [
-    -257.37,
-    71.55
+    -350.45,
+    -22.37
   ],
   "av1-avif": [
-    -448.25,
-    411.41
+    -520.54,
+    329.53
   ],
   "av1-hdr10plus": [
-    -512.81,
-    406.96
+    -577.98,
+    310.28
   ],
   "av1-isobmff": [
-    -479.65,
-    408.34
+    -541.2,
+    317.86
   ],
   "av1-mpeg2-ts": [
-    -488.25,
-    452.93
+    -573.16,
+    354.34
   ],
   "av1-rtp-spec": [
-    -473.55,
-    452.82
+    -557.96,
+    354.37
   ],
   "av1-spec": [
-    -494.08,
-    427.87
+    -566.4,
+    330.97
   ],
   "background-fetch": [
-    -340.46,
-    -285.55
+    -97.79,
+    -505
   ],
   "background-sync": [
-    -343.95,
-    -407.9
+    -282.28,
+    -329.95
   ],
   "badging": [
-    -334.35,
-    -141.41
+    -258.57,
+    -255.64
   ],
   "baggage": [
-    -598.61,
-    -124.64
+    -581.57,
+    -96.23
   ],
   "battery-status": [
-    -500.28,
-    -284.86
+    -515.7,
+    -303.57
   ],
   "beacon": [
-    108.66,
-    -411.01
+    52.78,
+    -428.7
   ],
   "bluetooth": [
-    -371.4,
-    -244.38
+    -340.92,
+    -298.4
   ],
   "bluetooth-scanning": [
-    -474.18,
-    -209.6
+    -512.19,
+    -265.28
   ],
   "body-tracking": [
-    -450.64,
-    219.3
+    -442.29,
+    292.64
   ],
   "capability-delegation": [
-    -297.95,
-    -63.85
+    -405.01,
+    -128.99
   ],
   "capture-handle-identity": [
-    -339.72,
-    242.93
+    -437.96,
+    66.33
   ],
   "captured-mouse-events": [
-    -395.65,
-    254.4
+    -388.1,
+    47.57
   ],
   "cbor-ld": [
-    235.54,
-    556.26
+    288.32,
+    563.39
   ],
   "change-password-url": [
-    89.32,
-    -569.69
+    88.6,
+    -648.32
   ],
   "cid": [
-    139.02,
-    565.99
+    179.93,
+    559.13
   ],
   "clear-site-data": [
-    -22.95,
-    -534.15
+    -184.12,
+    -598
   ],
   "client-hints-infrastructure": [
-    -269.73,
-    -158.36
+    53.18,
+    -202.95
   ],
   "clipboard-apis": [
-    39.12,
-    -133.51
+    56.31,
+    -183.9
   ],
   "compat": [
-    597.41,
-    31.15
+    599.45,
+    -6.03
   ],
   "compositing": [
-    593.95,
-    150.54
+    611.82,
+    128.92
   ],
   "compression": [
-    -422.72,
-    340.27
+    -373.8,
+    333.25
   ],
   "compute-pressure": [
-    -424.21,
-    -377.61
+    -437.64,
+    -119.61
   ],
   "connection-allowlists": [
-    102.92,
-    -322.51
+    72.81,
+    -367.57
   ],
   "console": [
-    -333.45,
-    -171.6
+    -374.03,
+    -420.56
   ],
   "contact-picker": [
-    -111.95,
-    -206.3
+    -70.72,
+    -244.93
   ],
   "container-timing": [
-    -160.12,
-    281.56
+    -184.61,
+    290.21
   ],
   "content-index": [
-    -85.57,
-    -373.27
+    -29.8,
+    -488.44
   ],
   "cookiestore": [
-    43.22,
-    -253.9
+    -140.31,
+    -523.94
   ],
   "core-aam": [
-    -555.56,
-    285.04
+    -542.14,
+    203.28
   ],
   "cpu-performance": [
-    -294.29,
-    -182.44
+    -45.09,
+    -29
   ],
   "crash-reporting": [
-    -20.84,
-    -126.86
+    66.17,
+    -155.24
   ],
   "credential-management": [
-    -157.73,
-    -502.75
+    -229.89,
+    -462.92
   ],
   "cross-origin-storage": [
-    -45.53,
-    -375.92
+    -63.76,
+    -470.04
   ],
   "CSP": [
-    173.98,
-    -424.72
+    137.27,
+    -425.27
   ],
   "csp-embedded-enforcement": [
-    151.05,
-    -371.21
+    92.54,
+    -400.87
   ],
   "csp-next": [
-    183.99,
-    -359.97
+    175.86,
+    -365.09
   ],
   "css": [
-    493.62,
-    -40.18
+    473.35,
+    -27.87
   ],
   "CSS": [
-    278.22,
-    91.09
+    293.2,
+    101.42
   ],
   "css-aam": [
-    -559.88,
-    329.23
+    -552.4,
+    232.14
   ],
   "css-align": [
-    247.33,
-    315.34
+    253.41,
+    343.33
   ],
   "css-anchor-position": [
-    195.65,
-    -4
+    241.36,
+    25.71
   ],
   "css-animation-worklet": [
-    326.59,
-    -314.79
+    342.32,
+    -304.38
   ],
   "css-animations": [
-    433.98,
-    -252
+    455.44,
+    -242.42
   ],
   "css-backgrounds": [
-    471.94,
-    114.17
+    507.47,
+    117.71
   ],
   "css-borders": [
-    485.99,
-    220.27
+    506.11,
+    196.54
   ],
   "css-box": [
-    273.12,
-    259.53
+    306.37,
+    286.69
   ],
   "css-break": [
-    304.22,
-    343.94
+    353.84,
+    339.26
   ],
   "css-cascade": [
-    423.48,
-    -117.8
+    453.86,
+    -142.5
   ],
   "css-color": [
-    576.03,
-    -39.33
+    612.77,
+    -67.46
   ],
   "css-color-adjust": [
-    553.23,
-    -87.75
+    548.35,
+    -64.82
   ],
   "css-color-hdr": [
-    482.98,
-    -106.91
+    425.36,
+    -64.57
   ],
   "css-conditional": [
-    344.3,
-    -274.57
+    376.13,
+    -265.82
   ],
   "css-conditional-values": [
-    369.13,
-    -348.56
+    387.9,
+    -327.38
   ],
   "css-contain": [
-    250.72,
-    16.84
+    300.12,
+    14.42
   ],
   "css-content": [
-    148.47,
-    -25.65
+    187.39,
+    -0.8
   ],
   "css-counter-styles": [
-    196.2,
-    -85.16
+    210.63,
+    -53
   ],
   "css-display": [
-    323.29,
-    177.52
+    329.14,
+    188.13
   ],
   "css-easing": [
-    549.42,
-    -212.29
+    566.84,
+    -202.86
   ],
   "css-env": [
-    477.05,
-    -286.7
+    524.5,
+    -270.8
   ],
   "css-exclusions": [
-    102.54,
-    203.25
+    141.41,
+    281.35
   ],
   "css-extensions": [
-    360.86,
-    -391.37
+    372.13,
+    -368.56
   ],
   "css-flexbox": [
-    338.6,
-    293.53
+    418.38,
+    328.37
   ],
   "css-font-loading": [
-    344.95,
-    -328.54
+    364.76,
+    -326.28
   ],
   "css-fonts": [
-    394.06,
-    -65.8
+    512.06,
+    -110.27
   ],
   "css-forms": [
-    235.73,
-    -89.54
+    240.28,
+    -60.62
   ],
   "css-gaps": [
-    456.38,
-    278.03
+    503.57,
+    263.97
   ],
   "css-gcpm": [
-    139.48,
-    97.12
+    179.51,
+    94.3
   ],
   "css-grid": [
-    413.89,
-    322.07
+    471.56,
+    309.99
   ],
   "css-highlight-api": [
-    204.8,
-    -199.1
+    233.68,
+    -191.48
   ],
   "css-image-animation": [
-    404.05,
-    66.98
+    438.13,
+    83.43
   ],
   "css-images": [
-    507.22,
-    51.83
+    544.06,
+    7.84
   ],
   "css-inline": [
-    375.35,
-    377.99
+    454.37,
+    375.66
   ],
   "css-layout-api": [
-    214.67,
-    355.25
+    301.11,
+    374.81
   ],
   "css-line-grid": [
-    139.57,
-    289.95
+    162.1,
+    312.38
   ],
   "css-link-params": [
-    500.36,
-    -322.77
+    533.9,
+    -316.22
   ],
   "css-lists": [
-    207.85,
-    -48.69
+    233.53,
+    -23.53
   ],
   "css-logical": [
-    366.82,
-    203.14
+    375.43,
+    221.17
   ],
   "css-masking": [
-    561.69,
-    195.01
+    595.1,
+    180.17
   ],
   "css-mixins": [
-    416.86,
-    -393.93
+    448.05,
+    -380.31
   ],
   "css-multicol": [
-    305.46,
-    398.66
+    371.81,
+    393.93
   ],
   "css-namespaces": [
-    320.17,
-    -367.07
+    332.36,
+    -351.26
   ],
   "css-nav": [
-    118.45,
-    124.6
+    162.26,
+    121.84
   ],
   "css-navigation": [
-    292.34,
-    -341.41
+    312.12,
+    -330.14
   ],
   "css-nesting": [
-    388.25,
-    -365.75
+    407.07,
+    -359.43
   ],
   "css-overflow": [
-    239.11,
-    197.91
+    280.7,
+    230.89
   ],
   "css-overscroll": [
-    100.33,
-    95.88
+    122.42,
+    96.22
   ],
   "css-page": [
-    252.26,
-    149.9
+    252.53,
+    172.65
   ],
   "css-page-floats": [
-    242.17,
-    399.26
+    311.86,
+    424.7
   ],
   "css-paint-api": [
-    480.46,
-    -236.69
+    500.52,
+    -227.83
   ],
   "css-parser-api": [
-    -140.45,
-    -377.27
+    61.29,
+    -66.26
   ],
   "css-position": [
-    169.25,
-    167.17
+    198.86,
+    232.72
   ],
   "css-properties-values-api": [
-    523,
-    -268.32
+    566.52,
+    -259.36
   ],
   "css-pseudo": [
-    310.59,
-    -1.82
+    343.09,
+    14.91
   ],
   "css-regions": [
-    117.57,
-    230.97
+    161.17,
+    194.03
   ],
   "css-rhythm": [
-    175.54,
-    332.14
+    251.21,
+    396.02
   ],
   "css-round-display": [
-    372.65,
-    -27.59
+    378.97,
+    -10.57
   ],
   "css-ruby": [
-    499.08,
-    280.22
+    538.56,
+    253.33
   ],
   "css-scroll-anchoring": [
-    130.37,
-    201.55
+    131.28,
+    235.24
   ],
   "css-scroll-snap": [
-    102.51,
-    154.97
+    124.79,
+    168.34
   ],
   "css-scrollbars": [
-    474.22,
-    -154.34
+    335.14,
+    -162.25
   ],
   "css-shadow": [
-    282.2,
-    -291.97
+    314.71,
+    -271.33
   ],
   "css-shapes": [
-    419.09,
-    44.82
+    468.1,
+    79.26
   ],
   "css-size-adjust": [
-    402.37,
-    102.35
+    408.96,
+    93.22
   ],
   "css-sizing": [
-    383.77,
-    262.38
+    404.95,
+    267.91
   ],
   "css-spatial": [
-    380.46,
-    40.09
+    419.57,
+    46.86
   ],
   "css-speech": [
-    163.02,
-    12.03
+    212.65,
+    39.91
   ],
   "css-style-attr": [
-    555.8,
-    -187.91
+    571.13,
+    -175.6
   ],
   "css-syntax": [
-    406.87,
-    -307.15
+    430.06,
+    -308.26
   ],
   "css-tables": [
-    479.62,
-    346.87
+    524.07,
+    318.15
   ],
   "css-text": [
-    434.34,
-    223.12
+    460.74,
+    235.66
   ],
   "css-text-decor": [
-    553.05,
-    26.25
+    598.92,
+    50.13
   ],
   "css-transforms": [
-    544.61,
-    101.38
+    553.1,
+    72.3
   ],
   "css-transitions": [
-    542.73,
-    -138.81
+    566.44,
+    -144.37
   ],
   "css-typed-om": [
-    397.67,
-    152.69
+    419.1,
+    161.79
   ],
   "css-ui": [
-    469.62,
-    9.97
+    496.95,
+    32.88
   ],
   "css-values": [
-    315.32,
-    -122.94
+    300.99,
+    -100.68
   ],
   "css-variables": [
-    453.44,
-    -338.29
+    481.41,
+    -311.22
   ],
   "css-view-transitions": [
-    421.11,
-    -13.56
+    427.96,
+    -6.86
   ],
   "css-viewport": [
-    135.37,
-    -59.07
+    175.1,
+    -58.7
   ],
   "css-will-change": [
-    499.21,
-    -127.51
+    471.76,
+    -87.84
   ],
   "css-writing-modes": [
-    182.22,
-    261.38
+    219.42,
+    304.46
   ],
   "cssom": [
-    335.62,
-    -206.7
+    381.8,
+    -192.11
   ],
   "cssom-view": [
-    117.95,
-    43.2
+    152.54,
+    29.57
   ],
   "dapt": [
-    295.98,
-    522.39
+    326.98,
+    517.15
   ],
   "datacue": [
-    -97.82,
-    -197.24
+    -0.16,
+    -4.42
   ],
   "dbsc": [
-    -61.16,
-    -523.75
+    -86.71,
+    -556.06
   ],
   "deprecation-reporting": [
-    64.15,
-    -119.52
+    149.7,
+    -180.93
   ],
   "design-principles": [
-    -95.42,
-    -47.43
+    -54.97,
+    -212.36
   ],
   "device-attributes": [
-    -426.92,
-    -194.07
+    -420,
+    -163.98
   ],
   "device-memory": [
-    -275.44,
-    -94.75
+    20.27,
+    -43.15
   ],
   "device-posture": [
-    -347.59,
-    -107.03
+    -281.7,
+    -192.05
   ],
   "did": [
-    113.08,
-    456.27
+    97.11,
+    503.41
   ],
   "did-resolution": [
-    131.55,
-    466.04
+    119.42,
+    499.45
   ],
   "digital-credentials": [
-    -165.15,
-    -468.72
+    -277.49,
+    -397.68
   ],
   "digital-goods": [
-    -318.27,
-    -456.47
+    -188.24,
+    -455.39
   ],
   "direct-sockets": [
-    -221.61,
-    -360.38
+    -93.06,
+    -205.54
   ],
   "document-isolation-policy": [
-    56.85,
-    -348.29
+    41.23,
+    -402.27
   ],
   "document-picture-in-picture": [
-    -250.16,
-    -28.95
+    -205.5,
+    -76.11
   ],
   "document-policy": [
-    36.35,
-    -177.52
+    96.28,
+    -179.61
   ],
   "dom": [
-    -176.38,
-    -169.43
+    -183.47,
+    -218.32
   ],
   "DOM-Parsing": [
-    -264.52,
-    -450.08
+    -286.45,
+    -360.29
   ],
   "DOM-Style": [
-    -634.58,
-    -140.65
+    -646.97,
+    -127.94
   ],
   "dpub-aam": [
-    -531.9,
-    254.29
+    -514.97,
+    177.51
   ],
   "dpub-aria": [
-    -486.37,
-    274.33
+    -491.92,
+    226.22
   ],
   "dx-prof": [
-    5.03,
-    429.48
+    9.13,
+    540.76
   ],
   "dx-prof-conneg": [
-    68.19,
-    400.92
+    62.09,
+    496.43
   ],
   "ecma-402": [
-    -382.18,
-    -438.34
+    -429.47,
+    -431.04
   ],
   "ecma-426": [
-    -33.54,
-    -389.21
+    -555.34,
+    -8.18
   ],
   "ecmascript": [
-    -299.2,
-    -394.48
+    -385.73,
+    -359.84
   ],
   "edit-context": [
-    -244.15,
-    83.36
+    -138.14,
+    41.62
   ],
   "element-capture": [
-    -270.54,
-    270.22
+    -323.33,
+    106.28
   ],
   "element-timing": [
-    -84.82,
-    193.1
+    -101.11,
+    238.48
   ],
   "email-verification": [
-    24.75,
-    -631.41
+    -11.42,
+    -649.79
   ],
   "eme-hdcp-version-registry": [
-    -648.17,
-    110.87
+    -654.25,
+    94.26
   ],
   "eme-initdata-cenc": [
-    -639.18,
-    34.35
+    -654.09,
+    20.28
   ],
   "eme-initdata-keyids": [
-    -605.71,
-    34.6
+    -615.92,
+    8
   ],
   "eme-initdata-registry": [
-    -631.5,
-    57.23
+    -651.74,
+    43.94
   ],
   "eme-initdata-webm": [
-    -647.39,
-    94.66
+    -675.77,
+    85.22
   ],
   "eme-stream-mp4": [
-    -656.51,
-    60.89
+    -672.63,
+    30.07
   ],
   "eme-stream-registry": [
-    -637.83,
-    80.9
+    -669.16,
+    52.1
   ],
   "eme-stream-webm": [
-    -618,
-    77.23
+    -669.92,
+    68.64
   ],
   "encoding": [
-    31.31,
-    -283.99
+    38.4,
+    -326.68
   ],
   "encrypted-media": [
-    -587.45,
-    15.42
+    -232.75,
+    -282.7
   ],
   "entries-api": [
-    -52.15,
-    -149.92
+    19.1,
+    -196.69
   ],
   "epub": [
-    -252.51,
-    363.15
+    -316.13,
+    329.9
   ],
   "epub-a11y": [
-    -320.63,
-    383.04
+    -386.27,
+    321.2
   ],
   "epub-rs": [
-    -174.35,
-    327.52
+    27.25,
+    -371.68
   ],
   "ESSL": [
-    -660.79,
-    -106.38
+    -662.87,
+    -103.44
   ],
   "ethical-web-principles": [
-    -68.64,
-    54.42
+    34.59,
+    -35.4
   ],
   "event-timing": [
-    -173.28,
-    199.12
+    -164.77,
+    313.93
   ],
   "execCommand": [
-    -30.28,
-    -250.17
+    -39.84,
+    16.16
   ],
   "explicit-javascript-compile-hints-file-based": [
-    -363.5,
-    -390.85
+    -415.86,
+    -393.57
   ],
   "EXT_blend_minmax": [
-    -317.34,
-    554.6
+    -364.14,
+    565.77
   ],
   "EXT_clip_control": [
-    -309.54,
-    477.52
+    -341.73,
+    503.12
   ],
   "EXT_color_buffer_float": [
-    -301.49,
-    525.23
+    -361.68,
+    536.05
   ],
   "EXT_color_buffer_half_float": [
-    -325.46,
-    453.77
+    -413.19,
+    447.46
   ],
   "EXT_conservative_depth": [
-    -394.04,
-    482.26
+    -450.95,
+    487.06
   ],
   "EXT_depth_clamp": [
-    -407.07,
-    483.9
+    -459.09,
+    472.11
   ],
   "EXT_disjoint_timer_query": [
-    -386.6,
-    461.14
+    -434.35,
+    459.56
   ],
   "EXT_disjoint_timer_query_webgl2": [
-    -316.37,
-    472.01
+    -390.67,
+    458.97
   ],
   "EXT_float_blend": [
-    -354.64,
-    561.43
+    -397.15,
+    559.07
   ],
   "EXT_frag_depth": [
-    -413.4,
-    498.27
+    -473.33,
+    475.23
   ],
   "EXT_polygon_offset_clamp": [
-    -328.68,
-    550.26
+    -373.34,
+    545.34
   ],
   "EXT_render_snorm": [
-    -322.9,
-    564.88
+    -346.19,
+    543.96
   ],
   "EXT_shader_texture_lod": [
-    -292.05,
-    532.62
+    -364.12,
+    545.69
   ],
   "EXT_sRGB": [
-    -314.7,
-    460.91
+    -377.7,
+    458.34
   ],
   "EXT_texture_compression_bptc": [
-    -381.09,
-    471.49
+    -463.19,
+    489.05
   ],
   "EXT_texture_compression_rgtc": [
-    -333.73,
-    462.54
+    -436.01,
+    449.98
   ],
   "EXT_texture_filter_anisotropic": [
-    -378.62,
-    544.51
+    -410.67,
+    558.25
   ],
   "EXT_texture_mirror_clamp_to_edge": [
-    -410.54,
-    508.03
+    -474.46,
+    486.86
   ],
   "EXT_texture_norm16": [
-    -407.26,
-    474.44
+    -458.66,
+    446.23
   ],
   "eyedropper-api": [
-    -267.92,
-    72.23
+    -81.95,
+    5.05
   ],
   "fedcm": [
-    2.55,
-    -591.92
+    -29.49,
+    -598.92
   ],
   "fenced-frame": [
-    150.28,
-    -335.24
+    133.54,
+    -365.53
   ],
   "fetch": [
-    84.24,
-    -481.01
+    119.13,
+    -517.51
   ],
   "fetch-metadata": [
-    99.96,
-    -606.23
+    163.71,
+    -623.63
   ],
   "fido-client-to-authenticator-protocol": [
-    -204.39,
-    -594.65
+    -398.67,
+    -494.67
   ],
   "file-system-access": [
-    -36.54,
-    -13.94
+    34.86,
+    -242.43
   ],
   "FileAPI": [
-    15.2,
-    -223.94
+    -3.08,
+    -269.59
   ],
   "fill-stroke": [
-    632.48,
-    44.63
+    656.3,
+    10.34
   ],
   "filter-effects": [
-    610.43,
-    104.06
+    641.36,
+    79.69
   ],
   "fingerprinting-guidance": [
-    -351.13,
-    -67.15
+    -186,
+    -122.11
   ],
   "first-party-sets": [
-    -101.65,
-    -468.66
+    -189.75,
+    -494.58
   ],
   "font-metrics-api": [
-    -231.35,
-    92.56
+    -234.76,
+    -58.31
   ],
   "fs": [
-    -23.37,
-    -73.18
+    -42.79,
+    -346.74
   ],
   "fullscreen": [
-    -305.22,
-    -30.77
+    -321.75,
+    -202.02
   ],
   "gamepad": [
-    -370.65,
-    -87.9
+    -335.24,
+    -243.43
   ],
   "generic-sensor": [
-    -533.55,
-    -227.31
+    -543.28,
+    -221.73
   ],
   "geolocation": [
-    -476.68,
-    -161.85
+    -487.23,
+    -179.2
   ],
   "geolocation-element": [
-    197.57,
-    128.86
+    204.98,
+    156.11
   ],
   "geometry": [
-    -214.58,
-    148.01
+    -253.85,
+    213.83
   ],
   "get-installed-related-apps": [
-    -198.12,
-    -60.12
+    -7.5,
+    -212.29
   ],
   "GIF": [
-    -289.44,
-    421.28
+    -323.56,
+    367.57
   ],
   "glTF": [
-    -657.32,
-    -136.25
+    -662.04,
+    -129.18
   ],
   "gpc": [
-    -316.44,
-    51.71
+    -183.12,
+    -66.18
   ],
   "graphics-aam": [
-    -479.85,
-    366.67
+    -505.06,
+    303.47
   ],
   "graphics-aria": [
-    -499.02,
-    360.76
+    -517.8,
+    292.78
+  ],
+  "group:Accessibility at the Edge Community Group": [
+    -535.14,
+    382.84
+  ],
+  "group:Accessibility Discoverability Vocabulary for Schema.org Community Group": [
+    -502.53,
+    358.76
   ],
   "group:Accessibility Guidelines Working Group": [
-    119.19,
-    427.9
+    -153.26,
+    367.38
+  ],
+  "group:Accessibility Internationalization Community Group": [
+    -544.1,
+    413.02
+  ],
+  "group:Accessibility Roles and Responsibilities Mapping (ARRM) Community Group": [
+    -529.95,
+    411.83
   ],
   "group:Accessible Platform Architectures Working Group": [
-    -663.12,
-    -84.35
+    -520.39,
+    356.18
   ],
   "group:Accessible Rich Internet Applications Working Group": [
-    -531.22,
-    343.44
+    -532.11,
+    261.24
+  ],
+  "group:Accessible Synchronized Multimedia for Publishing Community Group": [
+    -494.62,
+    351.36
+  ],
+  "group:ACT Rules Community Group": [
+    -192.92,
+    369.49
+  ],
+  "group:Adaptation and Personalization Community Group": [
+    -524.32,
+    376.97
+  ],
+  "group:Advancing Accessibility Resources Community Group": [
+    -551.03,
+    400.33
+  ],
+  "group:Advancing Democracy with Ontologies, Reasoning, and Artificial Intelligence (ADORAI)": [
+    -549.58,
+    381.79
   ],
   "group:Advisory Board": [
-    306.36,
-    504.8
+    91.68,
+    387.65
+  ],
+  "group:Agent Conformance and Benchmarking Community Group": [
+    -386.27,
+    414.54
+  ],
+  "group:Agent Declaration and Assurance Community Group": [
+    -344.18,
+    409.31
+  ],
+  "group:Agent Identity Registry Protocol Community Group": [
+    -333.43,
+    421.41
+  ],
+  "group:Agent Trust Protocol (ATP) Community Group": [
+    -367.46,
+    416.42
+  ],
+  "group:Agent-Ready Video Community Group": [
+    -612.93,
+    235.98
+  ],
+  "group:Agent-to-Web Framework (A2WF) Community Group": [
+    -315.21,
+    424.99
+  ],
+  "group:Agentic Arbitration Protocol Community Group": [
+    -322.71,
+    441.82
+  ],
+  "group:Agentic Integrity Verification Specification Community Group": [
+    -349.05,
+    435.17
+  ],
+  "group:AI Agent Memory Interoperability Community Group": [
+    -395.38,
+    402.19
+  ],
+  "group:AI Agent Protocol Community Group": [
+    -291.79,
+    373.92
+  ],
+  "group:AI Computed Provenance Community Group": [
+    -373.98,
+    397.51
+  ],
+  "group:AI Content Disclosure Community Group": [
+    -313.97,
+    402.66
+  ],
+  "group:AI Judgement Event Community Group": [
+    -322.89,
+    456.82
+  ],
+  "group:AI KR (Artificial Intelligence Knowledge Representation) Community Group": [
+    -221,
+    372.08
+  ],
+  "group:AI Visibility Lifecycle Framework Community Group": [
+    28.24,
+    641.6
+  ],
+  "group:AI-Driven Web Standards Specification Community Group": [
+    -287.31,
+    404.59
+  ],
+  "group:AI-Editable HTML Workbook Community Group": [
+    -525.01,
+    432.15
+  ],
+  "group:Anti-Fraud Community Group": [
+    -8.43,
+    149.55
   ],
   "group:Applications and Real-Time Area": [
-    -404.9,
-    398.29
+    -444.36,
+    382.36
   ],
   "group:Applications Area": [
-    360.76,
-    505.02
+    391.65,
+    520.96
+  ],
+  "group:ARIA and Assistive Technologies Community Group": [
+    -508.3,
+    380.74
   ],
   "group:ART Area General Applications Working Group Working Group": [
-    -161.65,
-    364.74
+    -170.36,
+    375.3
   ],
   "group:Audio Community Group": [
-    -207.32,
-    38.96
+    -561.26,
+    -105.24
+  ],
+  "group:Audio Description Community Group": [
+    135.7,
+    428.8
   ],
   "group:Audio Working Group": [
-    -492.5,
-    -410.89
+    -546.22,
+    -33.75
+  ],
+  "group:Authoring Tool Accessibility Guidelines Community Group": [
+    -508.77,
+    404.55
+  ],
+  "group:Autofill Community Group": [
+    28.15,
+    99.28
+  ],
+  "group:Automotive Ontology Community Group": [
+    123.8,
+    689.22
+  ],
+  "group:Autonomous Agents on the Web Community Group": [
+    -299.2,
+    414.5
+  ],
+  "group:Best Practices for Multilingual Linked Open Data Community Group": [
+    32.35,
+    320.89
+  ],
+  "group:Bibframe2Schema.org Community Group": [
+    70.22,
+    682.78
   ],
   "group:BiDirectional or Server-Initiated HTTP Working Group": [
-    139.74,
-    -202.3
+    227.87,
+    -319.81
+  ],
+  "group:Biomass Open Origin Specification for Tracking (BOOST) Community Group": [
+    -641.52,
+    7.24
+  ],
+  "group:Bioschemas for lifesciences Community Group": [
+    61.8,
+    668.98
+  ],
+  "group:Browser Data Portability Community Group": [
+    -665.33,
+    186.65
   ],
   "group:Browser Testing and Tools Working Group": [
-    68.36,
-    -136.72
+    4.79,
+    -27.45
   ],
   "group:Building Blocks for HTTP APIs Working Group": [
-    -642.19,
-    -162.96
+    -651.3,
+    -147.01
+  ],
+  "group:Building Device Naming Standards Community Group": [
+    2.82,
+    605.57
   ],
   "group:Cascading Style Sheets (CSS) Working Group": [
-    413.54,
-    -184.26
+    380.1,
+    -108.15
+  ],
+  "group:Chemistry for the Web and Publishing Community Group": [
+    -512.93,
+    369.82
+  ],
+  "group:Chinese DID & VC Community Group": [
+    32.09,
+    606.22
+  ],
+  "group:Chinese Web Interest Group": [
+    -618.78,
+    248.47
+  ],
+  "group:Circular Economy and Digital Product Passports Community Group": [
+    50.27,
+    628.48
+  ],
+  "group:Civic Technology Community Group": [
+    51.78,
+    306.52
   ],
   "group:Codec Working Group": [
-    -533.49,
-    402.4
+    -593.29,
+    319.74
+  ],
+  "group:Cognitive Accessibility Community Group": [
+    -537.19,
+    400.79
+  ],
+  "group:Cognitive AI Community Group": [
+    -249.84,
+    379.11
+  ],
+  "group:Color on the Web Community Group": [
+    101.93,
+    409.18
+  ],
+  "group:Community Group Program Community Group": [
+    -110.77,
+    358.42
   ],
   "group:Compatibility Workstream": [
-    669.36,
-    1.05
+    687.31,
+    -61.31
   ],
   "group:CompuServe Incorporated": [
-    -316.51,
-    424.54
+    -341.2,
+    383.45
   ],
   "group:Concise Binary Object Representation Maintenance and Extensions Working Group": [
-    15.62,
-    48.01
+    10.99,
+    69.8
   ],
   "group:Console Workstream": [
-    -439.73,
-    -84.06
+    -450.26,
+    -477.18
+  ],
+  "group:Content and Originator Authenticity Community Group": [
+    -126.84,
+    364.02
+  ],
+  "group:Credentials Community Group": [
+    137.27,
+    658.35
+  ],
+  "group:Credible Web Community Group": [
+    43.45,
+    294.6
+  ],
+  "group:CSS4 Community Group": [
+    30.27,
+    292.37
+  ],
+  "group:Cybernetic Avatar Community Group": [
+    -688.86,
+    16.04
+  ],
+  "group:Data Documentation Community Group": [
+    37.44,
+    581.24
+  ],
+  "group:Data Façades Community Group": [
+    -11.02,
+    698.93
+  ],
+  "group:Data Interoperating Architecture Community Group": [
+    171.97,
+    -196.82
+  ],
+  "group:Data Privacy Vocabularies and Controls Community Group": [
+    23.31,
+    649.64
   ],
   "group:Data Shapes Working Group": [
-    -210.52,
-    419
+    -243.15,
+    419.46
   ],
   "group:Dataset Exchange Working Group": [
-    54.46,
-    417.54
+    33.94,
+    557.19
+  ],
+  "group:Dataspaces Community Group": [
+    12.33,
+    652.95
+  ],
+  "group:DDS: Decentralized Deliberation Stack Community Group": [
+    -304.71,
+    454.55
   ],
   "group:Decentralized Identifier Working Group": [
-    129.53,
-    445.97
+    87.64,
+    591.04
+  ],
+  "group:Design System Documentation Community Group": [
+    5.18,
+    244.67
+  ],
+  "group:Design Tokens Community Group": [
+    8.98,
+    254.09
   ],
   "group:Devices and Sensors Working Group": [
-    -587.34,
-    -237.53
+    -597.12,
+    -217.67
+  ],
+  "group:DID Methods Working Group": [
+    161.42,
+    654.43
   ],
   "group:Distributed Tracing Working Group": [
-    -630.01,
-    -109.82
+    -612.44,
+    -102.34
+  ],
+  "group:Documentation Community Group": [
+    -27.08,
+    299.41
   ],
   "group:DOM Working Group": [
-    -633.43,
-    -147.87
+    -640.64,
+    -133.53
   ],
   "group:DOM Workstream": [
-    -185.69,
-    -17.71
+    -211.21,
+    -145.35
+  ],
+  "group:Educational and Occupational Credentials in schema.org Community Group": [
+    86.73,
+    693.26
+  ],
+  "group:Embedded Web Engines & Native Web Runtimes Community Group": [
+    -609.68,
+    289.02
   ],
   "group:Encoding Workstream": [
-    140.66,
-    -284.91
+    174.86,
+    -313.61
+  ],
+  "group:Entity Reconciliation Community Group": [
+    24,
+    695.37
+  ],
+  "group:Equity Community Group": [
+    8.05,
+    233.35
+  ],
+  "group:Ethical Presence Anchoring Community Group": [
+    -685.48,
+    11.24
+  ],
+  "group:EthTrust Community Group": [
+    -669.57,
+    -110.82
+  ],
+  "group:EXPath Community Group": [
+    -303.32,
+    524.47
+  ],
+  "group:Exploration Interest Group": [
+    6.22,
+    206.77
+  ],
+  "group:FAIR Data Point Community Group": [
+    -663.21,
+    -111.53
+  ],
+  "group:Federated Identity Community Group": [
+    336.22,
+    -446.71
   ],
   "group:Federated Identity Working Group": [
-    -19.74,
-    -644.85
+    345.41,
+    -460.41
   ],
   "group:Fetch Workstream": [
-    152.68,
-    -301.15
+    -64.01,
+    -663.86
   ],
   "group:FIDO2 Technical Working Group": [
-    -213.29,
-    -630.63
+    -442.88,
+    -514.12
+  ],
+  "group:Financial Industry Business Ontology Community Group": [
+    112.41,
+    679.82
   ],
   "group:Fullscreen API Workstream": [
-    -349.48,
-    7.91
+    -437.66,
+    -145.6
+  ],
+  "group:Games Community Group": [
+    115.68,
+    437.38
   ],
   "group:General Area": [
-    -267.55,
-    418.27
+    -309.39,
+    185.7
+  ],
+  "group:Generative UI Community Group": [
+    22.41,
+    613.22
   ],
   "group:glTF Working Group": [
-    -650.38,
-    -138.84
+    -661.63,
+    -122.64
+  ],
+  "group:GPU for the Web Community Group": [
+    -461.13,
+    334.06
   ],
   "group:GPU for the Web Working Group": [
-    -441.37,
-    263.95
+    -429.55,
+    329.84
+  ],
+  "group:Healthcare Schema Vocabulary Community Group": [
+    86.32,
+    669.53
+  ],
+  "group:High Assurance Profile for W3C VCDM 2.0 Community Group": [
+    207.73,
+    657.89
+  ],
+  "group:High-Performance Baseline for Web Apps Community Group": [
+    -619.91,
+    269.28
+  ],
+  "group:Holon Graph Community Group": [
+    7.44,
+    695.42
+  ],
+  "group:HTML Working Group": [
+    -88.19,
+    369.98
   ],
   "group:HTML Workstream": [
-    -30.41,
-    -297.92
+    70.5,
+    -88.87
   ],
   "group:HTTP State Management Mechanism Working Group": [
-    -116.59,
-    -623.67
+    -317.63,
+    -620.15
   ],
   "group:HTTP Working Group": [
-    -86.95,
-    -640.22
+    361.6,
+    -527.06
   ],
   "group:Hypertext Transfer Protocol Authentication Working Group": [
-    278.42,
-    591.68
+    326.42,
+    574.1
+  ],
+  "group:Immersive Captions Community Group": [
+    141.06,
+    450.81
   ],
   "group:Immersive Web Community Group": [
-    -438.14,
-    240.62
+    -461.28,
+    308.51
   ],
   "group:Immersive Web Working Group": [
-    -513.1,
-    133.48
+    -425.96,
+    240.67
+  ],
+  "group:Improving Web Advertising Community Group": [
+    7.46,
+    127.78
+  ],
+  "group:India Digital Accessibility Advocacy Network (IDAAN) Community Group": [
+    -651.56,
+    -164.3
   ],
   "group:Individual Submissions": [
-    290.82,
-    579.7
+    338.57,
+    563.15
+  ],
+  "group:Infinite Canvas Community Group": [
+    -651.95,
+    -167.61
+  ],
+  "group:Information Architecture Community Group": [
+    15.31,
+    326.59
+  ],
+  "group:Information Centric Networking Community Group": [
+    -649.51,
+    -161.41
   ],
   "group:Infra Workstream": [
-    -356.21,
-    -302.31
+    -155.62,
+    -504.2
+  ],
+  "group:Internationalization Interest Group": [
+    -114.66,
+    389.88
   ],
   "group:Internationalization Working Group": [
-    -120.05,
-    371.36
+    -93.43,
+    389.11
+  ],
+  "group:Introduction Layer Community Group": [
+    428.48,
+    -529.08
+  ],
+  "group:Invisible Markup Community Group": [
+    -307.09,
+    514.83
   ],
   "group:ISO/IEC JTC 1/SC 29": [
-    -441.21,
-    456.69
+    -486.3,
+    384.97
+  ],
+  "group:JIM Structured Graphics Community Group": [
+    349.37,
+    -573.36
+  ],
+  "group:JSON for Linked Data Community Group": [
+    19.96,
+    626.21
   ],
   "group:JSON-LD Working Group": [
-    -76.59,
-    395
+    5.9,
+    513.2
   ],
   "group:Kerberos Working Group": [
-    364.7,
-    -519.74
+    439.83,
+    -492.59
+  ],
+  "group:Knowledge Graph Construction Community Group": [
+    -8.16,
+    677.97
+  ],
+  "group:Linked Building Data Community Group": [
+    6.42,
+    611.93
+  ],
+  "group:Linked Web Storage Working Group": [
+    -14.69,
+    631.89
+  ],
+  "group:Loading & Control API for Web Games Community Group": [
+    116.4,
+    448.68
+  ],
+  "group:Maps For HTML Community Group": [
+    29.07,
+    596.87
   ],
   "group:Math Working Group": [
-    611.22,
-    -142.87
+    626.84,
+    -161.23
+  ],
+  "group:Media and Entertainment Interest Group": [
+    -612.04,
+    222.62
+  ],
+  "group:Media Content Metadata Japanese Community Group": [
+    -604.25,
+    258.82
   ],
   "group:Media Working Group": [
-    -613.38,
-    121.69
+    -619.27,
+    96.49
+  ],
+  "group:Meta-Layer Infrastructure Community Group": [
+    454.21,
+    -496.96
+  ],
+  "group:Metaverse Interoperability Community Group": [
+    105.43,
+    432.76
   ],
   "group:MIME Sniffing Workstream": [
-    124.1,
-    -203.29
+    173.27,
+    -226.73
+  ],
+  "group:MiniApps Ecosystem Community Group": [
+    -635.63,
+    235.01
   ],
   "group:Mobile Web Test Suites Working Group": [
-    351.93,
-    -529.6
+    455.44,
+    -480.49
+  ],
+  "group:Multidimensional Quality Metrics (MQM) Community Group": [
+    438.85,
+    -504.43
+  ],
+  "group:Music Notation Community Group": [
+    113.83,
+    415.6
+  ],
+  "group:MySignals Community Group": [
+    434.71,
+    -502
+  ],
+  "group:NeuroSchema Community Group": [
+    444.52,
+    -502.9
+  ],
+  "group:NLWeb Community Group": [
+    -306.61,
+    381.57
+  ],
+  "group:No Build Community Group": [
+    -35.35,
+    314.16
+  ],
+  "group:Nordic Accessibility Community Group": [
+    -205,
+    373.24
+  ],
+  "group:Nordic Chapter Smart City / Web of Things Community Group": [
+    -588.83,
+    290.04
+  ],
+  "group:nostr Community Group": [
+    -5.28,
+    620.2
+  ],
+  "group:Notation 3 (N3) Community Group": [
+    -53.62,
+    669.12
   ],
   "group:Notifications API Workstream": [
-    -321.07,
-    -434.41
+    -397.44,
+    -508.79
+  ],
+  "group:ODRL Community Group": [
+    42.82,
+    641.21
+  ],
+  "group:Online Safety Community Group": [
+    43.27,
+    90.86
+  ],
+  "group:Ontologies and Knowledge Graphs in Industry Community Group": [
+    6.13,
+    681.67
+  ],
+  "group:Ontology for Agents, Systems, and Integration of Services Community Group": [
+    -278.15,
+    391.02
+  ],
+  "group:Ontology-Lexica Community Group": [
+    40.7,
+    328.76
+  ],
+  "group:Open UI Community Group": [
+    15.7,
+    263.31
+  ],
+  "group:OpenActive Community Group": [
+    43.08,
+    337.97
   ],
   "group:OpenGL ES Working Group": [
-    -660.26,
-    -114.49
+    -666.45,
+    -96.88
+  ],
+  "group:OpenTrack Community Group": [
+    430.44,
+    -488.19
+  ],
+  "group:Passkey Document Signing Community Group": [
+    84.23,
+    653.43
   ],
   "group:Patents and Standards Interest Group": [
-    342.65,
-    519.03
+    61.84,
+    353.47
+  ],
+  "group:Payment Support for the EU Digital Identity Wallet Community Group": [
+    155.83,
+    677.62
   ],
   "group:Peripheral APIs Workstream": [
-    -486.53,
-    -109.23
+    -519.9,
+    -348.33
+  ],
+  "group:Permanent Identifier Community Group": [
+    33.64,
+    626.56
   ],
   "group:Pointer Events Working Group": [
-    -423.92,
-    1.14
+    -243.58,
+    307.14
   ],
   "group:Portable Network Graphics (PNG) Working Group": [
-    -243,
-    408.36
+    -194.04,
+    349.13
+  ],
+  "group:Portable Web Content Format (PortableWeb) Community Group": [
+    469,
+    -474.02
+  ],
+  "group:Positive Work Environment Community Group": [
+    32.81,
+    268.22
   ],
   "group:Privacy Community Group": [
-    67.75,
-    -313.09
+    -272.51,
+    -614
   ],
   "group:Privacy Working Group": [
-    -336.61,
-    37.26
+    -11.91,
+    120.16
+  ],
+  "group:Private Advertising Technology Community Group": [
+    -2.32,
+    136.7
   ],
   "group:Private Advertising Technology Working Group": [
-    -120.48,
-    -595.73
+    -1.47,
+    121.59
+  ],
+  "group:Procedural Memory Knowledge Representation Community Group": [
+    -234.04,
+    377.84
+  ],
+  "group:Publishing Community Group": [
+    -501.15,
+    340.3
   ],
   "group:Publishing Maintenance Working Group": [
-    -267.37,
-    390.88
+    -475.84,
+    331.71
   ],
   "group:QUIC Working Group": [
-    310,
-    -541.44
+    309.42,
+    -570.48
   ],
   "group:Quirks Mode Workstream": [
-    371.19,
-    480.6
+    422.58,
+    489.61
   ],
   "group:RDF & SPARQL Working Group": [
-    -146.12,
-    631.57
+    -157.67,
+    649
   ],
   "group:RDF Dataset Canonicalization and Hash Working Group": [
-    53.06,
-    660.26
+    75.35,
+    629.28
+  ],
+  "group:RDF JavaScript Libraries Community Group": [
+    1.16,
+    635.19
+  ],
+  "group:RDF Rust Common Crates Community Group": [
+    -60.17,
+    682.81
+  ],
+  "group:RDF Stream Processing Community Group": [
+    -19.81,
+    665.72
+  ],
+  "group:RDF Test Suite Curation Community Group": [
+    -35.34,
+    641.12
   ],
   "group:RDF Working Group": [
-    14.16,
-    652.31
+    -11.08,
+    596.14
+  ],
+  "group:RDF-DEV Community Group": [
+    -34.53,
+    669.78
+  ],
+  "group:RecordWeb Community Group": [
+    471.47,
+    -477.67
+  ],
+  "group:Rights Automation for Market Data Community Group": [
+    41.87,
+    656.1
+  ],
+  "group:RUM Community Group": [
+    -119.04,
+    149.3
+  ],
+  "group:Schema Architypes Community Group": [
+    51.31,
+    693
+  ],
+  "group:Schema Bib Extend Community Group": [
+    39.67,
+    694.17
+  ],
+  "group:Schema Course extension Community Group": [
+    70.84,
+    695.87
+  ],
+  "group:Schema Extensions for IoT Community Group": [
+    15.9,
+    583.17
+  ],
+  "group:Schema.org Community Group": [
+    62.42,
+    652.5
+  ],
+  "group:Schema.org for datasets Community Group": [
+    49.68,
+    674.71
   ],
   "group:Screen Capture Community Group": [
-    -377.78,
-    322.27
+    -369.25,
+    155.43
+  ],
+  "group:Second Screen Community Group": [
+    -615.56,
+    26.86
   ],
   "group:Second Screen Working Group": [
-    -554.81,
-    -53.8
+    -597.04,
+    4.63
+  ],
+  "group:Security Interest Group": [
+    80.31,
+    612.08
+  ],
+  "group:Security Web Application Guidelines Community Group": [
+    -9.48,
+    260.75
+  ],
+  "group:Semantic 3D Content Accessibility Community Group": [
+    -487.21,
+    331.82
+  ],
+  "group:Semantic Agent Communication Community Group": [
+    -296.6,
+    394.17
+  ],
+  "group:Semantic HTML-vocabulary Community Group": [
+    85.86,
+    659.49
+  ],
+  "group:Semantic Web in Health Care and Life Sciences Community Group": [
+    75.23,
+    665.94
+  ],
+  "group:Sensory Stimulation Vocabulary Community Group": [
+    457.21,
+    -493.26
+  ],
+  "group:Shape Expressions Community Group": [
+    27.19,
+    668.93
+  ],
+  "group:Social Web Incubator Community Group": [
+    41.4,
+    266.66
+  ],
+  "group:Social Web Working Group": [
+    25.63,
+    231.84
+  ],
+  "group:Solid Community Group": [
+    -16.46,
+    647.24
+  ],
+  "group:SPARQL-dev Community Group": [
+    -23.67,
+    686.69
   ],
   "group:Spatial Data on the Web Interest Group": [
-    93.38,
-    455.39
+    88.58,
+    435.78
   ],
   "group:Spatio-temporal Data on the Web Working Group": [
-    48.81,
-    502.05
+    41.42,
+    531.82
+  ],
+  "group:Spec Editors Community Group": [
+    -108.18,
+    376.17
+  ],
+  "group:Sport Schema Community Group": [
+    99.09,
+    676.61
   ],
   "group:Storage and Transport Formats Working Group": [
-    -462.26,
-    438.53
+    -542.18,
+    342.49
   ],
   "group:Storage Workstream": [
-    -14.71,
-    27.17
+    -366.75,
+    -544.33
   ],
   "group:Streams Workstream": [
-    -435.5,
-    334.78
+    -359.25,
+    341.89
+  ],
+  "group:Sustainability Community Group": [
+    41.06,
+    282.47
+  ],
+  "group:Sustainable Web Interest Group": [
+    29.31,
+    244.87
   ],
   "group:SVG Accessibility Task Force": [
-    -592.15,
-    317.04
+    -587.1,
+    231.42
   ],
   "group:SVG Working Group": [
-    614.76,
-    246.12
+    670.51,
+    189.15
+  ],
+  "group:Sync on the Web Community Group": [
+    -546.84,
+    -60.81
+  ],
+  "group:Talent Marketplace Signaling Community Group": [
+    60.8,
+    696.3
   ],
   "group:TC39": [
-    -632.49,
-    -36.39
+    -626.54,
+    -47.87
   ],
   "group:Technical Architecture Group": [
-    -101.27,
-    35.89
+    -3.8,
+    -58.1
   ],
   "group:Test Utils Workstream": [
-    -361.52,
-    48.72
+    -428.35,
+    -484.29
+  ],
+  "group:Text and Data Mining Reservation Protocol Community Group": [
+    -502.42,
+    330.42
+  ],
+  "group:The Tourism Structured Web Data Community Group": [
+    110.14,
+    693.15
+  ],
+  "group:Threat Modeling Community Group": [
+    57.33,
+    604.15
+  ],
+  "group:Threats and Harms Community Group": [
+    19.91,
+    218.07
   ],
   "group:Timed Text Working Group": [
-    320.94,
-    562.16
+    339.73,
+    541.14
   ],
   "group:Tracking Protection Working Group": [
-    -240.13,
-    -608.84
+    -217.71,
+    -671.31
+  ],
+  "group:TREE hypermedia Community Group": [
+    -1.21,
+    656.9
+  ],
+  "group:Typed Context Protocol Community Group": [
+    21.25,
+    681.06
+  ],
+  "group:Unhosted Web Community Group": [
+    10.07,
+    623.97
+  ],
+  "group:Unified Care Model Community Group": [
+    463.06,
+    -491.12
+  ],
+  "group:Universal DID-Native Addressing (UDNA) Community Group": [
+    -506.58,
+    422.82
+  ],
+  "group:Universal Health Data Schemas for Privacy-Preserving AI Community Group": [
+    -513.89,
+    424.44
   ],
   "group:URL Workstream": [
-    -127.67,
-    -564.15
+    201.09,
+    -573.95
+  ],
+  "group:User Journey Graph (UJG) Community Group": [
+    474.09,
+    -475.77
+  ],
+  "group:UTXO Web Wallet Interoperability Community Group": [
+    449.21,
+    -499.8
   ],
   "group:Verifiable Credentials Working Group": [
-    191.11,
-    603.11
+    234.38,
+    603.5
   ],
-  "group:W3C Process Community Group ": [
-    297.73,
-    505.29
+  "group:Verifiable Supply Chain Community Group": [
+    -304.2,
+    438.57
+  ],
+  "group:Voice Interaction Community Group": [
+    -261.97,
+    389.22
+  ],
+  "group:W3C Open Source Program Community Group": [
+    -93.81,
+    349.5
+  ],
+  "group:W3C Process Community Group": [
+    60.73,
+    330.62
+  ],
+  "group:WAI Interest Group": [
+    451.58,
+    -493.61
+  ],
+  "group:Web & AI Interest Group": [
+    -6.22,
+    190.1
   ],
   "group:Web Application Security Working Group": [
-    135.34,
-    -581.27
+    125.3,
+    -618.33
   ],
   "group:Web Applications Working Group": [
-    -229.94,
-    -41.12
+    -291.31,
+    223.7
   ],
   "group:Web Authentication Working Group": [
-    -185.14,
-    -610.97
+    359.73,
+    -477.12
+  ],
+  "group:Web Bluetooth Community Group": [
+    -619.81,
+    -250.43
+  ],
+  "group:Web Components Community Group": [
+    0.89,
+    271.3
+  ],
+  "group:Web Content Browser for AI Agents Community Group": [
+    -328.86,
+    399.84
+  ],
+  "group:Web Editing Community Group": [
+    9.92,
+    269.18
   ],
   "group:Web Editing Working Group": [
-    49.23,
-    -47.05
+    -34.96,
+    64.81
   ],
   "group:Web Events Working Group": [
-    -494.36,
-    -10.39
+    -252.96,
+    362.86
   ],
   "group:Web Fonts Working Group": [
-    -381.62,
-    402.28
+    -370.74,
+    360.95
+  ],
+  "group:Web Forensics Community Group": [
+    62.14,
+    623.36
+  ],
+  "group:Web Frameworks Community Group": [
+    -3.72,
+    293.52
+  ],
+  "group:Web History Community Group": [
+    49.16,
+    318.99
+  ],
+  "group:Web Identity & Credentials Adoption Community Group": [
+    381.37,
+    -467.95
   ],
   "group:Web IDL Workstream": [
-    -326.74,
-    174.29
+    -438.48,
+    -97.92
   ],
   "group:Web Machine Learning Community Group": [
-    -438.89,
-    -470.72
+    -529.73,
+    -412.14
   ],
   "group:Web Machine Learning Working Group": [
-    -376.47,
-    220.29
+    -82.48,
+    123.28
+  ],
+  "group:Web Media API Community Group": [
+    -607.78,
+    53.11
+  ],
+  "group:Web Media Text Tracks Community Group": [
+    310.04,
+    506.78
   ],
   "group:Web NFC Community Group": [
-    70.33,
-    -245.14
+    -339.21,
+    -323.51
+  ],
+  "group:Web of Things Community Group": [
+    8.37,
+    568.85
+  ],
+  "group:Web of Things Japanese Community Group": [
+    -587.17,
+    276.79
   ],
   "group:Web of Things Working Group": [
-    53.91,
-    318.7
+    -32.95,
+    343.87
+  ],
+  "group:Web Payment Security Interest Group": [
+    374.03,
+    -476.65
   ],
   "group:Web Payments Working Group": [
-    -299.48,
-    -582.02
+    325.31,
+    -467.5
   ],
   "group:Web Performance Working Group": [
-    -25.94,
-    154.09
+    -105.42,
+    189.09
   ],
   "group:Web Platform Incubator Community Group": [
-    -146.01,
-    -81.89
+    29.18,
+    -122.98
   ],
   "group:Web Platform Working Group": [
-    -328.79,
-    -532.76
+    -396.18,
+    -459.71
   ],
   "group:Web Real-Time Communications Working Group": [
-    -318.64,
-    333.11
+    -388.26,
+    120.12
   ],
   "group:Web Security Working Group": [
-    -579.08,
-    -85.51
+    -559.7,
+    -50.49
+  ],
+  "group:Web Thing Protocol Community Group": [
+    15.03,
+    594.58
+  ],
+  "group:Web-based Digital Twins for Smart Cities Interest Group": [
+    -598.55,
+    274.45
+  ],
+  "group:WebAssembly Community Group": [
+    -581.11,
+    -6.79
   ],
   "group:WebAssembly Working Group": [
-    -356.71,
-    -536.95
+    -575.27,
+    -10.65
+  ],
+  "group:WebDX Community Group": [
+    -14.39,
+    291.07
   ],
   "group:WebExtensions Community Group": [
-    -305.76,
-    -548.84
+    4.23,
+    148.12
+  ],
+  "group:WebExtensions Working Group": [
+    4.06,
+    165.79
   ],
   "group:WebGL Working Group": [
-    -346.21,
-    508.64
+    -402.19,
+    503.88
   ],
   "group:WebTransport Working Group": [
-    162.41,
-    -283.44
+    104.59,
+    -148.06
+  ],
+  "group:WebView Community Group": [
+    -626.59,
+    278.74
+  ],
+  "group:XForms Users Community Group": [
+    -318.12,
+    571.76
   ],
   "group:XMLHttpRequest Workstream": [
-    -17.06,
-    -352.79
+    139.74,
+    -328.39
+  ],
+  "group:XProc Next Community Group": [
+    -313.44,
+    553.54
+  ],
+  "group:XQuery and XSLT Extensions Community Group": [
+    -305.95,
+    537.05
   ],
   "gyroscope": [
-    -554.11,
-    -195.15
+    -568.49,
+    -180.48
   ],
   "handwriting-recognition": [
-    -311.76,
-    -348.08
+    -319.84,
+    -275.22
   ],
   "hid": [
-    -424.48,
-    -121.78
+    -342.86,
+    -344.82
   ],
   "hr-time": [
-    -153.83,
-    155.56
+    -168.35,
+    194.26
   ],
   "html": [
-    -131.35,
-    -297.83
+    -100.96,
+    -105.82
   ],
   "html-aam": [
-    -511.89,
-    313.47
+    -515.21,
+    214.94
   ],
   "html-aria": [
-    -476.91,
-    323.49
+    -489.03,
+    245.89
   ],
   "html-media-capture": [
-    -315.66,
-    190.86
+    -425.25,
+    -38.84
   ],
   "html-ruby-extensions": [
-    -115.64,
-    340.76
+    -78.05,
+    356.12
   ],
   "i18n-glossary": [
-    -5.76,
-    518.35
+    -98.11,
+    463.9
   ],
   "idempotency-key-header": [
-    -647.06,
-    -156.46
+    -646.51,
+    -150.48
   ],
   "idle-detection": [
-    -444.91,
-    -198.18
+    -393.79,
+    -251.73
   ],
   "iframe-media-pausing": [
-    -389.81,
-    -331.1
+    -201.66,
+    -35.2
   ],
   "IFT": [
-    -380.14,
-    372.29
+    -398.78,
+    344.06
   ],
   "image-capture": [
-    -256.67,
-    216.11
+    -357.69,
+    30.11
   ],
   "image-resource": [
-    -124.23,
-    -390.92
+    -78.64,
+    -496.33
   ],
   "imsc-hrm": [
-    282.84,
-    560.29
+    360.43,
+    559.95
   ],
   "IndexedDB": [
-    -62.63,
-    -122.16
+    -316.74,
+    -451.03
   ],
   "infra": [
-    -260.19,
-    -263.41
+    -111.2,
+    -403.73
   ],
   "ink-enhancement": [
-    -367.83,
-    30.32
+    -106.17,
+    -7.27
   ],
   "input-device-capabilities": [
-    -483.08,
-    51.73
+    -271.77,
+    343.03
   ],
   "input-events": [
-    32.16,
-    -86.35
+    87.22,
+    -138.88
   ],
   "install-element": [
-    10.7,
-    -342.08
+    14.26,
+    -434.89
   ],
   "intersection-observer": [
-    102.37,
-    1.71
+    128.87,
+    -9.45
   ],
   "intervention-reporting": [
-    261.37,
-    -415.08
+    160.74,
+    -199.02
   ],
   "is-input-pending": [
-    -447.91,
-    -4.01
+    -260.21,
+    318.29
   ],
   "iso10918-5": [
-    -449.12,
-    469.16
+    -500.37,
+    389.76
   ],
   "iso14496-22": [
-    -419.02,
-    412.93
+    -456.73,
+    362.69
   ],
   "iso18181-2": [
-    -452.67,
-    477.8
+    -492.32,
+    401.77
   ],
   "isolated-contexts": [
-    -16.56,
-    -366.45
+    -13.22,
+    -410.56
+  ],
+  "isolated-web-apps": [
+    176.28,
+    -267.41
   ],
   "js-self-profiling": [
-    -252.01,
-    -413.11
+    -266.36,
+    -303.33
   ],
   "json-ld": [
-    -36.02,
-    369.32
+    -14.43,
+    426.67
   ],
   "json-ld-api": [
-    -47.12,
-    420.39
+    -4.87,
+    462.99
   ],
   "json-ld-framing": [
-    -97.71,
-    380.16
+    -66.37,
+    422.68
   ],
   "keyboard-lock": [
-    -508.24,
-    -2.19
+    -303.62,
+    254.45
   ],
   "keyboard-map": [
-    -518.23,
-    23.05
+    -310.73,
+    280.33
   ],
   "KHR_parallel_shader_compile": [
-    -399.56,
-    469.43
+    -439.44,
+    439.99
   ],
   "largest-contentful-paint": [
-    -34.91,
-    187.25
+    -49.58,
+    250.79
   ],
   "layered-cookies": [
-    3.13,
-    -529.23
+    62.8,
+    -585.97
   ],
   "layout-instability": [
-    -107.54,
-    138.71
-  ],
-  "local-font-access": [
-    -380.55,
-    -286.8
-  ],
-  "local-network-access": [
-    -63.61,
-    -468.43
-  ],
-  "login-status": [
-    -32.37,
-    -605.27
-  ],
-  "long-animation-frames": [
-    -157.13,
-    224.81
-  ],
-  "longtasks": [
-    -191.64,
-    236.05
-  ],
-  "magnetometer": [
-    -561.61,
-    -263.06
-  ],
-  "managed-configuration": [
-    -258.91,
-    -194.45
-  ],
-  "manifest-app-info": [
-    -220.8,
-    19.97
-  ],
-  "manifest-incubations": [
-    6.84,
-    -62.52
-  ],
-  "mathml": [
-    589.66,
-    -122.36
-  ],
-  "mathml-aam": [
-    -567.08,
-    307.45
-  ],
-  "mathml-core": [
-    358.68,
-    -2.61
-  ],
-  "media-capabilities": [
-    -544.99,
-    -6.65
-  ],
-  "media-feeds": [
-    84.98,
-    -357.49
-  ],
-  "media-playback-quality": [
-    -244.67,
-    146.61
-  ],
-  "media-source": [
-    -567.07,
-    56.14
-  ],
-  "mediacapture-automation": [
-    -348.14,
-    227.56
-  ],
-  "mediacapture-extensions": [
-    -281.16,
-    202.78
-  ],
-  "mediacapture-fromelement": [
-    -278.59,
-    294.87
-  ],
-  "mediacapture-handle-actions": [
-    -367.71,
-    306.53
-  ],
-  "mediacapture-region": [
-    -346.92,
-    313.27
-  ],
-  "mediacapture-streams": [
-    -315.81,
-    273.2
-  ],
-  "mediacapture-surface-control": [
-    -374.51,
-    104.23
-  ],
-  "mediacapture-transform": [
-    -282.67,
-    246.87
-  ],
-  "mediacapture-viewport": [
-    -405.48,
-    290.01
-  ],
-  "mediaqueries": [
-    257.56,
-    -31.16
-  ],
-  "mediasession": [
-    -64.22,
-    -392.3
-  ],
-  "mediastream-recording": [
-    -256.25,
-    -70.98
-  ],
-  "mimesniff": [
-    74.85,
-    -193.53
-  ],
-  "mixed-content": [
-    163.98,
-    -544.95
-  ],
-  "model-element": [
-    156.27,
-    62.19
-  ],
-  "motion": [
-    450.6,
-    64.42
-  ],
-  "mse-byte-stream-format-isobmff": [
-    -584.72,
-    61.03
-  ],
-  "mse-byte-stream-format-mp2t": [
-    -588.11,
-    66.3
-  ],
-  "mse-byte-stream-format-mpeg-audio": [
-    -559.2,
-    76.73
-  ],
-  "mse-byte-stream-format-registry": [
-    -573.82,
-    81.88
-  ],
-  "mse-byte-stream-format-webm": [
-    -549.22,
-    82.55
-  ],
-  "mst-content-hint": [
-    -287.9,
-    321.92
-  ],
-  "nav-tracking-mitigations": [
-    -16.84,
-    -321.81
-  ],
-  "navigation-timing": [
-    -65.93,
-    155.35
-  ],
-  "netinfo": [
-    -167.1,
-    -26.93
-  ],
-  "network-error-logging": [
-    222.42,
-    -525.42
-  ],
-  "network-reporting": [
-    234.69,
-    -488.93
-  ],
-  "no-vary-search": [
-    -166.04,
-    -383.18
-  ],
-  "notifications": [
-    -246.42,
-    -346.81
-  ],
-  "NV_shader_noperspective_interpolation": [
-    -339.22,
-    555.92
-  ],
-  "observable": [
-    -284.91,
-    -345
-  ],
-  "OES_draw_buffers_indexed": [
-    -396.59,
-    491.76
-  ],
-  "OES_element_index_uint": [
-    -301.35,
-    486.62
-  ],
-  "OES_fbo_render_mipmap": [
-    -304.92,
-    535.5
-  ],
-  "OES_sample_variables": [
-    -397.83,
-    507.22
-  ],
-  "OES_shader_multisample_interpolation": [
-    -299.07,
-    512.23
-  ],
-  "OES_standard_derivatives": [
-    -291.2,
-    503.71
-  ],
-  "OES_texture_float": [
-    -358.34,
-    462.9
-  ],
-  "OES_texture_float_linear": [
-    -292.18,
-    520.48
-  ],
-  "OES_texture_half_float": [
-    -299.59,
-    498.96
-  ],
-  "OES_texture_half_float_linear": [
-    -325.04,
-    465.45
-  ],
-  "OES_vertex_array_object": [
-    -388.75,
-    476.43
-  ],
-  "openscreen-application": [
-    -544.18,
-    -34.76
-  ],
-  "openscreen-network": [
-    -572.56,
-    -47.66
-  ],
-  "orientation-event": [
-    -519.88,
-    -162.97
-  ],
-  "orientation-sensor": [
-    -583.95,
-    -196.6
-  ],
-  "OVR_multiview2": [
-    -292.91,
-    490.62
-  ],
-  "owl-time": [
-    67.18,
-    448.07
-  ],
-  "page-lifecycle": [
-    -232.57,
-    -160.5
-  ],
-  "paint-timing": [
-    -45.09,
+    -56.7,
     222.56
   ],
+  "local-font-access": [
+    -380.21,
+    -207.73
+  ],
+  "local-network-access": [
+    -63.05,
+    -528.37
+  ],
+  "login-status": [
+    -95.58,
+    -589.56
+  ],
+  "long-animation-frames": [
+    -186.33,
+    257.51
+  ],
+  "longtasks": [
+    -214.47,
+    245.67
+  ],
+  "magnetometer": [
+    -586.48,
+    -256.84
+  ],
+  "managed-configuration": [
+    -36,
+    -175
+  ],
+  "manifest-app-info": [
+    -288.37,
+    204.22
+  ],
+  "manifest-incubations": [
+    128.22,
+    -264.1
+  ],
+  "mathml": [
+    623.36,
+    -129.72
+  ],
+  "mathml-aam": [
+    -570.02,
+    215.1
+  ],
+  "mathml-core": [
+    387.97,
+    17.9
+  ],
+  "media-capabilities": [
+    -168.74,
+    1.07
+  ],
+  "media-feeds": [
+    -73.59,
+    -584.8
+  ],
+  "media-playback-quality": [
+    -539.86,
+    78.04
+  ],
+  "media-source": [
+    -571.15,
+    29.34
+  ],
+  "mediacapture-automation": [
+    -474.13,
+    -102.59
+  ],
+  "mediacapture-extensions": [
+    -391.52,
+    -0.41
+  ],
+  "mediacapture-fromelement": [
+    -344.95,
+    88.93
+  ],
+  "mediacapture-handle-actions": [
+    -413.68,
+    55.82
+  ],
+  "mediacapture-region": [
+    -380.96,
+    74.84
+  ],
+  "mediacapture-streams": [
+    -444.77,
+    21.25
+  ],
+  "mediacapture-surface-control": [
+    -458.69,
+    -41.67
+  ],
+  "mediacapture-transform": [
+    -296.99,
+    37.37
+  ],
+  "mediacapture-viewport": [
+    -504.05,
+    -82.66
+  ],
+  "mediaqueries": [
+    268.49,
+    -6.05
+  ],
+  "mediasession": [
+    -256.14,
+    -165.5
+  ],
+  "mediastream-recording": [
+    -278.1,
+    -13.66
+  ],
+  "mimesniff": [
+    90.36,
+    -237.03
+  ],
+  "miniapp-addressing": [
+    -649.9,
+    225.6
+  ],
+  "miniapp-lifecycle": [
+    -646.86,
+    216.38
+  ],
+  "miniapp-manifest": [
+    -621.9,
+    206.91
+  ],
+  "miniapp-packaging": [
+    -632.73,
+    214.43
+  ],
+  "miniapp-white-paper": [
+    -638.66,
+    253.1
+  ],
+  "mixed-content": [
+    172.65,
+    -575.76
+  ],
+  "model-element": [
+    210.29,
+    60.77
+  ],
+  "motion": [
+    451.78,
+    42.61
+  ],
+  "mse-byte-stream-format-isobmff": [
+    -559.71,
+    46.16
+  ],
+  "mse-byte-stream-format-mp2t": [
+    -592.28,
+    19.04
+  ],
+  "mse-byte-stream-format-mpeg-audio": [
+    -563.01,
+    57.51
+  ],
+  "mse-byte-stream-format-registry": [
+    -597.98,
+    36.59
+  ],
+  "mse-byte-stream-format-webm": [
+    -582.77,
+    50.27
+  ],
+  "mst-content-hint": [
+    -332.98,
+    61.09
+  ],
+  "nav-tracking-mitigations": [
+    -240.88,
+    -594.65
+  ],
+  "navigation-timing": [
+    -63.73,
+    183.27
+  ],
+  "netinfo": [
+    -51.36,
+    -11.48
+  ],
+  "network-error-logging": [
+    227.97,
+    -532.25
+  ],
+  "network-reporting": [
+    233.91,
+    -498.98
+  ],
+  "no-vary-search": [
+    -54.62,
+    -502.24
+  ],
+  "notifications": [
+    -292.57,
+    -428.46
+  ],
+  "NV_shader_noperspective_interpolation": [
+    -382.43,
+    558.96
+  ],
+  "observable": [
+    -292.34,
+    -281.96
+  ],
+  "OES_draw_buffers_indexed": [
+    -454.78,
+    497.11
+  ],
+  "OES_element_index_uint": [
+    -353.11,
+    475.51
+  ],
+  "OES_fbo_render_mipmap": [
+    -354.52,
+    524.47
+  ],
+  "OES_sample_variables": [
+    -453.44,
+    508.01
+  ],
+  "OES_shader_multisample_interpolation": [
+    -338.22,
+    497.75
+  ],
+  "OES_standard_derivatives": [
+    -354.51,
+    485.93
+  ],
+  "OES_texture_float": [
+    -445.97,
+    455.18
+  ],
+  "OES_texture_float_linear": [
+    -343.37,
+    488.79
+  ],
+  "OES_texture_half_float": [
+    -362.37,
+    473.9
+  ],
+  "OES_texture_half_float_linear": [
+    -398.67,
+    452.6
+  ],
+  "OES_vertex_array_object": [
+    -449.15,
+    444.6
+  ],
+  "openscreen-application": [
+    -87.75,
+    38.09
+  ],
+  "openscreen-network": [
+    -590.29,
+    -9.19
+  ],
+  "orientation-event": [
+    -532.47,
+    -164.34
+  ],
+  "orientation-sensor": [
+    -599.45,
+    -174.22
+  ],
+  "OVR_multiview2": [
+    -349.34,
+    497.5
+  ],
+  "owl-time": [
+    63.01,
+    462.33
+  ],
+  "page-lifecycle": [
+    -256.85,
+    -346.17
+  ],
+  "paint-timing": [
+    -73.86,
+    287.9
+  ],
   "passkey-endpoints": [
-    68.02,
-    -595.38
+    101.86,
+    -588.55
   ],
   "payment-method-id": [
-    -263.94,
-    -575.54
+    -89.92,
+    -659.35
   ],
   "payment-method-manifest": [
-    -248.98,
-    -523.76
+    -85.17,
+    -625.77
   ],
   "payment-request": [
-    -294.39,
-    -502.17
+    -139.04,
+    -559.66
   ],
   "paymentlink": [
-    -237.72,
-    -430.89
+    -106.31,
+    -533.08
   ],
   "pdf-aam": [
-    -585.49,
-    294.9
+    -570.36,
+    247.06
   ],
   "performance-measure-memory": [
-    -101.52,
-    -87.9
+    -195.07,
+    -379.17
   ],
   "performance-timeline": [
-    -131.21,
-    263.95
+    -150.36,
+    264.19
   ],
   "periodic-background-sync": [
-    -395.68,
-    -178.58
+    -248.14,
+    -320.64
   ],
   "permissions": [
-    -434.23,
-    -256.9
+    -449.35,
+    -224.3
   ],
   "permissions-policy": [
-    -447.18,
-    -330.01
+    -456.5,
+    -315.4
   ],
   "permissions-registry": [
-    -449.98,
-    -387.37
+    -496.91,
+    -242.08
   ],
   "permissions-request": [
-    -421.46,
-    -87.07
+    -396.86,
+    -188.5
   ],
   "permissions-revoke": [
-    -300.58,
-    66.65
+    -145.58,
+    12.62
   ],
   "picture-in-picture": [
-    -320.04,
-    -112.69
+    -298.21,
+    -238.53
   ],
   "png": [
-    -193.92,
-    367.7
+    -217.24,
+    332.75
   ],
   "pointer-animations": [
-    241.78,
-    -156.53
+    235.63,
+    -149.7
   ],
   "pointerevents": [
-    -399.93,
-    28.88
+    -234.55,
+    277.94
   ],
   "pointerlock": [
-    -437.09,
-    20.57
+    -277.42,
+    250.32
   ],
   "portals": [
-    129.75,
-    -407.99
+    203.73,
+    -484.76
   ],
   "prefer-current-tab": [
-    -398.14,
-    310.3
+    -524.84,
+    -32.07
   ],
   "prefetch": [
-    37.11,
-    -377.29
+    43.21,
+    -482.68
   ],
   "prerendering-revamped": [
-    -363.23,
-    -203.88
+    -324.38,
+    -394.41
   ],
   "presentation-api": [
-    -78.41,
-    -433.84
+    -171.87,
+    -292.56
   ],
   "privacy-principles": [
-    -95.28,
-    8.2
+    -23.14,
+    -94.03
   ],
   "private-click-measurement": [
-    -84.2,
-    -351.03
+    -138.82,
+    -505.31
   ],
   "promises-guide": [
-    -290.58,
-    -458.89
+    -221.56,
+    -344.91
   ],
   "prompt-api": [
-    -365.6,
-    -411.11
+    -452.07,
+    -379.66
   ],
   "proofreader-api": [
-    -407.03,
-    -422.08
+    -493.77,
+    -379.57
   ],
   "proximity": [
-    -522.31,
-    -331.85
+    -548.14,
+    -319.65
   ],
   "pub-manifest": [
-    -55.47,
-    310.06
+    -21.9,
+    -430.14
   ],
   "push-api": [
-    -183.32,
-    -341.2
+    -236.42,
+    -424.3
   ],
   "qb4st": [
-    12.9,
-    496.92
+    -18.41,
+    533.26
   ],
   "quirks": [
-    354.18,
-    419.05
+    414.37,
+    405.79
   ],
   "raw-camera-access": [
-    -376.85,
-    167.64
+    -390.32,
+    -153.8
   ],
   "rdf-canon": [
-    68.57,
-    636.24
+    107.38,
+    623.7
   ],
   "rdf-concepts": [
-    -88.29,
-    504.65
+    -155.5,
+    501.41
   ],
   "rdf-n-quads": [
-    -3.05,
-    612.05
+    -46.51,
+    576.7
   ],
   "rdf-n-triples": [
-    -17.65,
-    573.37
+    -84.24,
+    542.92
   ],
   "rdf-schema": [
-    -27.99,
-    472.01
+    -45.81,
+    496.6
   ],
   "rdf-semantics": [
-    -119.55,
-    603.86
+    -152.04,
+    582.76
   ],
   "rdf-trig": [
-    -43.33,
-    595.24
+    -88.39,
+    578.48
   ],
   "rdf-turtle": [
-    -58.75,
-    543.83
+    -130.3,
+    544.24
   ],
   "rdf-xml": [
-    -73.15,
-    591.22
+    -112,
+    592.67
   ],
   "real-world-meshing": [
-    -379.7,
-    186.36
+    -398.83,
+    270.2
   ],
   "referrer-policy": [
-    167.5,
-    -476.98
+    202.38,
+    -529.94
   ],
   "remote-playback": [
-    -528.77,
-    -57.72
+    -147.17,
+    -23.74
   ],
   "reporting": [
-    228.11,
-    -437.22
+    211.86,
+    -397.12
   ],
   "requestidlecallback": [
-    -175.06,
-    106.6
+    -218.1,
+    185.14
   ],
   "resize-observer": [
-    177.94,
-    51.68
+    196.12,
+    72.32
   ],
   "resource-timing": [
-    -68.94,
-    116.23
+    -92.15,
+    154.48
   ],
   "responsive-image-client-hints": [
-    -294.37,
-    -151.12
+    21.92,
+    -164.77
   ],
   "rfc2397": [
-    243.92,
-    514.49
+    288.62,
+    525.33
   ],
   "rfc3229": [
-    373.92,
-    516.77
+    402.58,
+    537.07
   ],
   "rfc4120": [
-    371.52,
-    -515.42
+    439.4,
+    -485.25
   ],
   "rfc5861": [
-    243.2,
-    -521.31
+    265.41,
+    -539.83
   ],
   "rfc6265": [
-    -84.83,
-    -541.75
+    -267.38,
+    -579.36
   ],
   "rfc6265bis": [
-    -85.41,
-    -590.07
+    -297.91,
+    -603.66
   ],
   "rfc6266": [
-    -133.05,
-    -429.65
+    334.17,
+    -507.56
   ],
   "rfc6386": [
-    -248.27,
-    387.94
+    -284.42,
+    161.64
   ],
   "rfc6454": [
-    -191.08,
-    -567.72
+    -354.57,
+    -553.88
   ],
   "rfc6455": [
-    115.17,
-    -178.15
+    176.7,
+    -284.97
   ],
   "rfc6797": [
-    265.68,
-    -493.23
+    272.66,
+    -504.25
   ],
   "rfc7034": [
-    -596.16,
-    -81.45
+    -578.69,
+    -55.4
   ],
   "rfc7230": [
-    -156.34,
-    -556.99
+    -206.87,
+    -573.73
   ],
   "rfc7231": [
-    -25.73,
-    308.94
+    -116.67,
+    -627.87
   ],
   "rfc7232": [
-    -158.05,
-    -606.51
+    330.59,
+    -529.76
   ],
   "rfc7233": [
-    -102.48,
-    -667.24
+    393.63,
+    -535.16
   ],
   "rfc7234": [
-    129.79,
-    -616.79
+    -114.01,
+    -577.05
   ],
   "rfc7235": [
-    -167.31,
-    -596.18
+    331.24,
+    -540.35
   ],
   "rfc7239": [
-    -170.87,
-    364.11
+    -183.04,
+    372.89
   ],
   "rfc7240": [
-    335.89,
-    503.65
+    361.74,
+    518.98
   ],
   "rfc7469": [
-    -582.68,
-    -65.64
+    -582.77,
+    -21.76
   ],
   "rfc7578": [
-    -145.87,
-    366.68
+    -156.14,
+    391.34
   ],
   "rfc7616": [
-    264.9,
-    580.54
+    310.78,
+    563.73
   ],
   "rfc7617": [
-    261.93,
-    542.48
+    306.81,
+    545.37
   ],
   "rfc7725": [
-    -77.29,
-    -667.62
+    404.91,
+    -519.65
   ],
   "rfc7838": [
-    -60.51,
-    -670.92
+    387.82,
+    -509.43
   ],
   "rfc7903": [
-    298.99,
-    593.51
+    351.65,
+    577.35
   ],
   "rfc7932": [
-    -409.72,
-    375.32
+    -419.04,
+    366.45
   ],
   "rfc8246": [
-    -130.82,
-    -620.4
+    357.93,
+    -552.59
   ],
   "rfc8288": [
-    17.52,
-    377.08
+    28.41,
+    405.22
   ],
   "rfc8297": [
-    -125.79,
-    -421.91
+    338.62,
+    -497.26
   ],
   "rfc8470": [
-    -36,
-    -662.82
+    387.74,
+    -520.32
   ],
   "rfc8610": [
-    3.05,
-    -21.48
+    -2.22,
+    24.31
   ],
   "rfc8878": [
-    -427.61,
-    392.13
+    -463.71,
+    386.9
   ],
   "rfc8942": [
-    -301.78,
-    -91.95
+    98.32,
+    -90.9
   ],
   "rfc9110": [
-    140.56,
-    -519.81
+    206.12,
+    -444.25
   ],
   "rfc9111": [
-    77.32,
-    -335.35
+    -34.74,
+    143.97
   ],
   "rfc9112": [
-    31.99,
-    259.53
+    16.84,
+    292.22
   ],
   "rfc9113": [
-    -115.54,
-    -654.14
+    371.88,
+    -502.19
   ],
   "rfc9114": [
-    264.66,
-    -536.81
+    279.26,
+    -567.4
   ],
   "rfc9163": [
-    162.7,
-    -596.61
+    248,
+    -578.09
   ],
   "rfc9218": [
-    153.63,
-    -606.32
+    241.71,
+    -586.81
   ],
   "rfc9421": [
-    35.13,
-    -609.19
+    342.38,
+    -550.53
   ],
   "rfc9530": [
-    -88.95,
-    -671.06
+    385.85,
+    -544.37
   ],
   "rfc9649": [
-    -307.41,
-    410.34
+    -344.17,
+    364.87
   ],
   "rfc9659": [
-    -51.47,
-    -674.36
+    400.76,
+    -509.57
   ],
   "rfc9842": [
-    -104.38,
-    -601.34
+    242.84,
+    -553.65
   ],
   "saa-non-cookie-storage": [
-    10.05,
-    -125.35
+    -338.55,
+    -530.95
   ],
   "savedata": [
-    -144.27,
-    -30.95
+    -24.78,
+    -31.86
   ],
   "scheduling-apis": [
-    -303.06,
-    -334.6
+    -301.55,
+    -266.85
   ],
   "screen-capture": [
-    -368.06,
-    268.6
+    -491.94,
+    -15.84
   ],
   "screen-orientation": [
-    -340.5,
-    -37.94
+    -292.69,
+    -213.09
   ],
   "screen-wake-lock": [
-    -487.52,
-    -258.9
+    -498.38,
+    -282.07
   ],
   "scroll-animations": [
-    202.34,
-    -147.63
+    214.81,
+    -113.97
   ],
   "scroll-to-text-fragment": [
-    85.18,
-    -228.22
+    128.61,
+    -226.76
   ],
   "secure-contexts": [
-    46.31,
-    -551.24
+    43.93,
+    -626.23
   ],
   "secure-payment-confirmation": [
-    -218.71,
-    -529.67
+    -277.19,
+    -483.43
   ],
   "selection-api": [
-    -132.59,
-    -218.96
+    -73.26,
+    -22.84
   ],
   "selectors": [
-    260.68,
-    -207.82
+    289.97,
+    -193.76
   ],
   "selectors-nonelement": [
-    328.91,
-    -390.62
+    281.35,
+    -319.98
   ],
   "serial": [
-    -432.21,
-    -159.21
+    -365.55,
+    -299.39
   ],
   "server-timing": [
-    -104.26,
-    100.38
+    -157.4,
+    138.75
   ],
   "service-workers": [
-    -65,
-    -224.15
+    -236.97,
+    -519.59
   ],
   "shacl-core": [
-    -204.53,
-    447.22
+    -237.24,
+    458.27
   ],
   "shacl-cs": [
-    -246.22,
-    429.16
+    -266.65,
+    410.8
   ],
   "shacl-inference-rules": [
-    -231.33,
-    466.13
+    -264.77,
+    444.56
   ],
   "shacl-node-expr": [
-    -207.16,
-    475.15
+    -266.03,
+    476.5
   ],
   "shacl-profiling": [
-    -143.86,
-    413.59
+    -157.51,
+    424.72
   ],
   "shacl-sparql": [
-    -174.17,
-    456.1
+    -203.17,
+    456.66
   ],
   "shacl-ui": [
-    -179.51,
-    415.93
+    -220.76,
+    418.3
   ],
   "shape-detection-api": [
-    -252.21,
-    190.84
+    -320.56,
+    8.8
   ],
   "signature-based-sri": [
-    193.68,
-    -524.52
+    249.12,
+    -458.29
   ],
   "sms-one-time-codes": [
-    -170.8,
-    -47.97
+    0.12,
+    -96.08
   ],
   "soft-navigations": [
-    -104.24,
-    218.29
+    -99.83,
+    267.89
   ],
   "sparql-concepts": [
-    -82.51,
-    622.77
+    -134.84,
+    627.57
   ],
   "sparql-entailment": [
-    -151.59,
-    576.74
+    -234.44,
+    601.68
   ],
   "sparql-federated-query": [
-    -181.61,
-    607.89
+    -216.23,
+    633.61
   ],
   "sparql-graph-store-protocol": [
-    -138.44,
-    498.02
+    -169.02,
+    548.54
   ],
   "sparql-protocol": [
-    -173.81,
-    528.13
+    -239.62,
+    560.55
   ],
   "sparql-query": [
-    -199.54,
-    561.04
+    -213.04,
+    526.07
   ],
   "sparql-results-csv-tsv": [
-    -108.77,
-    647.93
+    -102.16,
+    631.5
   ],
   "sparql-results-json": [
-    -74.7,
-    654.36
+    -121.08,
+    662.9
   ],
   "sparql-results-xml": [
-    -47.36,
-    640.03
+    -77.59,
+    629.02
   ],
   "sparql-rl": [
-    -152.07,
-    442.55
+    -191.25,
+    419.59
   ],
   "sparql-service-description": [
-    -133.02,
-    535.95
+    -179.19,
+    611.84
   ],
   "sparql-update": [
-    -106.72,
-    562.44
+    -198.37,
+    572.09
   ],
   "speech-api": [
-    -208.13,
-    -33.11
+    -404.64,
+    -410.29
   ],
   "sri": [
-    203.5,
-    -487.38
+    172.99,
+    -453.5
   ],
   "storage": [
-    -66.3,
-    -84.01
+    -365.83,
+    -511.83
   ],
   "storage-access": [
-    -126.44,
-    -524.09
+    -303.43,
+    -549.95
   ],
   "storage-access-headers": [
-    -48.94,
-    -570.2
+    -45.1,
+    -632.63
   ],
   "storage-buckets": [
-    -92.22,
-    -123.25
+    -316.5,
+    -504.45
   ],
   "streams": [
-    -212.41,
-    -395.22
+    -79.14,
+    -286.98
   ],
   "SVG": [
-    519.45,
-    150.95
+    561.32,
+    133.02
   ],
   "svg-aam": [
-    -464.35,
-    348.67
+    -495.52,
+    276.73
   ],
   "svg-animations": [
-    630.65,
-    206.61
+    671.48,
+    162.71
   ],
   "svg-integration": [
-    628.73,
-    183.26
+    682.71,
+    114.07
   ],
   "svg-paths": [
-    589.53,
-    260.08
+    647.35,
+    218.94
   ],
   "svg-strokes": [
-    608.81,
-    297.02
+    666.55,
+    233.59
   ],
   "tc39-async-explicit-resource-management": [
-    -656.29,
-    -57.7
+    -658.12,
+    -67.07
   ],
   "tc39-await-dictionary": [
-    -660.34,
-    -45.89
+    -619.73,
+    -15.28
   ],
   "tc39-bigint-math": [
-    -649.11,
-    -4.44
+    -650.45,
+    -18.31
   ],
   "tc39-canonical-tz": [
-    -665.98,
-    -33.34
+    -655.51,
+    -56.44
   ],
   "tc39-decorators": [
-    -649.07,
-    -63.62
+    -648.64,
+    -67.84
   ],
   "tc39-defer-import-eval": [
-    -638.97,
-    -68.56
+    -647.65,
+    -77.56
   ],
   "tc39-dynamic-code-brand-checks": [
-    -608.2,
-    -68.69
+    -589.97,
+    -62.46
   ],
   "tc39-error-stack-accessor": [
-    -600.92,
-    -57.35
+    -591.45,
+    -39.27
   ],
   "tc39-import-text": [
-    -595.46,
-    -32.72
+    -593.5,
+    -50.45
   ],
   "tc39-intl-duration-format": [
-    -656.21,
-    -6.31
+    -661.14,
+    -30.03
   ],
   "tc39-intl-era-monthcode": [
-    -662.51,
-    -13.51
+    -659.74,
+    -39.94
   ],
   "tc39-intl-keep-trailing-zeros": [
-    -661.45,
-    -24.66
+    -663.8,
+    -49.31
   ],
   "tc39-intl-locale-info": [
-    -620.35,
-    -63.46
+    -637.7,
+    -76
   ],
   "tc39-iterator-chunking": [
-    -613.55,
-    -12.58
+    -639.59,
+    -20.26
   ],
   "tc39-iterator-includes": [
-    -626.22,
-    -4.18
+    -622.09,
+    -21.52
   ],
   "tc39-nonextensible-applies-to-private": [
-    -630.63,
-    -64.61
+    -625.46,
+    -74.24
   ],
   "tc39-regexp-buffer-boundaries": [
-    -638.11,
-    -3.05
+    -632.27,
+    -11.91
   ],
   "tc39-shadowrealm": [
-    -606.05,
-    -22.35
+    -607.21,
+    -26.32
   ],
   "tc39-source-phase-imports": [
-    -401.82,
-    -515.6
+    -607.75,
+    -74.58
   ],
   "tc39-temporal": [
-    -596.64,
-    -42.62
+    -581.9,
+    -34.64
   ],
   "tc39-thenable-curtailment": [
-    -653.99,
-    -14.89
+    -650.89,
+    -28.57
   ],
   "test-methodology": [
-    346.24,
-    -534.29
+    462.25,
+    -480.35
   ],
   "testutils": [
-    -340.86,
-    54.88
+    -347.14,
+    -426.07
   ],
   "text-detection-api": [
-    -235.23,
-    187.73
+    -320.69,
+    -13.43
   ],
   "timing-entrytypes-registry": [
-    -91.78,
-    258.94
+    -121.14,
+    298.17
   ],
   "touch-events": [
-    -480.45,
-    13.75
+    -241.92,
+    336.72
   ],
   "trace-context": [
-    -594.41,
-    -107.14
+    -563.05,
+    -66.51
   ],
   "trace-context-amqp": [
-    -631.06,
-    -125.07
+    -623.09,
+    -116.13
   ],
   "trace-context-binary": [
-    -641.77,
-    -98.69
+    -638.14,
+    -108.34
   ],
   "trace-context-mqtt": [
-    -630.26,
-    -93.31
+    -634.79,
+    -100.75
   ],
   "trace-context-protocols-registry": [
-    -608.79,
-    -96.39
+    -588.91,
+    -81.22
   ],
   "tracestate-ids-registry": [
-    -643.41,
-    -117.37
+    -631.07,
+    -116.22
   ],
   "tracking-dnt": [
-    -219.31,
-    -568.18
+    -220.93,
+    -635.74
   ],
   "translation-api": [
-    -391.39,
-    -463.27
+    -477.58,
+    -408.1
   ],
   "trust-token-api": [
-    -38.32,
-    -488.22
+    -5.32,
+    -467.78
   ],
   "trusted-types": [
-    83.44,
-    -382.78
+    25.55,
+    -407.98
   ],
   "ttml": [
-    342,
-    554.04
+    376.6,
+    556.33
   ],
   "ttml-imsc": [
-    320.12,
-    536.8
+    366.87,
+    537.07
   ],
   "ua-client-hints": [
-    -270.11,
-    -118.81
+    30.96,
+    -73.72
   ],
   "uievents": [
-    -443.11,
-    54.82
+    -271.15,
+    283.11
   ],
   "uievents-code": [
-    -533.77,
-    24.44
+    -322.58,
+    293.52
   ],
   "uievents-key": [
-    -514.53,
-    48.05
+    -296.01,
+    309.39
   ],
   "unencoded-digest": [
-    -69.07,
-    -674.7
+    400.77,
+    -529.19
   ],
   "upgrade-insecure-requests": [
-    189.24,
-    -567.61
+    209.42,
+    -594.27
   ],
   "url": [
-    8.33,
-    -427.57
+    4.76,
+    -537.37
   ],
   "urlpattern": [
-    -126.51,
-    -453.42
+    79.43,
+    -442.7
   ],
   "usb": [
-    -397.84,
-    -140.95
+    -395.73,
+    -295.53
   ],
   "user-preference-media-features-headers": [
-    -386.75,
-    -305.99
+    -346.36,
+    -277.73
   ],
   "user-timing": [
-    -120.8,
-    197.93
+    -128.79,
+    226.49
   ],
   "vc-barcodes": [
-    178.42,
-    571.74
+    225.12,
+    564.64
   ],
   "vc-bitstring-status-list": [
-    106.06,
-    504.91
+    136.35,
+    531.63
   ],
   "vc-confidence-method": [
-    221.26,
-    587.75
+    268.07,
+    575.17
   ],
   "vc-data-integrity": [
-    92.29,
-    560.71
+    139.39,
+    576.27
   ],
   "vc-data-model": [
-    145.84,
-    513.16
+    171.23,
+    507.71
   ],
   "vc-di-bbs": [
-    101.42,
-    610.82
+    151.32,
+    620.33
   ],
   "vc-di-ecdsa": [
-    141.8,
-    608.13
+    181.71,
+    600.23
   ],
   "vc-di-eddsa": [
-    71.54,
-    590.66
+    102.18,
+    562.02
   ],
   "vc-di-quantum-resistant": [
-    124.17,
-    630.15
+    192.74,
+    624.75
   ],
   "vc-forgery-defense": [
-    174.28,
-    539.54
+    213.41,
+    530.4
   ],
   "vc-jose-cose": [
-    210.37,
-    510.42
+    209.14,
+    498.28
   ],
   "vc-json-schema": [
-    187.85,
-    520.1
+    148.17,
+    476.78
   ],
   "vc-recognized-entities": [
-    200.67,
-    478.57
+    236.73,
+    494.99
   ],
   "vc-render-method": [
-    211.55,
-    557.76
+    260.58,
+    544.14
   ],
   "vcalm": [
-    177.21,
-    479.63
+    249.98,
+    516.54
   ],
   "vibration": [
-    -303.05,
-    -130.37
+    -222.4,
+    -137.91
   ],
   "video-rvfc": [
-    -496.15,
-    -32.64
+    -119.49,
+    12.45
   ],
   "virtual-keyboard": [
-    -202.55,
-    97.89
+    -115.02,
+    41.61
   ],
   "vocab-dcat": [
-    30.45,
-    430.31
+    29.08,
+    511.09
   ],
   "vocab-owl-time-agg": [
-    93.01,
-    466.99
+    94.94,
+    454.22
   ],
   "vocab-owl-time-rel": [
-    81.51,
-    424.58
+    67.68,
+    423.16
   ],
   "vocab-ssn": [
-    36.5,
-    461.72
+    28.06,
+    463.31
   ],
   "vocab-ssn-ext": [
-    72.81,
-    476.2
+    65.11,
+    443.47
   ],
   "w3c-patent-policy": [
-    323.21,
-    509.53
+    76.07,
+    367.42
   ],
   "w3c-process": [
-    278.7,
-    497.97
+    91.03,
+    365.83
   ],
   "wai-aria": [
-    -471.7,
-    296.18
+    -474.43,
+    208.93
   ],
   "wasm-core": [
-    -168.59,
-    -408.04
+    -572,
+    0.39
   ],
   "wasm-js-api": [
-    -351.62,
-    -496.41
+    -312.07,
+    -307.57
   ],
   "wasm-web-api": [
-    -330.84,
-    -512.71
+    -310.1,
+    -338.19
   ],
   "wcag": [
-    130.39,
-    410.33
+    -127.54,
+    345.2
   ],
   "web-animations": [
-    508.8,
-    -187.4
+    520.92,
+    -178.58
   ],
   "web-app-launch": [
-    -47.15,
-    -35
+    39.88,
+    -274.88
   ],
   "web-based-payment-handler": [
-    -279.41,
-    -532.86
+    -137.95,
+    -604.08
   ],
   "web-locks": [
-    -117.78,
-    -9.24
+    -381.02,
+    -467.89
   ],
   "web-nfc": [
-    -18.17,
-    -277.95
+    -161.38,
+    -326.04
   ],
   "web-otp": [
-    -113.88,
-    -160.73
+    -7.85,
+    -180.62
   ],
   "web-share": [
-    -90.17,
-    -394.85
+    -121.02,
+    -491.38
   ],
   "web-share-target": [
-    -58,
-    -413.85
+    -58.15,
+    -567.14
   ],
   "web-smart-card": [
-    -333.49,
-    -321.27
+    -330.88,
+    -260.62
   ],
   "webaudio": [
-    -385.97,
-    -357.61
+    -383.73,
+    -52.99
   ],
   "webauthn": [
-    -177.7,
-    -524.05
+    -331.98,
+    -473.6
   ],
   "webcodecs": [
-    -569.57,
-    171.33
+    -567.42,
+    145.67
   ],
   "webcodecs-aac-codec-registration": [
-    -635.58,
-    155.46
+    -646.46,
+    130.13
   ],
   "webcodecs-alaw-codec-registration": [
-    -618.9,
-    162.7
+    -647.06,
+    149.99
   ],
   "webcodecs-av1-codec-registration": [
-    -567.08,
-    210.31
+    -584.59,
+    173.34
   ],
   "webcodecs-avc-codec-registration": [
-    -576.03,
-    135.39
+    -571.97,
+    105.31
   ],
   "webcodecs-codec-registry": [
-    -613.17,
-    207.65
+    -631.21,
+    168.7
   ],
   "webcodecs-flac-codec-registration": [
-    -593.81,
-    192.03
+    -597.59,
+    130.43
   ],
   "webcodecs-hevc-codec-registration": [
-    -558.41,
-    132.11
+    -592.48,
+    117.4
   ],
   "webcodecs-mp3-codec-registration": [
-    -634.84,
-    172.59
+    -632.74,
+    137.09
   ],
   "webcodecs-opus-codec-registration": [
-    -600.92,
-    167.08
+    -613.88,
+    129.03
   ],
   "webcodecs-pcm-codec-registration": [
-    -593.6,
-    151.04
+    -585.52,
+    99.1
   ],
   "webcodecs-ulaw-codec-registration": [
-    -627.04,
-    186.69
+    -619.39,
+    147.59
   ],
   "webcodecs-video-frame-metadata-registry": [
-    -567.32,
-    117.59
+    -555.29,
+    109.03
   ],
   "webcodecs-vorbis-codec-registration": [
-    -612.05,
-    181.26
+    -605.48,
+    167.77
   ],
   "webcodecs-vp8-codec-registration": [
-    -592.18,
-    221.07
+    -605.96,
+    181.11
   ],
   "webcodecs-vp9-codec-registration": [
-    -581.11,
-    210.21
+    -598.5,
+    152.52
   ],
   "webcrypto": [
-    -239.33,
-    -119.84
+    -236.32,
+    -123.67
   ],
   "webcrypto-modern-algos": [
-    -238.06,
-    -9.96
+    -232.94,
+    -29.94
   ],
   "webcrypto-secure-curves": [
-    -218.47,
-    -0.09
+    -231.33,
+    -2.1
   ],
   "webdriver": [
-    -196.22,
-    -450.95
+    -243.17,
+    -386.75
   ],
   "webdriver-bidi": [
-    -17.09,
-    -178.29
+    -33.63,
+    -304.76
   ],
   "webextensions": [
-    -249.38,
-    -475.2
+    -259.33,
+    -274.6
   ],
   "webextensions-browser-global": [
-    -229.67,
-    -482.38
+    -268.09,
+    -231.3
   ],
   "WEBGL_blend_equation_advanced_coherent": [
-    -397.19,
-    463.68
+    -458.95,
+    455.39
   ],
   "WEBGL_blend_func_extended": [
-    -348.26,
-    553.41
+    -371.82,
+    556.7
   ],
   "WEBGL_clip_cull_distance": [
-    -343.39,
-    459.3
+    -422.5,
+    445.06
   ],
   "WEBGL_color_buffer_float": [
-    -360.25,
-    553.67
+    -387.16,
+    551.44
   ],
   "WEBGL_compressed_texture_astc": [
-    -402.62,
-    498.78
+    -472.17,
+    497.15
   ],
   "WEBGL_compressed_texture_etc": [
-    -299.02,
-    553.38
+    -347.39,
+    518.99
   ],
   "WEBGL_compressed_texture_etc1": [
-    -367.81,
-    462.63
+    -442.34,
+    467.33
   ],
   "WEBGL_compressed_texture_pvrtc": [
-    -389.24,
-    529.53
+    -436.89,
+    543
   ],
   "WEBGL_compressed_texture_s3tc": [
-    -393.98,
-    519.48
+    -465.08,
+    512.68
   ],
   "WEBGL_compressed_texture_s3tc_srgb": [
-    -333.08,
-    566.06
+    -374.8,
+    568.43
   ],
   "WEBGL_debug_renderer_info": [
-    -307.46,
-    547.96
+    -361.38,
+    556.75
   ],
   "WEBGL_debug_shaders": [
-    -316.1,
-    544.07
+    -353.92,
+    553.99
   ],
   "WEBGL_depth_texture": [
-    -296.69,
-    542.61
+    -342.84,
+    528.88
   ],
   "WEBGL_draw_buffers": [
-    -340.66,
-    566.02
+    -387.62,
+    567.12
   ],
   "WEBGL_draw_instanced_base_vertex_base_instance": [
-    -404.7,
-    517.1
+    -464.74,
+    503.83
   ],
   "WEBGL_lose_context": [
-    -308.96,
-    561.09
+    -350.11,
+    536.4
   ],
   "WEBGL_multi_draw": [
-    -386.73,
-    538.4
+    -450.39,
+    528.66
   ],
   "WEBGL_multi_draw_instanced_base_vertex_base_instance": [
-    -344.96,
-    452.16
+    -420.22,
+    455.51
   ],
   "WEBGL_polygon_mode": [
-    -375.32,
-    457.67
+    -453.09,
+    467.45
   ],
   "WEBGL_provoking_vertex": [
-    -369.99,
-    550.08
+    -422.62,
+    553
   ],
   "WEBGL_render_shared_exponent": [
-    -397.97,
-    528.6
+    -456.74,
+    518.65
   ],
   "WEBGL_shader_pixel_local_storage": [
-    -360.14,
-    460.29
+    -408.19,
+    454.57
   ],
   "WEBGL_stencil_texturing": [
-    -302.4,
-    471.31
+    -369.62,
+    465.4
   ],
   "webgl1": [
-    -360.41,
-    199.85
+    -361.33,
+    318.2
   ],
   "webgl2": [
-    -340.89,
-    87.61
+    -161.38,
+    39.3
   ],
   "webgpu": [
-    -409.15,
-    219.37
+    -368.88,
+    295.18
   ],
   "webidl": [
-    -301.23,
-    127.79
+    -318.65,
+    -113.1
   ],
   "webmcp": [
-    -342.93,
-    -361.64
+    -394.12,
+    -440.32
   ],
   "webmidi": [
-    -479.1,
-    -371.15
+    -455.62,
+    -158.06
   ],
   "webnn": [
-    -351.49,
-    178.7
+    -364.15,
+    -273.56
   ],
   "webpackage": [
-    112.42,
-    -360.69
+    109.54,
+    -325.05
   ],
   "webrtc": [
-    -237.15,
-    306.54
+    -228.02,
+    64.82
   ],
   "webrtc-encoded-transform": [
-    -238.58,
-    245.7
+    -280.3,
+    16.68
   ],
   "webrtc-extensions": [
-    -215.1,
-    269.76
+    -262.98,
+    47.13
   ],
   "webrtc-ice": [
-    -266.87,
-    303.31
+    -253.08,
+    98.32
   ],
   "webrtc-identity": [
-    -240.62,
-    274.4
+    -289.76,
+    70.69
   ],
   "webrtc-priority": [
-    -206.68,
-    354.27
+    -310,
+    161.18
   ],
   "webrtc-stats": [
-    -210.88,
-    332.04
+    -284.15,
+    124.13
   ],
   "webrtc-svc": [
-    -287.31,
-    346.26
+    -272.56,
+    92.09
   ],
   "websockets": [
-    120.42,
-    -273.53
+    125.02,
+    -291.8
   ],
   "webtransport": [
-    91.55,
-    -268.74
+    79.98,
+    -278.2
+  ],
+  "webview-usage-and-challenges": [
+    -623.15,
+    291.79
   ],
   "webvtt": [
-    354.09,
-    107.55
+    371.31,
+    117.71
   ],
   "webxr": [
-    -425.66,
-    143.61
+    -384.51,
+    233.45
   ],
   "webxr-ar-module": [
-    -501.75,
-    184.8
+    -456.74,
+    270.95
   ],
   "webxr-depth-sensing": [
-    -469.98,
-    198.35
+    -411.87,
+    283.68
   ],
   "webxr-dom-overlays": [
-    -390.45,
-    89.69
+    -344.9,
+    203.44
   ],
   "webxr-gamepads-module": [
-    -468,
-    110.69
+    -425.5,
+    208.66
   ],
   "webxr-hand-input": [
-    -491.14,
-    106.67
+    -440.74,
+    218.35
   ],
   "webxr-hit-test": [
-    -429.73,
-    107.1
+    -406.14,
+    197.84
   ],
   "webxr-lighting-estimation": [
-    -418.18,
-    95.59
+    -264.84,
+    -178.48
   ],
   "webxr-plane-detection": [
-    -375.37,
-    141.27
+    -333.67,
+    219.6
   ],
   "webxr-webgpu-binding": [
-    -409.89,
-    186.88
+    -342.58,
+    256.78
   ],
   "webxrlayers": [
-    -443.71,
-    187.7
+    -361.77,
+    258.05
   ],
   "WGSL": [
-    -429.74,
-    254
+    -410.9,
+    310.54
   ],
   "window-controls-overlay": [
-    -167.05,
-    -3.63
+    -14.58,
+    -142.73
   ],
   "window-management": [
-    -325.35,
-    -76.32
+    -366.24,
+    -223.79
   ],
   "WOFF": [
-    -352.74,
-    389.34
+    -388.86,
+    364.58
   ],
   "wot-architecture": [
-    15.67,
-    343.7
+    -23.85,
+    377.67
   ],
   "wot-binding-registry": [
-    83.67,
-    370.29
+    -8.1,
+    348.36
   ],
   "wot-discovery": [
-    3.49,
-    313.17
+    -47.96,
+    361.72
   ],
   "wot-profile": [
-    34.73,
-    284.83
+    -6.68,
+    317.85
   ],
   "wot-thing-description": [
-    57.73,
-    341.68
+    11.87,
+    367.33
   ],
   "writing-assistance-apis": [
-    -343.87,
-    -452.08
+    -452.59,
+    -431.49
   ],
   "xhr": [
-    -32.52,
-    -340.96
+    -3.59,
+    -351.22
   ],
   "xml-entity-names": [
-    625.63,
-    -159.74
+    650.14,
+    -169.27
   ],
   "yaml-ld": [
-    -89.44,
-    354.81
+    -48.19,
+    438
   ]
 }

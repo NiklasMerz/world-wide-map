@@ -1,4 +1,4 @@
-/** Graph positions → fantasy geography as GeoJSON in public/map/. */
+/** Graph positions → map geography as GeoJSON in public/map/. */
 import { join } from 'node:path';
 import { Delaunay } from 'd3-delaunay';
 import { contours } from 'd3-contour';
@@ -187,6 +187,7 @@ const index = {
   countries: data.countries,
   nodes: Object.fromEntries(nodes.map((n) => [n.id, {
     label: n.label, type: n.type, url: n.url, repo: n.repo, org: n.org, groups: n.groups, status: n.status, standing: n.standing,
+    groupType: n.groupType, description: n.description, participants: n.participants, curated: n.curated,
     continent: n.continent, country: n.country, features: n.features, at: toLngLat([n.x!, n.y!]),
     neighbors: (neighbors.get(n.id) ?? []).sort((a, b) => b.w - a.w).slice(0, 10).map((x) => x.id),
     members: n.type === 'group' ? nodes.filter((m) => m.groups?.includes(n.label)).map((m) => m.id) : undefined,

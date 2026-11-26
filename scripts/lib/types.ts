@@ -12,6 +12,12 @@ export interface GraphNode {
   status?: string;
   /** web-features ids attached to this spec */
   features?: string[];
+  /** groups: wg | ig | cg from the W3C API, or 'other' (WHATWG, TC39, Khronos…) */
+  groupType?: 'wg' | 'ig' | 'cg' | 'other';
+  description?: string;
+  participants?: number;
+  /** true for specs added through data/overrides/specs.yaml */
+  curated?: boolean;
   /** activity score used for elevation */
   activity: number;
   // filled by later steps
@@ -25,7 +31,8 @@ export interface GraphEdge {
   source: string;
   target: string;
   weight: number;
-  kind: 'normative' | 'informative' | 'group' | 'override';
+  /** people = groups sharing participants */
+  kind: 'normative' | 'informative' | 'group' | 'people' | 'override';
 }
 
 export interface Feature {
