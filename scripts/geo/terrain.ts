@@ -107,7 +107,7 @@ const contourFeatures = contours().size([gw, gh]).thresholds(thresholds)(Array.f
   geometry: { type: 'MultiPolygon', coordinates: c.coordinates.map((p) => p.map((r) => r.map(([x, y]) => toLngLat([x * STEP, y * STEP])))) },
 }));
 
-// --- roads between countries -----------------------------------------------------
+// --- flight and ferry routes between countries ---------------------------------------
 const pair = new Map<string, number>();
 for (const e of data.edges) {
   if (e.kind === 'group') continue;
@@ -118,7 +118,7 @@ for (const e of data.edges) {
 }
 const capital = (countryId: number) => byId.get(data.countries![countryId].anchor)!;
 const perCountry = new Map<number, number>();
-const roadFeatures: any[] = [];
+const routeFeatures: any[] = [];
 for (const [k, w] of [...pair].sort((a, b) => b[1] - a[1])) {
   if (w < 6) break;
   const [a, b] = k.split('|').map(Number);
@@ -134,7 +134,7 @@ for (const [k, w] of [...pair].sort((a, b) => b[1] - a[1])) {
   for (let t = 0; t <= 1.0001; t += 1 / 24)
     line.push(toLngLat([(1 - t) ** 2 * p.x! + 2 * (1 - t) * t * cx + t * t * q.x!, (1 - t) ** 2 * p.y! + 2 * (1 - t) * t * cy + t * t * q.y!]));
   const sameContinent = data.countries![a].continent === data.countries![b].continent;
-  roadFeatures.push({ type: 'Feature', properties: { weight: w, kind: sameContinent ? 'road' : 'sea-route', from: p.id, to: q.id }, geometry: { type: 'LineString', coordinates: line } });
+  routeFeatures.push({ type: 'Feature', properties: { weight: w, kind: sameContinent ? 'flight' : 'ferry', from: p.id, to: q.id }, geometry: { type: 'LineString', coordinates: line } });
 }
 
 // --- places: specs (cities), groups (guild halls), features (villages) ---------------
@@ -199,11 +199,11 @@ await Promise.all([
   writeJson(join(OUT, 'countries.geojson'), fc(countryFeatures)),
   writeJson(join(OUT, 'continents.geojson'), fc(continentFeatures)),
   writeJson(join(OUT, 'contours.geojson'), fc(contourFeatures)),
-  writeJson(join(OUT, 'roads.geojson'), fc(roadFeatures)),
+  writeJson(join(OUT, 'routes.geojson'), fc(routeFeatures)),
   writeJson(join(OUT, 'places.geojson'), fc(placeFeatures)),
   writeJson(join(OUT, 'labels.geojson'), fc(labelFeatures)),
   writeJson(join(OUT, 'index.json'), index),
 ]);
 const bounds = [toLngLat([0, H]), toLngLat([W, 0])];
 await writeJson(join(OUT, 'meta.json'), { bounds });
-console.log(`geo: ${countryFeatures.length} countries, ${contourFeatures.length} contour bands, ${roadFeatures.length} roads, ${placeFeatures.length} places → public/map/`);
+console.log(`geo: ${countryFeatures.length} countries, ${contourFeatures.length} contour bands, ${routeFeatures.length} routes, ${placeFeatures.length} places → public/map/`);

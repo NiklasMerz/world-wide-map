@@ -22,7 +22,7 @@ test('every node has exactly one continent and country', { skip: !built }, async
 });
 
 test('generated GeoJSON is well-formed', { skip: !built }, async () => {
-  for (const f of ['countries', 'continents', 'contours', 'roads', 'places', 'labels']) {
+  for (const f of ['countries', 'continents', 'contours', 'routes', 'places', 'labels']) {
     const fc = await readJson(join(OUT, `${f}.geojson`));
     assert.equal(fc.type, 'FeatureCollection');
     for (const feat of fc.features) {

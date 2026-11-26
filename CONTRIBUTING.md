@@ -109,3 +109,5 @@ The pipeline runs in steps, which you can also run one at a time:
 | `npm run cluster` | Group nodes into continents (Louvain) |
 | `npm run layout` | Place nodes (ForceAtlas2, seeded from `data/layout-seed.json`) |
 | `npm run geo` | Turn positions into GeoJSON in `public/map/` |
+
+[docs/how-the-map-is-built.md](docs/how-the-map-is-built.md) explains what each step does and which knobs change the shape of the map.

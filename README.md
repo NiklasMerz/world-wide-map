@@ -36,7 +36,7 @@ Datasources and information to grab:
 
 ### Output
 
-* A topological map: continents with related ares, groups & projects as countries, hills for high activity, roads for connections
+* A topological map: continents with related ares, groups & projects as countries, hills for high activity, flight and ferry routes for connections
 * Clickable areas & peaks for getting links to web-features, repos, groups etc.
 * Who to ask (possibly sensitive but usually public info (GH profiles)): people active in something and points of contact
 * Statically rendered from compiled json/yaml sources
@@ -50,7 +50,7 @@ The first milestone works: a data pipeline and a clickable map, deployed to GitH
 fetch  ─▶ graph ─▶ cluster ─▶ layout ─▶ geo ─▶ Vite + MapLibre
 webref    specs,   Louvain:   Force-     Voronoi land/sea,
 web-feat. refs,    continents Atlas2     borders, activity hills,
-GitHub    groups   countries  (seeded)   roads → GeoJSON
+GitHub    groups   countries  (seeded)   routes → GeoJSON
 ```
 
 * `scripts/fetch` pulls sources into `data/cache/`
@@ -58,6 +58,8 @@ GitHub    groups   countries  (seeded)   roads → GeoJSON
 * `scripts/geo` turns positions into geography and writes `public/map/*.geojson`
 * `src/` is the map front end (Vite, vanilla TS, MapLibre GL)
 * `data/overrides/*.yaml` holds the human curation, see [CONTRIBUTING.md](CONTRIBUTING.md)
+
+[docs/how-the-map-is-built.md](docs/how-the-map-is-built.md) explains each step and how to tune the result.
 
 `scripts/prototype/gvmap.sh` renders the same graph with Graphviz GMap for comparison.
 

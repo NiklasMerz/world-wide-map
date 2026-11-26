@@ -8,7 +8,7 @@ export const C = {
   ink: '#4a3b2a',
   inkSoft: '#7a6650',
   hills: ['#ddcb9b', '#cfb985', '#c0a571', '#ae9160', '#9a7d51', '#866a44'],
-  road: '#8c5a3c',
+  route: '#8c5a3c',
 };
 
 const FONT = ['Noto Sans Regular'];
@@ -24,7 +24,7 @@ export function mapStyle(base: string): StyleSpecification {
       continents: src('continents'),
       countries: src('countries'),
       contours: src('contours'),
-      roads: src('roads'),
+      routes: src('routes'),
       places: { ...src('places'), promoteId: 'id' } as any,
       labels: src('labels'),
     },
@@ -48,20 +48,20 @@ export function mapStyle(base: string): StyleSpecification {
         },
       },
       { id: 'contour-lines', type: 'line', source: 'contours', minzoom: 4, paint: { 'line-color': C.inkSoft, 'line-width': 0.4, 'line-opacity': 0.5 } },
-      { id: 'country-highlight', type: 'line', source: 'countries', filter: ['==', ['get', 'id'], -1], paint: { 'line-color': C.road, 'line-width': 3 } },
+      { id: 'country-highlight', type: 'line', source: 'countries', filter: ['==', ['get', 'id'], -1], paint: { 'line-color': C.route, 'line-width': 3 } },
       { id: 'borders', type: 'line', source: 'countries', paint: { 'line-color': C.inkSoft, 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.6, 8, 1.6], 'line-dasharray': [3, 2] } },
       { id: 'coast', type: 'line', source: 'continents', paint: { 'line-color': C.ink, 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.8, 8, 2] } },
       {
-        id: 'roads',
+        id: 'routes',
         type: 'line',
-        source: 'roads',
+        source: 'routes',
         minzoom: 3.5,
         layout: { 'line-cap': 'round' },
         paint: {
-          'line-color': C.road,
+          'line-color': C.route,
           'line-width': ['interpolate', ['linear'], ['zoom'], 4, ['min', 4, ['*', 0.25, ['sqrt', ['get', 'weight']]]], 8, ['min', 8, ['*', 0.6, ['sqrt', ['get', 'weight']]]]],
-          'line-opacity': ['match', ['get', 'kind'], 'sea-route', 0.45, 0.75],
-          'line-dasharray': ['match', ['get', 'kind'], 'sea-route', ['literal', [2, 3]], ['literal', [1, 0]]],
+          'line-opacity': ['match', ['get', 'kind'], 'ferry', 0.45, 0.75],
+          'line-dasharray': ['match', ['get', 'kind'], 'ferry', ['literal', [2, 3]], ['literal', [1, 0]]],
         },
       },
       // villages (web-features)
@@ -139,7 +139,7 @@ export function mapStyle(base: string): StyleSpecification {
         type: 'circle',
         source: 'places',
         filter: ['==', ['get', 'id'], ''],
-        paint: { 'circle-radius': 7, 'circle-color': 'rgba(0,0,0,0)', 'circle-stroke-color': C.road, 'circle-stroke-width': 3 },
+        paint: { 'circle-radius': 7, 'circle-color': 'rgba(0,0,0,0)', 'circle-stroke-color': C.route, 'circle-stroke-width': 3 },
       },
       {
         id: 'selected-label',

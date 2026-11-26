@@ -51,7 +51,7 @@ export class Panel {
         .map(([fid, f]) => `<li><span class="bl bl-${f.baseline || 'none'}" title="${baselineLabel[String(f.baseline) as keyof typeof baselineLabel]}"></span>${link(`https://web-platform-dx.github.io/web-features-explorer/features/${fid}/`, f.name)}</li>`)
         .join('')}</ul>` : ''}
       ${n.neighbors.length ? `<h3>${n.type === 'group' ? 'Connected (shared participants, specs)' : 'Connected specs'}</h3><ul class="cols">${n.neighbors.map((m) => `<li>${this.nodeLink(m)}</li>`).join('')}</ul>` : ''}
-      ${REPO ? `<p class="edit">${link(`${REPO}/tree/main/data/overrides`, 'Suggest a change')}</p>` : ''}`;
+      ${REPO ? `<p class="edit">${link(`${REPO}/blob/main/CONTRIBUTING.md#overrides`, 'Suggest a change')}</p>` : ''}`;
     this.el.hidden = false;
   }
 
