@@ -61,9 +61,20 @@ Every run writes the final positions back to `data/layout-seed.json`. That is ho
 `scripts/geo/terrain.ts` → `public/map/*.geojson`
 
 1. **Seas:** each continent is pushed 70% further from the centre of the map (`EXPLODE`), which opens up seas between continents.
-2. **Coasts:** a point counts as land if it lies within a radius of its nearest node. The radius grows with the node's activity and is wobbled with simplex noise for natural coastlines.
+2. **Coasts:** a point counts as land if it lies within a radius of its nearest node. The radius grows with the node's size (activity for specs, participants for groups) and is wobbled with simplex noise for natural coastlines.
 3. **Shapes:** the space is cut into Voronoi cells over a jittered grid. Land cells are merged into polygons by continent and country (`scripts/geo/polygons.ts`).
-4. **Details:** activity becomes hills. Elevation is split into six bands by share of the land: the lowest 40% stays green lowland, and the highest 2.5% is dark brown peak, like the tints on an old school atlas. Specs become cities, groups become guild halls and features become villages.
+4. **Details:** activity becomes hills (see below). Elevation is split into six bands by share of the land: the lowest 40% stays green lowland, and the highest 2.5% is dark brown peak, like the tints on an old school atlas. Specs become cities, groups become guild halls and features become villages.
+
+### Activity
+
+Hills show where specs are busy. The legend on the map and each spec's panel show the time window and the raw numbers.
+
+* **What counts:** commits on the default branch and issues updated (opened, commented on or closed) in the **90 days** before the fetch (`WINDOW_DAYS` in `scripts/fetch/github.ts`). Pull requests aren't counted separately.
+* **Specs sharing a repo:** 339 of about 690 specs live in one of 27 shared repos (all CSS specs are in `w3c/csswg-drafts`). For those, commits only count when they touch the spec's own folder (or its file, for specs at the repo root), and issues only count when they carry a label named after the spec, like `css-grid-2`. Without such a label, the repo's issues are split evenly across its specs; the panel marks that as an estimate.
+* **Score:** `log(1 + commits + issues)` per spec. The log keeps HTML (about 1,000 events per quarter) from flattening everything else.
+* **Hills:** each spec raises the ground around it by its score, with a Gaussian falloff (`SIGMA` in `terrain.ts`), so clusters of busy specs merge into ranges. The colour bands are relative: they compare places on this map, not absolute counts.
+* **Groups** don't raise hills. Their dot size comes from their participant count, a separate scale.
+* **Without `GITHUB_TOKEN`**, the build falls back to how often a spec is referenced plus its number of web features, and the legend says so.
 
 ### Flight and ferry routes
 

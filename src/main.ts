@@ -7,6 +7,7 @@ import { mapStyle } from './style.ts';
 import { loadIndex } from './data.ts';
 import { Panel } from './panel.ts';
 import { REPO } from './config.ts';
+import { renderLegend } from './legend.ts';
 
 setWorkerUrl(workerUrl);
 
@@ -40,6 +41,8 @@ function select(featureId: string | undefined) {
 }
 
 (document.getElementById('repo-link') as HTMLAnchorElement).href = REPO;
+
+renderLegend(index);
 
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const panel = new Panel(index, (id) => go(id));
@@ -127,5 +130,9 @@ q.addEventListener('change', () => byLabel.has(q.value) && go(byLabel.get(q.valu
 // deep links: #css-grid, #feature:grid
 map.once('load', () => {
   const hash = decodeURIComponent(location.hash.slice(1));
-  if (hash) go(hash);
+  if (hash) {
+    panel.moveFocus = false;
+    go(hash);
+    panel.moveFocus = true;
+  }
 });

@@ -17,6 +17,22 @@ export interface NodeInfo {
   description?: string;
   participants?: number;
   curated?: boolean;
+  github?: SpecActivity;
+}
+export interface SpecActivity {
+  repo: string;
+  commits: number;
+  issues: number;
+  commitScope: 'repo' | 'path' | 'shared';
+  issueScope: 'repo' | 'label' | 'shared';
+  path?: string;
+  label?: string;
+}
+export interface ActivityMeta {
+  source: 'github' | 'references';
+  since?: string;
+  fetchedAt?: string;
+  windowDays?: number;
 }
 export interface FeatureInfo {
   name: string;
@@ -27,6 +43,7 @@ export interface FeatureInfo {
 }
 export interface MapIndex {
   generated: string;
+  activity?: ActivityMeta;
   continents: { id: number; island: boolean; anchor: string; subtitle: string }[];
   countries: { id: number; continent: number; anchor: string; subtitle: string }[];
   nodes: Record<string, NodeInfo>;

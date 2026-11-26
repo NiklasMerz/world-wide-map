@@ -98,7 +98,7 @@ npm run dev           # http://localhost:5173/world-wide-map/
 ```
 
 After the first fetch, `npm run data:offline` rebuilds from the cache.
-Set `GITHUB_TOKEN` to include repo activity: hills then follow commits and issues from the last 90 days instead of reference counts.
+Set `GITHUB_TOKEN` to include repo activity, e.g. `GITHUB_TOKEN=$(gh auth token) npm run data`. Hills then follow commits and issues per spec from the last 90 days instead of reference counts; see [how activity is measured](docs/how-the-map-is-built.md#activity).
 
 The pipeline runs in steps, which you can also run one at a time:
 

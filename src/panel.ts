@@ -1,4 +1,5 @@
-import type { MapIndex } from './data.ts';
+import type { MapIndex, NodeInfo } from './data.ts';
+import { formatDate } from './legend.ts';
 
 import { REPO } from './config.ts';
 const esc = (s: unknown) => String(s ?? '').replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
@@ -43,13 +44,16 @@ export class Panel {
   }
 
   /** Render content and move focus to its heading, so keyboard and screen reader users land in it. */
+  /** set false for the initial deep link, where nobody is navigating yet */
+  moveFocus = true;
+
   private show(html: string, focus: '#panel-title' | '#browse-filter' = '#panel-title') {
     if (this.el.hidden) this.opener = document.activeElement instanceof HTMLElement && document.activeElement !== document.body ? document.activeElement : null;
     this.body.innerHTML = html;
     this.el.hidden = false;
     this.body.scrollTop = 0;
     this.el.scrollTop = 0;
-    this.body.querySelector<HTMLElement>(focus)?.focus();
+    if (this.moveFocus) this.body.querySelector<HTMLElement>(focus)?.focus();
   }
 
   private nodeLink(id: string) {
@@ -70,7 +74,8 @@ export class Panel {
         ${n.repo ? `<li>${link(n.repo, 'Repository')} · ${link(n.repo + '/issues', 'issues')}</li>` : ''}
       </ul>
       ${n.type === 'spec' && (n.org || n.status) ? `<p class="meta">${esc(n.org)}${n.status ? ` · ${esc(n.status)}` : ''}${n.standing && n.standing !== 'good' ? ` · ${esc(n.standing)}` : ''}</p>` : ''}
-      ${n.participants ? `<p class="meta">${n.participants} participants</p>` : ''}
+      ${n.type === 'spec' ? this.activity(n) : ''}
+      ${n.participants ? `<p class="meta">${n.participants} participants (sets the size of the group's dot)</p>` : ''}
       ${n.description ? `<p class="desc">${esc(n.description.length > 400 ? n.description.slice(0, 400) + '…' : n.description)}</p>` : ''}
       ${n.groups?.length ? `<h3>Groups</h3><ul>${n.groups.map((g) => `<li>${this.nodeLink('group:' + g)}</li>`).join('')}</ul>` : ''}
       ${n.members?.length ? `<h3>Specs (${n.members.length})</h3><ul class="cols">${n.members.map((m) => `<li>${this.nodeLink(m)}</li>`).join('')}</ul>` : ''}
@@ -79,6 +84,31 @@ export class Panel {
         .join('')}</ul>` : ''}
       ${n.neighbors.length ? `<h3>${n.type === 'group' ? 'Connected (shared participants, specs)' : 'Connected specs'}</h3><ul class="cols">${n.neighbors.map((m) => `<li>${this.nodeLink(m)}</li>`).join('')}</ul>` : ''}
       <p class="edit">${link(`${REPO}/blob/main/CONTRIBUTING.md#overrides`, 'Suggest a change')}</p>`);
+  }
+
+  /** Activity counts and what exactly they count, so nobody mistakes an estimate for a measurement. */
+  private activity(n: NodeInfo) {
+    const meta = this.index.activity;
+    if (meta?.source !== 'github') return `<p class="meta">No GitHub activity data in this build; hills use how often specs are referenced instead.</p>`;
+    const a = n.github;
+    const window = `${meta.windowDays} days to ${formatDate(meta.fetchedAt)}`;
+    if (!a) return `<h3>Activity</h3><p class="meta">No GitHub repo known for this spec, so it adds nothing to the hills.</p>`;
+    const repo = esc(a.repo.replace('https://github.com/', ''));
+    const commits = {
+      repo: `in ${repo}`,
+      path: `touching <code>${esc(a.path)}</code> in ${repo}`,
+      shared: `estimated: an even share of ${repo}, which holds several specs`,
+    }[a.commitScope];
+    const issues = {
+      repo: `in ${repo}`,
+      label: `labelled <code>${esc(a.label)}</code>`,
+      shared: `estimated: an even share of ${repo}'s issues, which has no label for this spec`,
+    }[a.issueScope];
+    return `<h3>Activity, last ${window}</h3>
+      <ul class="activity">
+        <li><strong>${a.commits}</strong> commits ${commits}</li>
+        <li><strong>${a.issues}</strong> issues updated, ${issues}</li>
+      </ul>`;
   }
 
   showCountry(id: number) {
