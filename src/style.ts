@@ -6,7 +6,8 @@ export const C = {
   seaDeep: '#93b2b9',
   land: ['#efe3c2', '#e8dcb5', '#f1e6c8', '#e4d7ae', '#ede0bb', '#e9e0c0'],
   ink: '#4a3b2a',
-  inkSoft: '#7a6650',
+  inkSoft: '#7a6650', // lines only; too light for text
+  inkText: '#5c4a36', // secondary text, ≥ 7:1 against the label halo
   hills: ['#ddcb9b', '#cfb985', '#c0a571', '#ae9160', '#9a7d51', '#866a44'],
   route: '#8c5a3c',
 };
@@ -73,9 +74,10 @@ export function mapStyle(base: string): StyleSpecification {
         filter: ['==', ['get', 'kind'], 'feature'],
         paint: {
           'circle-radius': ['interpolate', ['linear'], ['zoom'], 7, 2, 10, 5],
-          'circle-color': ['match', ['get', 'baseline'], 'high', '#3f7d4e', 'low', '#5b8fb0', '#b9874d'],
-          'circle-stroke-color': '#fff8',
-          'circle-stroke-width': 0.8,
+          // shape as well as colour: widely = solid, newly = solid with dark ring, limited = hollow
+          'circle-color': ['match', ['get', 'baseline'], 'high', '#3f7d4e', 'low', '#4f86ad', '#f3ead2'],
+          'circle-stroke-color': ['match', ['get', 'baseline'], 'high', '#f3ead2', 'low', '#1f3b52', '#9a6a33'],
+          'circle-stroke-width': ['match', ['get', 'baseline'], 'none', 1.8, 1],
         },
       },
       // cities (specs), guild halls (groups)
@@ -98,8 +100,8 @@ export function mapStyle(base: string): StyleSpecification {
         source: 'places',
         minzoom: 7.5,
         filter: ['==', ['get', 'kind'], 'feature'],
-        layout: { 'text-field': ['get', 'label'], 'text-font': FONT, 'text-size': ['interpolate', ['linear'], ['zoom'], 7.5, 9, 10, 12], 'text-offset': [0, 0.8], 'text-anchor': 'top', 'text-optional': true },
-        paint: { 'text-color': C.inkSoft, 'text-halo-color': '#f3ead2', 'text-halo-width': 1.2 },
+        layout: { 'text-field': ['get', 'label'], 'text-font': FONT, 'text-size': ['interpolate', ['linear'], ['zoom'], 7.5, 10, 10, 12], 'text-offset': [0, 0.8], 'text-anchor': 'top', 'text-optional': true },
+        paint: { 'text-color': C.inkText, 'text-halo-color': '#f3ead2', 'text-halo-width': 1.6 },
       },
       {
         id: 'city-labels',
@@ -131,7 +133,7 @@ export function mapStyle(base: string): StyleSpecification {
           'text-max-width': 14,
           'symbol-sort-key': ['-', ['get', 'size']],
         },
-        paint: { 'text-color': C.ink, 'text-halo-color': '#efe3c2aa', 'text-halo-width': 1.5 },
+        paint: { 'text-color': C.ink, 'text-halo-color': '#f3ead2', 'text-halo-width': 1.8 },
       },
       // The selected place always shows, whatever the label collisions or zoom say
       {

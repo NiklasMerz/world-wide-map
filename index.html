@@ -8,16 +8,20 @@
     <meta name="description" content="A fictional atlas of how the web is built: specs, groups and features as continents, countries and cities." />
   </head>
   <body>
-    <div id="map" role="application" aria-label="Map of web standards"></div>
     <header class="titlebar">
       <h1>World Wide Map</h1>
-      <form id="search" role="search">
-        <input id="q" list="places" type="search" placeholder="Find a spec, group or feature…" autocomplete="off" aria-label="Search" />
-        <datalist id="places"></datalist>
-      </form>
+      <div class="tools">
+        <form id="search" role="search">
+          <label for="q" class="visually-hidden">Find a spec, group or feature</label>
+          <input id="q" list="places" type="search" placeholder="Find a spec, group or feature…" autocomplete="off" />
+          <datalist id="places"></datalist>
+        </form>
+        <button id="browse" type="button">Browse all</button>
+      </div>
     </header>
-    <aside id="panel" hidden aria-live="polite">
-      <button id="close" aria-label="Close">×</button>
+    <main id="map" aria-label="Map of web standards. Use search or Browse all for a text version."></main>
+    <aside id="panel" hidden aria-labelledby="panel-title">
+      <button id="close" type="button" aria-label="Close panel">×</button>
       <div id="panel-body"></div>
     </aside>
     <script type="module" src="/src/main.ts"></script>

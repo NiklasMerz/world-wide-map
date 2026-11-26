@@ -38,7 +38,13 @@ function select(featureId: string | undefined) {
   for (const layer of ['selected-dot', 'selected-label']) map.setFilter(layer, ['==', ['get', 'id'], featureId ?? '']);
 }
 
+const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const panel = new Panel(index, (id) => go(id));
+panel.onHide = () => {
+  select(undefined);
+  highlightCountry(undefined);
+};
+document.getElementById('browse')!.addEventListener('click', () => panel.showBrowse());
 
 /**
  * Open a place. Clicks on the map keep the camera where it is; search, deep links and
@@ -53,9 +59,12 @@ function go(id: string, fly = true) {
   highlightCountry(undefined);
   if (fly) {
     const zoom = Math.max(map.getZoom(), isFeature ? 8 : 6);
-    // short hops ease, long ones fly; flyTo's zoom-out arc is disorienting for nearby targets
+    // short hops ease, long ones fly; flyTo's zoom-out arc is disorienting for nearby targets.
+    // With prefers-reduced-motion, jump without animation.
     const far = map.project(at).dist(map.project(map.getCenter())) > Math.max(innerWidth, innerHeight);
-    far ? map.flyTo({ center: at, zoom, essential: true }) : map.easeTo({ center: at, zoom, duration: 600 });
+    if (reducedMotion.matches) map.jumpTo({ center: at, zoom });
+    else if (far) map.flyTo({ center: at, zoom });
+    else map.easeTo({ center: at, zoom, duration: 600 });
   }
   history.replaceState(null, '', `#${encodeURIComponent(id)}`);
 }
