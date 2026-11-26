@@ -55,11 +55,26 @@ export class Panel {
     this.el.hidden = false;
   }
 
+  showCountry(id: number) {
+    const c = this.index.countries[id];
+    if (!c) return;
+    const members = Object.entries(this.index.nodes).filter(([, n]) => n.country === id);
+    const specs = members.filter(([, n]) => n.type === 'spec').sort((a, b) => a[1].label.localeCompare(b[1].label));
+    const groups = members.filter(([, n]) => n.type === 'group').sort((a, b) => a[1].label.localeCompare(b[1].label));
+    this.body.innerHTML = `
+      <p class="kind">Country</p>
+      <h2>${esc(c.subtitle || this.index.nodes[c.anchor]?.label)}</h2>
+      <p class="meta">${specs.length} specs · ${groups.length} groups · centred on ${this.nodeLink(c.anchor)}</p>
+      ${groups.length ? `<h3>Groups (${groups.length})</h3><ul>${groups.map(([gid]) => `<li>${this.nodeLink(gid)}</li>`).join('')}</ul>` : ''}
+      ${specs.length ? `<h3>Specs (${specs.length})</h3><ul class="cols">${specs.map(([sid]) => `<li>${this.nodeLink(sid)}</li>`).join('')}</ul>` : ''}`;
+    this.el.hidden = false;
+  }
+
   showFeature(id: string) {
     const f = this.index.features[id];
     if (!f) return;
     this.body.innerHTML = `
-      <p class="kind">Village · web feature</p>
+      <p class="kind">Web feature</p>
       <h2>${esc(f.name)}</h2>
       <p><span class="bl bl-${f.baseline || 'none'}"></span>${baselineLabel[String(f.baseline) as keyof typeof baselineLabel]}</p>
       <p>${esc(f.description)}</p>

@@ -23,6 +23,7 @@ export interface FeatureInfo {
   baseline: 'high' | 'low' | false;
   spec: string;
   description: string;
+  at: [number, number];
 }
 export interface MapIndex {
   generated: string;

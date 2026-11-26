@@ -149,16 +149,18 @@ for (const n of nodes) {
   });
 }
 const featuresBySpec = new Map<string, number>();
+const featureAt = new Map<string, Pt>();
 for (const f of data.features) {
   const s = byId.get(f.spec)!;
   const i = featuresBySpec.get(f.spec) ?? 0;
   featuresBySpec.set(f.spec, i + 1);
   const a = i * 2.39996, r = 3 + 1.6 * Math.sqrt(i + 1);
+  featureAt.set(f.id, toLngLat([s.x! + Math.cos(a) * r, s.y! + Math.sin(a) * r]));
   placeFeatures.push({
     type: 'Feature',
     id: placeFeatures.length,
     properties: { id: `feature:${f.id}`, label: f.name, kind: 'feature', baseline: f.baseline || 'none', rank: 3 },
-    geometry: { type: 'Point', coordinates: toLngLat([s.x! + Math.cos(a) * r, s.y! + Math.sin(a) * r]) },
+    geometry: { type: 'Point', coordinates: featureAt.get(f.id) },
   });
 }
 
@@ -192,7 +194,7 @@ const index = {
     neighbors: (neighbors.get(n.id) ?? []).sort((a, b) => b.w - a.w).slice(0, 10).map((x) => x.id),
     members: n.type === 'group' ? nodes.filter((m) => m.groups?.includes(n.label)).map((m) => m.id) : undefined,
   }])),
-  features: Object.fromEntries(data.features.map((f) => [f.id, { name: f.name, baseline: f.baseline, spec: f.spec, description: f.description }])),
+  features: Object.fromEntries(data.features.map((f) => [f.id, { name: f.name, baseline: f.baseline, spec: f.spec, description: f.description, at: featureAt.get(f.id) }])),
 };
 
 await Promise.all([

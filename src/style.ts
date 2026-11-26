@@ -72,7 +72,7 @@ export function mapStyle(base: string): StyleSpecification {
         minzoom: 7,
         filter: ['==', ['get', 'kind'], 'feature'],
         paint: {
-          'circle-radius': 2.5,
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 7, 2, 10, 5],
           'circle-color': ['match', ['get', 'baseline'], 'high', '#3f7d4e', 'low', '#5b8fb0', '#b9874d'],
           'circle-stroke-color': '#fff8',
           'circle-stroke-width': 0.8,
@@ -96,9 +96,9 @@ export function mapStyle(base: string): StyleSpecification {
         id: 'feature-labels',
         type: 'symbol',
         source: 'places',
-        minzoom: 8,
+        minzoom: 7.5,
         filter: ['==', ['get', 'kind'], 'feature'],
-        layout: { 'text-field': ['get', 'label'], 'text-font': FONT, 'text-size': 10, 'text-offset': [0, 0.8], 'text-anchor': 'top', 'text-optional': true },
+        layout: { 'text-field': ['get', 'label'], 'text-font': FONT, 'text-size': ['interpolate', ['linear'], ['zoom'], 7.5, 9, 10, 12], 'text-offset': [0, 0.8], 'text-anchor': 'top', 'text-optional': true },
         paint: { 'text-color': C.inkSoft, 'text-halo-color': '#f3ead2', 'text-halo-width': 1.2 },
       },
       {
