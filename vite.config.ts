@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
-// GitHub Pages serves the site under /<repo>/; override with BASE=/ for custom domains.
+// Served from the root of w3map.dev. Set BASE=/<repo>/ to host under a GitHub Pages project path.
 export default defineConfig({
-  base: process.env.BASE ?? '/world-wide-map/',
+  base: process.env.BASE ?? '/',
   build: { chunkSizeWarningLimit: 1200 }, // maplibre-gl alone is ~1 MB
 });

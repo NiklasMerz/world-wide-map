@@ -94,7 +94,7 @@ npm run dev            # look at the result
 ```sh
 npm install
 npm run data          # fetch sources (~700 small requests, cached in data/cache/) and build the map data
-npm run dev           # http://localhost:5173/world-wide-map/
+npm run dev           # http://localhost:5173/
 ```
 
 After the first fetch, `npm run data:offline` rebuilds from the cache.
