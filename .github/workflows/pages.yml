@@ -20,9 +20,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -30,7 +30,7 @@ jobs:
       - run: npm ci
 
       # Raw sources: refs files are keyed by crawl date, so most are reused between runs
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: data/cache
           key: sources-${{ github.run_id }}
@@ -38,7 +38,7 @@ jobs:
 
       # Latest node positions keep the geography stable from one build to the next.
       # Falls back to the committed data/layout-seed.json.
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: data/layout-seed.json
           key: layout-seed-${{ github.run_id }}
@@ -57,7 +57,7 @@ jobs:
           BASE: /${{ github.event.repository.name }}/
           VITE_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
 
@@ -69,4 +69,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
