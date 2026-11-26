@@ -29,11 +29,12 @@ const map = new MlMap({
 });
 map.addControl(new NavigationControl({ showCompass: false }), 'bottom-right');
 
-let selected: string | number | undefined;
+let selected: string | undefined;
 function select(featureId: string | undefined) {
   if (selected !== undefined) map.setFeatureState({ source: 'places', id: selected }, { selected: false });
   selected = featureId;
   if (featureId !== undefined) map.setFeatureState({ source: 'places', id: featureId }, { selected: true });
+  for (const layer of ['selected-dot', 'selected-label']) map.setFilter(layer, ['==', ['get', 'id'], featureId ?? '']);
 }
 
 const panel = new Panel(index, (id) => go(id));

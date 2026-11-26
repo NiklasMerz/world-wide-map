@@ -133,6 +133,31 @@ export function mapStyle(base: string): StyleSpecification {
         },
         paint: { 'text-color': C.ink, 'text-halo-color': '#efe3c2aa', 'text-halo-width': 1.5 },
       },
+      // The selected place always shows, whatever the label collisions or zoom say
+      {
+        id: 'selected-dot',
+        type: 'circle',
+        source: 'places',
+        filter: ['==', ['get', 'id'], ''],
+        paint: { 'circle-radius': 7, 'circle-color': 'rgba(0,0,0,0)', 'circle-stroke-color': C.road, 'circle-stroke-width': 3 },
+      },
+      {
+        id: 'selected-label',
+        type: 'symbol',
+        source: 'places',
+        filter: ['==', ['get', 'id'], ''],
+        layout: {
+          'text-field': ['get', 'label'],
+          'text-font': FONT_BOLD,
+          'text-size': 14,
+          'text-offset': [0, 1],
+          'text-anchor': 'top',
+          'text-max-width': 12,
+          'text-allow-overlap': true,
+          'text-ignore-placement': true,
+        },
+        paint: { 'text-color': C.ink, 'text-halo-color': '#f3ead2', 'text-halo-width': 2 },
+      },
     ],
   };
 }

@@ -175,6 +175,8 @@ for (const n of nodes.values()) {
   n.activity = hasGithub
     ? Math.log1p((gh?.commits90d ?? 0) + (gh?.issues90d ?? 0))
     : Math.log1p(degree.get(n.id) ?? 0) + Math.log1p(n.features?.length ?? 0);
+  // curated specs have no crawled references, so give them a floor to keep them visible
+  if (n.curated) n.activity = Math.max(n.activity, 1.5);
 }
 
 const graph: Graph = { nodes: [...nodes.values()], edges: [...edges.values()], features };
